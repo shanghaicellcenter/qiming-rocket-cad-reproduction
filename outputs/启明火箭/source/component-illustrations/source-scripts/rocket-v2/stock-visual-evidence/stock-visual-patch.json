@@ -1,0 +1,1840 @@
+{
+  "title": "17项原料卡独立类型示意图patch",
+  "createdAtUTC": "2026-10-19T17:31:13.778220+00:00",
+  "status": "raw_stock_illustration",
+  "parentIndependentReviewPending": true,
+  "scope": "仅修复独立原料示意图、编辑源和证据；未修改parts.json/公共JS/原始资料，也未打开冻结原理blend。",
+  "checks": {
+    "singleRenderWriter": true,
+    "images": 17,
+    "uniqueImageHashes": 17,
+    "actualViewedBySubagent": 17,
+    "editableSourcesReopened": 17,
+    "packedFonts": true,
+    "allWithinSafeProjectedArea": true,
+    "losslessWebpPixelEquality": true,
+    "dimensionsCertified": false
+  },
+  "reviewRounds": [
+    {
+      "round": 1,
+      "finding": "根线程指出短厚件的投影侵入文字，浅色原料对比不足。"
+    },
+    {
+      "round": 2,
+      "finding": "改用最终相机投影的实际几何顶点自动等比fit，逐看全17；发现L角材一片翼面被遮、浅色高光和线端歧义。"
+    },
+    {
+      "round": 3,
+      "finding": "哑光灰白材质、实心线端与中空管端分别处理；区分地面余料曲线；转出L角材两面。"
+    },
+    {
+      "round": 4,
+      "finding": "逐行核实BOM，纸管改白/浅纸色与.08壁厚，A1-04在图下显眼保留壁厚冲突。最终图逐看、编辑源复开与无损转换校验；等待根线程独立复审。"
+    }
+  ],
+  "items": [
+    {
+      "id": "A1-01",
+      "name": "贮箱封头毛坯",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A1-01.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A1-01.webp",
+      "sha256": "c4e9f355e5dce3e5bd426aaa79e768115bc45b557c040e90099b12be8a3b6f60",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：实心短圆盘状铝材毛坯。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看短而扁的实心圆盘状原料，表面没有成品接口孔槽；下面的燃料端盖和氧化剂端盖才是对应成品。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A1-01.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A1-01.blend",
+      "editableSourceSha256": "bc8278f4a75dbbbd0cb544659b57a9fbc39048d6d5ae77f07cfefa8fd5b29bff",
+      "sourceEvidence": {
+        "sourceItemName": "6061 铝圆棒 4\"D X 1/2\"L / 6061 Aluminum Round 4\"D X 1/2\"L",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 55,
+        "originalBOMRowReadThisRun": "| 1 | 6061 铝圆棒 4\"D X 1/2\"L<br>6061 Aluminum Round 4\"D X 1/2\"L | 14.95 | 2 | 29.9 | 贮箱封头 | 1610T37-1610T134 | 多用途 6061 铝材 4\" 直径（1/2 in）<br>Multipurpose 6061 Aluminum 4\" Diameter (1/2 in) | https://www.mcmaster.com/1610T37-1610T134/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 55,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.2 推进剂贮箱；1.3.6 密封件"
+        },
+        "limits": "只表达圆盘状铝材原料；不代表原封头成品或供应商实拍。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          572.7312088012695,
+          169.42548751831055,
+          1027.2689819335938,
+          830.5744230747223
+        ],
+        "afterPixels": [
+          666.600751876831,
+          289.6000146865845,
+          983.3992004394531,
+          750.3999918699265
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 0.6969685273896697,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A1-01",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A1-01  贮箱封头毛坯",
+          "6061 铝圆棒",
+          "圆盘状毛坯，还不是带接口的封头。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A1-01；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          666.600751876831,
+          289.6000146865845,
+          983.3992004394531,
+          750.3999918699265
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A1-02",
+      "name": "隔离活塞毛坯",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A1-02.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A1-02.webp",
+      "sha256": "d739a550d3c07b19e13ffd0662652ebf955aa3f403e557355e755c7b1b229b58",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：实心厚铝圆棒。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看较厚的实心圆柱原料，内部没有活塞成品的杯状空腔，也没有密封圈位置。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A1-02.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A1-02.blend",
+      "editableSourceSha256": "e2be86b27251e6f98245336be94d61dc78402ecd6c366c5ac6bdafcf63bb446b",
+      "sourceEvidence": {
+        "sourceItemName": "6061 铝圆棒 4\"D X 3\"L / 6061 Aluminum Round 4\"D X 3\"L",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 56,
+        "originalBOMRowReadThisRun": "| 2 | 6061 铝圆棒 4\"D X 3\"L<br>6061 Aluminum Round 4\"D X 3\"L | 22.26 | 1 | 22.26 | 贮箱活塞 | 1610T37-1610T33 | 多用途 6061 铝材 4\" 直径（3 in）<br>Multipurpose 6061 Aluminum 4\" Diameter (3 in) | https://www.mcmaster.com/1610T37-1610T33/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 56,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.2 推进剂贮箱；1.3.6 密封件"
+        },
+        "limits": "只表达实心铝圆棒原料；不能拿本图核实活塞内腔、密封或配合。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          403.83973121643066,
+          111.43052577972412,
+          1196.1604118347168,
+          888.5693550109863
+        ],
+        "afterPixels": [
+          590.0990009307861,
+          289.6000146865845,
+          1059.9010467529297,
+          750.3999769687653
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 0.5929442496855017,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A1-02",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A1-02  隔离活塞毛坯",
+          "6061 铝圆棒",
+          "实心原料，还不是有空腔和密封圈的活塞。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A1-02；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          590.0990009307861,
+          289.6000146865845,
+          1059.9010467529297,
+          750.3999769687653
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A1-03",
+      "name": "贮箱筒体毛坯",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A1-03.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A1-03.webp",
+      "sha256": "4070b45301ae89e04504d48f8ce2cc560aadf6bf1dfb25d76082d4a464aaeb1d",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：薄壁长直铝管。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看两端开口的长直铝管，管材中间原本就是空的；图中没有加工后的接口孔槽。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A1-03.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A1-03.blend",
+      "editableSourceSha256": "a89e98b6c65a116d8c2bd898d920d36ef2ec13d7ae53b7c330f3b5e0ee1c80fe",
+      "sourceEvidence": {
+        "sourceItemName": "6061 铝管 4\"D X 1/8\"W X 36\"L / 6061 Aluminum Tube 4\"D X 1/8\"W X 36\"L",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 57,
+        "originalBOMRowReadThisRun": "| 3 | 6061 铝管 4\"D X 1/8\"W X 36\"L<br>6061 Aluminum Tube 4\"D X 1/8\"W X 36\"L | 85.38 | 1 | 85.38 | 贮箱筒体 | 9056K42-9056K423 | 多用途 6061 铝圆管 1/8\" 壁厚，4\" 外径（3 ft）<br>Multipurpose 6061 Aluminum Round Tube 1/8\" Wall Thickness, 4\" OD (3 ft) | https://www.mcmaster.com/9056K42-9056K423/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 57,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.2 推进剂贮箱；1.3.6 密封件"
+        },
+        "limits": "只表达原清单铝管形态；不验证贮箱压力性能、加工接口或实际供货尺寸。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。中空开口属于管材类型，不是新增成品加工孔。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          508.17809104919434,
+          371.70177698135376,
+          1091.8220520019531,
+          628.2981038093567
+        ],
+        "afterPixels": [
+          321.0000276565552,
+          298.4188199043274,
+          1328.9999961853027,
+          741.5812313556671
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.7270803219731923,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A1-03",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A1-03  贮箱筒体毛坯",
+          "6061 铝管",
+          "空心长管，对应贮箱筒体的原料。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A1-03；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          321.0000276565552,
+          298.4188199043274,
+          1328.9999961853027,
+          741.5812313556671
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A1-04",
+      "name": "贮箱接口环毛坯",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A1-04.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A1-04.webp",
+      "sha256": "8ae253a4f07a78c8e54a43b5ec9c58821254f9f311712664e62568436c988810",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：短厚壁空心铝管。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。原文壁厚物项1/2英寸、供应商1/4英寸的冲突保留。",
+      "beginner": {
+        "look": "看短而厚壁的空心铝管截面，原料已有管腔；它还不是带最终连接界面的接口环成品。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A1-04.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A1-04.blend",
+      "editableSourceSha256": "f697e10d0d8e4e29fcb36730b00caa3aaea29eb2538470156e5612a089399b01",
+      "sourceEvidence": {
+        "sourceItemName": "6061 铝管 4\"OD X 1/2\"W X 3\"L / 6061 Aluminum Tube 4\"OD X 1/2\"W X 3\"L",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 58,
+        "originalBOMRowReadThisRun": "| 4 | 6061 铝管 4\"OD X 1/2\"W X 3\"L<br>6061 Aluminum Tube 4\"OD X 1/2\"W X 3\"L | 10.37 | 2 | 20.74 | 贮箱螺接环（接口环毛坯） | 7392T17-7392T173 | 多用途 6061 铝圆管 1/4\" 壁厚，4\" 外径（3 in）<br>Multipurpose 6061 Aluminum Round Tube 1/4\" Wall Thickness, 4\" OD (3 in) | https://www.mcmaster.com/7392T17-7392T173/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 58,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.2 推进剂贮箱；1.3.6 密封件"
+        },
+        "limits": "原物项写1/2英寸壁厚，供应商描述写1/4英寸壁厚；本图只表达厚壁管类别，不判定哪组为实物尺寸。未添加成品孔、螺纹或密封结构。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。中空开口属于管材类型，不是新增成品加工孔。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          402.9697895050049,
+          110.85009574890137,
+          1197.0303535461426,
+          889.1497924923897
+        ],
+        "afterPixels": [
+          589.9343013763428,
+          289.6000146865845,
+          1060.0656509399414,
+          750.3999918699265
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 0.592059847804194,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A1-04",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A1-04  贮箱接口环毛坯",
+          "6061 厚壁铝管",
+          "壁厚原文冲突：物项 1/2 英寸；供应商 1/4 英寸。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A1-04；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          589.9343013763428,
+          289.6000146865845,
+          1060.0656509399414,
+          750.3999918699265
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A2-11",
+      "name": "氧化剂加注尼龙管材",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A2-11.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A2-11.webp",
+      "sha256": "9f1e09e46503e297a8c70b9764e6b86535919962bc78615f04df86b5c38cdc85",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：可弯曲中空尼龙管材。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看浅灰色可弯曲空心管及开口端，只表示尼龙管材类别；箭上短段与采购整段仍要分开理解。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A2-11.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A2-11.blend",
+      "editableSourceSha256": "727f5b797b6ef6a4aebd5477d26de7e59c579fb38f19bc285fdb1caf3de9f002",
+      "sourceEvidence": {
+        "sourceItemName": "尼龙管，1/4\" 外径，800PSI，10ft / Nylon Tubing, 1/4\" OD, 800PSI, 10ft",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 91,
+        "originalBOMRowReadThisRun": "| 11 | 尼龙管，1/4\" 外径，800PSI，10ft<br>Nylon Tubing, 1/4\" OD, 800PSI, 10ft | 11.5 | 1 | 11.5 | 加注管 | 9685T3 | 空气／水用高压硬塑料管 尼龙，半透明白色，0.15\" 内径，1/4\" 外径（10 ft）<br>High-Pressure Hard Plastic Tubing for Air&Water Nylon, Semi-Clear White, 0.15\" ID, 1/4\" OD (10 ft) | https://www.mcmaster.com/9685T3/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 91,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.3 流体系统；1.3.7 管件"
+        },
+        "limits": "管段曲线、灰白教学色与壁厚均为示意，不核验800PSI额定值、真实壁厚或实际长度。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。中空开口属于管材类型，不是新增成品加工孔。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          542.5772190093994,
+          406.3064455986023,
+          1018.8420295715332,
+          617.5530254840851
+        ],
+        "afterPixels": [
+          320.99997997283936,
+          296.4515686035156,
+          1328.9999961853027,
+          743.5484528541565
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 2.1164696144782584,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A2-11",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A2-11  氧化剂加注尼龙管材",
+          "尼龙管材",
+          "柔性管材；本条用于氧化剂加注连接。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A2-11；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          320.99997997283936,
+          296.4515686035156,
+          1328.9999961853027,
+          743.5484528541565
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": true,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A2-15",
+      "name": "快卸接头毛坯",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A2-15.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A2-15.webp",
+      "sha256": "286ccb2097fed644b298d6f8a7d7238b45a472aec6745e3fc4c8d0514b54a7db",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：细长实心铝圆棒。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看细长的实心圆棒，没有快卸公母接头的内部通道或相互配合细节。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A2-15.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A2-15.blend",
+      "editableSourceSha256": "770a1965388c305676359b69f3b124f2bf16132c52fa25283a499e583dabc9e0",
+      "sourceEvidence": {
+        "sourceItemName": "3/4\" X 6\" 6061-T6 圆棒 / 3/4\" X 6\" 6061-T6 Round Bar",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 95,
+        "originalBOMRowReadThisRun": "| 15 | 3/4\" X 6\" 6061-T6 圆棒<br>3/4\" X 6\" 6061-T6 Round Bar | 4.39 | 1 | 4.39 | 快卸接头（QD）棒料 | 8974K299 | 多用途 6061 铝材 3/4\" 直径（1/2 ft）<br>Multipurpose 6061 Aluminum 3/4\" Diameter (1/2 ft) | https://www.mcmaster.com/8974K11-8974K299/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 95,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.3 流体系统；1.3.7 管件"
+        },
+        "limits": "这是制作快卸连接件所列原料的类型示意，不是快卸接头成品。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          506.04748725891113,
+          367.6430583000183,
+          1093.9526557922363,
+          632.3568224906921
+        ],
+        "afterPixels": [
+          321.00000381469727,
+          293.0659055709839,
+          1328.9999961853027,
+          746.9340860843658
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.7145622354617247,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A2-15",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A2-15  快卸接头毛坯",
+          "6061-T6 铝圆棒",
+          "实心圆棒，对应快卸接头的原料。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A2-15；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          321.00000381469727,
+          293.0659055709839,
+          1328.9999961853027,
+          746.9340860843658
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A3-13",
+      "name": "打印结构原料",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A3-13.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A3-13.webp",
+      "sha256": "ab2079b0f2218ff4d022b9a3dbef09fe269484b354ac170cfa4321987d2ef2c1",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：盘绕的PLA+打印细线。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看松散盘绕且带自由端的细线状原料，灰白色帮助看清线形；它尚未成为打印支架或连接件。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A3-13.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A3-13.blend",
+      "editableSourceSha256": "06783cba235edf89871f7e2006ed4c9d6f87d1686ab8d8febe7324cd17bb015d",
+      "sourceEvidence": {
+        "sourceItemName": "PLA+ 3D 打印线材，白色，2kg（或同等品） / PLA+ 3D Printer Filament, White, 2kg (Or Equivalent)",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 122,
+        "originalBOMRowReadThisRun": "| 13 | PLA+ 3D 打印线材，白色，2kg（或同等品）<br>PLA+ 3D Printer Filament, White, 2kg (Or Equivalent) | 45.99 | 1 | 45.99 | 阀门驱动机构外壳（注：阀门部分用量 <1kg；箭体部分同样使用） | N/A | OVERTURE PLA Plus（PLA+）线材 1.75mm 专业级增韧 PLA 线卷，纸质线盘，优质 PLA 2kg（4.4lbs），尺寸精度 +/- 0.02mm（白色 2 卷装）<br>OVERTURE PLA Plus (PLA+) Filament 1.75mm PLA Professional Toughness Enhanced PLA Roll, Cardboard Spool, Premium PLA 2kg(4.4lbs), Dimensional Accuracy Probability +/- 0.02mm (White 2-Pack) | https://www.amazon.com/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 122,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.3 流体系统：舵机驱动球阀"
+        },
+        "limits": "线圈形状和灰白显示色为教学表达；不验证实际商品包装、颜色、线径或打印性能。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。连续线状材料的自由端已封闭，避免被误读为空心管。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          476.4795780181885,
+          354.3916940689087,
+          1030.1002502441406,
+          635.5235278606415
+        ],
+        "afterPixels": [
+          371.28326892852783,
+          289.6000146865845,
+          1278.71675491333,
+          750.3999769687653
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.6390886573925614,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A3-13",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A3-13  打印结构原料",
+          "PLA+ 打印线材",
+          "连续细线状原料；不是已经打印的结构件。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A3-13；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          371.28326892852783,
+          289.6000146865845,
+          1278.71675491333,
+          750.3999769687653
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A4-01",
+      "name": "喷注器与喷管毛坯",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A4-01.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A4-01.webp",
+      "sha256": "cf66249ac171bfd0c2c6ba8bdbdafc940d61fe2edc22df0d905882a7d8566d47",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：实心铝圆棒。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看实心铝圆棒毛坯；它没有喷注孔、喷管内腔或其他成品接口。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A4-01.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A4-01.blend",
+      "editableSourceSha256": "d0297690a2907a0935472f02fdd7d3c3083078124b33ef96301903dcfde97ae2",
+      "sourceEvidence": {
+        "sourceItemName": "6061 铝圆棒 3\"D X 6\"L / 6061 Aluminum Round 3\"D X 6\"L",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 132,
+        "originalBOMRowReadThisRun": "| 1 | 6061 铝圆棒 3\"D X 6\"L<br>6061 Aluminum Round 3\"D X 6\"L | 23.23 | 1 | 23.23 | 喷管与喷注器棒料 | 61ARB3 | 6061 铝圆棒（规格：3 in，长度：6 in）<br>6061 Aluminum Round Bar (Size: 3 in, Length: 6 in) | https://www.midweststeelsupply.com/store/6061aluminumroundbar | https://www.mcmaster.com/8974K82-1610T41/ |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 132,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.4 推力室组件"
+        },
+        "limits": "同一材料条目对应喷注器和喷管相关成品，不表示图中圆棒已经具备这些功能。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          433.30726623535156,
+          247.90632724761963,
+          1166.6929244995117,
+          752.0935535430908
+        ],
+        "afterPixels": [
+          489.8624897003174,
+          289.6000146865845,
+          1160.1375579833984,
+          750.3999769687653
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 0.913946200870141,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A4-01",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A4-01  喷注器与喷管毛坯",
+          "6061 铝圆棒",
+          "同一原料条目用于喷注器与喷管相关成品。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A4-01；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          489.8624897003174,
+          289.6000146865845,
+          1160.1375579833984,
+          750.3999769687653
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A4-02",
+      "name": "燃烧室筒体毛坯",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A4-02.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A4-02.webp",
+      "sha256": "cd6a9712734690c403c4d68a4d54c0a0004f5ab0f6ec7709a328518efd58f562",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：厚壁空心铝管。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。原物项“铝管”与供应商描述“圆棒”的差异保留。",
+      "beginner": {
+        "look": "看明显中空的厚壁铝管原料，端部没有成品螺纹、孔槽或安装接口。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A4-02.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A4-02.blend",
+      "editableSourceSha256": "2b05bb286ca73dba8622e2bf4cbf74e083705680555977576a437720ad91631c",
+      "sourceEvidence": {
+        "sourceItemName": "6061 铝管 3\"D X 1/2\"W X 6\"L / 6061 Aluminum Tube 3\"D X 1/2\"W X 6\"L",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 133,
+        "originalBOMRowReadThisRun": "| 2 | 6061 铝管 3\"D X 1/2\"W X 6\"L<br>6061 Aluminum Tube 3\"D X 1/2\"W X 6\"L | 37 | 1 | 37 | 燃烧室筒段 | 61ARDT3500 | 6061 铝圆棒（规格：3 X 1/2 in，长度：6 in）<br>6061 Aluminum Round Bar (Size: 3 X 1/2 in, Length: 6 in) | https://www.midweststeelsupply.com/store/6061aluminumroundtube | https://www.mcmaster.com/9056K23-9056K235/ |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 133,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.4 推力室组件"
+        },
+        "limits": "以原物项名称中的铝管为类型依据；供应商描述写圆棒的冲突保留，图不消除原资料差异。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。中空开口属于管材类型，不是新增成品加工孔。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          432.7272415161133,
+          247.5193738937378,
+          1167.2728538513184,
+          752.480536699295
+        ],
+        "afterPixels": [
+          489.84689712524414,
+          289.6000146865845,
+          1160.1531028747559,
+          750.40003657341
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 0.9125454271370129,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A4-02",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A4-02  燃烧室筒体毛坯",
+          "6061 厚壁铝管",
+          "空心厚壁管，对应燃烧室筒体原料。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A4-02；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          489.84689712524414,
+          289.6000146865845,
+          1160.1531028747559,
+          750.40003657341
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A4-03",
+      "name": "喷管喉衬毛坯",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A4-03.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A4-03.webp",
+      "sha256": "c2def68f7c427fad98f4c49762384cf0dcc1a25d71818bf0a12f4089c160e70c",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：铜色实心短圆棒。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看铜色实心短圆棒，还没有喉衬成品的内侧通道；铜色只帮助识别材料类别。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A4-03.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A4-03.blend",
+      "editableSourceSha256": "bc442ef3f937f49cc77a60d51aae0634e48e3f1c41a557924c7ea5cc87d9fa34",
+      "sourceEvidence": {
+        "sourceItemName": "110 紫铜圆棒 1-1/2\" 直径 2\" 长 / 110 Copper Round Bar 1-1/2\" Diameter 2\" Long",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 134,
+        "originalBOMRowReadThisRun": "| 3 | 110 紫铜圆棒 1-1/2\" 直径 2\" 长<br>110 Copper Round Bar 1-1/2\" Diameter 2\" Long | 18.88 | 1 | 18.88 | 喷管喉衬 | CRB112 | 110 紫铜圆棒（规格：1-1/2 in，长度：2 in）<br>110 Copper Round Bar (Size: 1-1/2 in, Length: 2 in) | https://www.midweststeelsupply.com/store/110copperroundbar | https://www.mcmaster.com/9103K9-9103K93/ |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 134,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.4 推力室组件"
+        },
+        "limits": "材料类型示意，不验证110铜牌号、表面颜色、喉部尺寸或热性能。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          386.74700260162354,
+          169.37178373336792,
+          1213.253116607666,
+          830.6281119585037
+        ],
+        "afterPixels": [
+          537.0223999023438,
+          289.6000146865845,
+          1112.9776000976562,
+          750.3999769687653
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 0.6968553348091557,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A4-03",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A4-03  喷管喉衬毛坯",
+          "110 紫铜圆棒",
+          "铜色只帮助识别材料类别，尚未形成喉部。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A4-03；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          537.0223999023438,
+          289.6000146865845,
+          1112.9776000976562,
+          750.3999769687653
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A6-09",
+      "name": "箭体纸管材料",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A6-09.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A6-09.webp",
+      "sha256": "541c333e07c230cb02842506fe6428b0a6c2780d4ce9bba629d85d1e9f8f87a3",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：浅白纸色空心长纸管。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。浅白纸色和一般截面参照原表白色/.08英寸壁厚备注；内径、外径与内长的区别保留，尺寸未认证。",
+      "beginner": {
+        "look": "看浅白纸色的长空心纸管，与铝制贮箱管材分开；截面表示纸管材料类别，尺寸与实际供货状态没有核验。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A6-09.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A6-09.blend",
+      "editableSourceSha256": "df7d72d99b42d913fa2f54f86b06c555e9abed10e81cc3efd91464961c8fc517",
+      "sourceEvidence": {
+        "sourceItemName": "箭体管 — 4\" 邮寄纸管，36\" 长 / Airframe - 4\" Mailing Tube, 36\"L",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 185,
+        "originalBOMRowReadThisRun": "| 9 | 箭体管 — 4\" 邮寄纸管，36\" 长<br>Airframe - 4\" Mailing Tube, 36\"L | 8.6 | 1 | 8.6 | .08\" 壁厚纸质，白色 | 20545T38 | 带压装端盖的圆形运输纸管，4\" 内径，36\" 内长<br>Round Shipping Tube with Press-on End Caps, 4\" ID, 36\" Inside Length | https://www.mcmaster.com/20545T38/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 185,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.5 推进系统结构连接；2.3.6 箭体与回收系统"
+        },
+        "limits": "原表备注为.08英寸壁厚、白色，供应商描述给出4英寸内径与36英寸内长；本图据此采用浅白纸色和一般管截面，内径、外径、内长与实际成品边界仍分别保留，未作尺寸认证。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。中空开口属于管材类型，不是新增成品加工孔。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          507.2927951812744,
+          370.26727199554443,
+          1092.707347869873,
+          629.7326385974884
+        ],
+        "afterPixels": [
+          321.0000276565552,
+          296.61887884140015,
+          1328.9999961853027,
+          743.3811128139496
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.7218567515457521,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A6-09",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A6-09  箭体纸管材料",
+          "箭体纸管",
+          "纸质空心管；这里不是金属贮箱。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A6-09；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          321.0000276565552,
+          296.61887884140015,
+          1328.9999961853027,
+          743.3811128139496
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A6-15",
+      "name": "尾翼支架角材",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A6-15.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A6-15.webp",
+      "sha256": "d67e6ee52595d5c1ebb0d2e447198d03742751a3bb5156ac5b3a6e0eab945cc6",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：有两片相连翼面的L形角铝。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "先看端部L形截面，再沿长条看两片相连的翼面；图里没有成品支架的孔位和切口。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A6-15.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A6-15.blend",
+      "editableSourceSha256": "4d0a573ed2df163d8219079f4fd6095f4e8ee0a85fc9a2afb2c9853151dddc93",
+      "sourceEvidence": {
+        "sourceItemName": "角铝，1\" X 1\" X 1/8\" X 24\" 长 / Aluminum Angle, 1\" X 1\" X 1/8\" X 24\"L",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 191,
+        "originalBOMRowReadThisRun": "| 15 | 角铝，1\" X 1\" X 1/8\" X 24\" 长<br>Aluminum Angle, 1\" X 1\" X 1/8\" X 24\"L | 7.59 | 4 | 30.36 | 尾翼支架 | 89822K402 | 多用途 6061 铝制 90 度角材 圆边，1/8\" 厚，外廓 1\" 高 x 1\" 宽<br>Multipurpose 6061 Aluminum 90 Degree Angle with Round Edge, 1/8\" Thickness, 1\" High x 1\" Wide Outside | https://www.mcmaster.com/8982K4-8982K402/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 191,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.5 推进系统结构连接；2.3.6 箭体与回收系统"
+        },
+        "limits": "只表达角铝原料的截面与长条形态，不代表已加工支架。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。旋转后两片翼面和L形端面可辨。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          522.9352951049805,
+          388.85170221328735,
+          1079.535961151123,
+          611.1482083797455
+        ],
+        "afterPixels": [
+          320.9999084472656,
+          318.71122121810913,
+          1329.0000915527344,
+          721.2887704372406
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.810993161687011,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A6-15",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A6-15  尾翼支架角材",
+          "L 形角铝",
+          "先认 L 形截面；孔位和成品支架另看。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A6-15；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          320.9999084472656,
+          318.71122121810913,
+          1329.0000915527344,
+          721.2887704372406
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A6-17",
+      "name": "尾翼板材",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A6-17.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A6-17.webp",
+      "sha256": "ac1297f3dff4972b3277214b601e5f79c8eeb83ee0575e0499dc7e23a3b344bd",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：尚未切成尾翼的矩形胶合板。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看完整的矩形平板原料及薄边；尚未切成尾翼外轮廓，也没有安装孔位。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A6-17.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A6-17.blend",
+      "editableSourceSha256": "2236596ff5d35572c87f924a2742d8fd5f3011aa90d6a8d8473ba65d6b848fd9",
+      "sourceEvidence": {
+        "sourceItemName": "1/4\" x 12\" x 24\" 桦木胶合板 / 1/4\" x 12\" x 24\" Birch Plywood",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 193,
+        "originalBOMRowReadThisRun": "| 17 | 1/4\" x 12\" x 24\" 桦木胶合板<br>1/4\" x 12\" x 24\" Birch Plywood | 18.48 | 1 | 18.48 | 尾翼 | 1125T412 | 船用级胶合板 12\" x 24\" x 1/4\"<br>Marine-Grade Plywood Sheet 12\" x 24\" x 1/4\" | https://www.mcmaster.com/1125T412/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 193,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.5 推进系统结构连接；2.3.6 箭体与回收系统"
+        },
+        "limits": "棕色只表示木质板材类别，没有仿造具体商品纹理、层数或材料性能。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          432.32579231262207,
+          340.1055335998535,
+          1167.6743507385254,
+          659.8943769931793
+        ],
+        "afterPixels": [
+          320.99997997283936,
+          300.82017183303833,
+          1328.9999961853027,
+          739.1798198223114
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.3707785083005233,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A6-17",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A6-17  尾翼板材",
+          "桦木胶合板",
+          "平板原料，还没有尾翼的外轮廓。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A6-17；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          320.99997997283936,
+          300.82017183303833,
+          1328.9999961853027,
+          739.1798198223114
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A7-02",
+      "name": "主伞伞衣替代原料",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A7-02.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A7-02.webp",
+      "sha256": "2fd6b4383000183cad7a89108d191b4850f730274e2880b4a81cb03fbd4dea4a",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：平放的六角天幕材料。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看平放的六角柔性天幕轮廓，没有伞绳、吊点或鼓起的完整伞形。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A7-02.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A7-02.blend",
+      "editableSourceSha256": "4dc44a25c93e28dd6765c933e23e7601e6c0c418b294e76ac3e83b247c028542",
+      "sourceEvidence": {
+        "sourceItemName": "7.2ft 六角帐篷天幕，用作主伞伞衣 / 7.2ft Hexagonal Tent Tarp, Main Chute Canopy",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 212,
+        "originalBOMRowReadThisRun": "| 2 | 7.2ft 六角帐篷天幕，用作主伞伞衣<br>7.2ft Hexagonal Tent Tarp, Main Chute Canopy | 24.99 | 1 | 24.99 | 主伞伞衣的替代方案（可省 $55.94） | CNPY-CHT-86IN | Hikeman 六角帐篷地布，1-4 人超轻防水帐篷天幕／地席，含 6 支地钉，适用露营、徒步、野餐、背包旅行（中号）<br>Hikeman Hexagonal Tent Footprint,1-4 Person Ultralight Waterproof Tent Tarp Ground Sheet Mat with 6 Tent Stakes for Camping Hiking Picnic Backpacking (Medium) | https://www.amazon.com/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 212,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.6 箭体与回收系统：电子舱及回收"
+        },
+        "limits": "原料类型示意；不是采购天幕的实拍，也不是完成主伞或已验证的展开状态。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          495.8712577819824,
+          342.45526790618896,
+          1104.1288375854492,
+          657.5446426868439
+        ],
+        "afterPixels": [
+          380.2292585372925,
+          289.6000146865845,
+          1269.7708129882812,
+          750.3999769687653
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.4624422049165557,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A7-02",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A7-02  主伞伞衣替代原料",
+          "六角天幕材料",
+          "平面的柔性材料；不是已经展开的降落伞。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A7-02；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          380.2292585372925,
+          289.6000146865845,
+          1269.7708129882812,
+          750.3999769687653
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "A7-03",
+      "name": "主伞承力绳材",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/A7-03.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/A7-03.webp",
+      "sha256": "b7962359a06322692e6610dc30090cd27f93fa13ff0f0ea125b43af73ded5ec4",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：盘绕的Kevlar细绳材料。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看较细的松散绳线与自由端；它属于伞绳材料，不能与较宽的尼龙减震扁带混为一件。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/A7-03.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/A7-03.blend",
+      "editableSourceSha256": "ea766604cca9df603e3a9a6a23beeab47e5c0b234cf470049fc40125138e163f",
+      "sourceEvidence": {
+        "sourceItemName": "250lb Kevlar 绳，100ft / 250lb Kevlar Cord, 100ft",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 213,
+        "originalBOMRowReadThisRun": "| 3 | 250lb Kevlar 绳，100ft<br>250lb Kevlar Cord, 100ft | 13.95 | 1 | 13.95 | 主伞伞绳 | CRD-KVLR-250LB | emma kites 100% Kevlar 编织绳 多用途绳 耐磨阻燃，战术生存／钓鱼助力绳、模型火箭伞绳、绊线、露营绳<br>emma kites 100% Kevlar Braided String Utility Cord Abrasion Flame Resistant, Tactical Survival Fishing Assist Cord Model Rocket Paracord Trip Line Camping Cordage | https://www.amazon.com/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 213,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "2.3.6 箭体与回收系统：电子舱及回收"
+        },
+        "limits": "黄色和盘绕形状为教学表达；不验证Kevlar商品身份、250lb额定强度或真实长度。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。连续线状材料的自由端已封闭，避免被误读为空心管。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          476.18961334228516,
+          352.20181941986084,
+          1032.9394340515137,
+          638.0285024642944
+        ],
+        "afterPixels": [
+          376.2134313583374,
+          289.6000146865845,
+          1273.7865447998047,
+          750.4000067710876
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.612165789043445,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "A7-03",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "A7-03  主伞承力绳材",
+          "Kevlar 细绳材料",
+          "细绳与宽尼龙扁带不同；本条对应主伞承力绳材。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 A7-03；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          376.2134313583374,
+          289.6000146865845,
+          1273.7865447998047,
+          750.4000067710876
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "C1-34",
+      "name": "地面管材余料",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/C1-34.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/C1-34.webp",
+      "sha256": "3b97be3e9c7291aec3d64c84f834238e70e1476019785728c9888efbb89daa3e",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：地面余料上下文中的中空尼龙管材。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看带开口端的浅灰U形柔性管材；这是地面材料用途的独立示意，不是另一安装位置的已核实短管。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/C1-34.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/C1-34.blend",
+      "editableSourceSha256": "ee23b785d9a163f04584b4e8a69395e8ad2b30c4beeac9d7f923a9997c9c82ed",
+      "sourceEvidence": {
+        "sourceItemName": "尼龙管，1/4\" 外径，800PSI，10ft / Nylon Tubing, 1/4\" OD, 800PSI, 10ft",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 289,
+        "originalBOMRowReadThisRun": "| 34 | 尼龙管，1/4\" 外径，800PSI，10ft<br>Nylon Tubing, 1/4\" OD, 800PSI, 10ft | 0 | 1 | 0 | 流体系统部分剩余料 | 9685T3 | 空气／水用高压硬塑料管 尼龙，半透明白色，0.15\" 内径，1/4\" 外径（10 ft）<br>High-Pressure Hard Plastic Tubing for Air&Water Nylon, Semi-Clear White, 0.15\" ID, 1/4\" OD (10 ft) | https://www.mcmaster.com/9685T3/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 289,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "6.1 地面支持设备概述"
+        },
+        "limits": "同类采购材料的地面余料记录；弯曲状态、壁厚、长度与显示颜色均不构成供货或安装证据。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。中空开口属于管材类型，不是新增成品加工孔。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          562.5504493713379,
+          389.1841173171997,
+          1055.8734893798828,
+          595.7615673542023
+        ],
+        "afterPixels": [
+          321.0000276565552,
+          308.95161628723145,
+          1328.9999961853027,
+          731.0484349727631
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 2.0432858760915367,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "C1-34",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "C1-34  地面管材余料",
+          "尼龙管材余料",
+          "与加注管同类的管材，记录地面系统材料用途。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 C1-34；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          321.0000276565552,
+          308.95161628723145,
+          1328.9999961853027,
+          731.0484349727631
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": true,
+        "dimensionsCertified": false
+      }
+    },
+    {
+      "id": "C1-35",
+      "name": "地面定制件打印材料",
+      "status": "raw_stock_illustration",
+      "image": "assets/stock-details/C1-35.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/stock-details/C1-35.webp",
+      "sha256": "b4817b7898db841bad56b5648fa0ff6b5a65bcdb4d33a285bf3ed016519ea8c6",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "原料类型示意：地面定制件用PLA+打印细线。非实拍、非成品；不代表供应商实物、尺寸检验或材料性能验证。",
+      "beginner": {
+        "look": "看椭圆盘绕且带自由端的灰白打印线材，地面定制支架成品应另看；材料本身没有支架外形。"
+      },
+      "parentIndependentReviewPending": true,
+      "editableSource": "stock-detail-sources/C1-35.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/stock-detail-sources/C1-35.blend",
+      "editableSourceSha256": "e7ad755e5dd52b1e21cece55512a29351cbd757a783f1555dd42bd628198d5ef",
+      "sourceEvidence": {
+        "sourceItemName": "PLA+ 3D 打印线材，白色，2kg（或同等品） / PLA+ 3D Printer Filament, White, 2kg (Or Equivalent)",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "bomLine": 290,
+        "originalBOMRowReadThisRun": "| 35 | PLA+ 3D 打印线材，白色，2kg（或同等品）<br>PLA+ 3D Printer Filament, White, 2kg (Or Equivalent) | 0 | 1 | 0 | 阀门部分剩余料（阀门驱动机构外壳） | N/A | OVERTURE PLA Plus（PLA+）线材 1.75mm 专业级增韧 PLA 线卷，纸质线盘，优质 PLA 2kg（4.4lbs），尺寸精度 +/- 0.02mm（白色 2 卷装）<br>OVERTURE PLA Plus (PLA+) Filament 1.75mm PLA Professional Toughness Enhanced PLA Roll, Cardboard Spool, Premium PLA 2kg(4.4lbs), Dimensional Accuracy Probability +/- 0.02mm (White 2-Pack) | https://www.amazon.com/ |  |",
+        "sourceRef": {
+          "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+          "bomLine": 290,
+          "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "manualSection": "6.1 地面支持设备概述"
+        },
+        "limits": "只表达地面打印用原料类别与去向；不验证具体包装、余量、线径、商品颜色或成品支架。",
+        "materialTypeReadFromOriginalBOM": true,
+        "sourceProductPhotographUsed": false,
+        "finishedPartCADUsed": false,
+        "dimensionsCertified": false,
+        "limitsToAllItems": "图中材质、表面、姿态、线圈或曲线和通用切面仅说明原料类型；未核验实际供货件、牌号、性能、长度、压力、额定强度或成品加工。"
+      },
+      "selfVisualReview": {
+        "actualViewed": true,
+        "atUTC": "2026-10-19T17:31:13.778220+00:00",
+        "result": "retained_for_parent_review",
+        "notes": "已逐图查看：原料独立完整，物体位于安全图区，没有覆盖标题与底部说明；未出现成品孔槽或螺纹。连续线状材料的自由端已封闭，避免被误读为空心管。",
+        "parentIndependentReviewPending": true
+      },
+      "projectionFit": {
+        "beforePixels": [
+          493.5715675354004,
+          371.1475729942322,
+          1009.0203285217285,
+          637.2272670269012
+        ],
+        "afterPixels": [
+          378.6698579788208,
+          289.5999550819397,
+          1271.330165863037,
+          750.4000216722488
+        ],
+        "targetPixels": [
+          300,
+          280,
+          1350,
+          760
+        ],
+        "scaleFactor": 1.7318119733835207,
+        "method": "actual evaluated mesh/curve vertices projected by final camera; uniform scale and camera-plane translation"
+      },
+      "editableSourceAudit": {
+        "id": "C1-35",
+        "editableVerified": true,
+        "fonts": [
+          {
+            "name": "Bfont Regular",
+            "packed": false,
+            "builtin": true
+          },
+          {
+            "name": "Heiti TC Medium",
+            "packed": true,
+            "builtin": false
+          }
+        ],
+        "texts": [
+          "启明火箭 · 原料形态示意",
+          "C1-35  地面定制件打印材料",
+          "PLA+ 打印线材",
+          "打印原料用于地面定制件；不是飞行安装件。",
+          "类型示意 · 不代表供应商实物、成品外形或尺寸检验",
+          "来源：原物料表 C1-35；材料记录与成品分别解释"
+        ],
+        "geometryObjects": 2,
+        "projectionBBoxPixels": [
+          378.6698579788208,
+          289.5999550819397,
+          1271.330165863037,
+          750.4000216722488
+        ],
+        "resolution": [
+          1600,
+          1000
+        ],
+        "samples": 32,
+        "denoise": true,
+        "symbolicWallThickness": false,
+        "dimensionsCertified": false
+      }
+    }
+  ]
+}

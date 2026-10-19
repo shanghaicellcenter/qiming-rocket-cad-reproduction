@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-19T18:13:06.860305+00:00",
+  "output": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/启明火箭/打开项目.html",
+  "bytes": 12727,
+  "sha256": "f629fbb9c6b137e5db750ebeacf2098cc78e53ba1e8e94f24efe1df9e364bf03",
+  "source_mesh_instances": 688,
+  "source_records": 205,
+  "source_images": 615,
+  "primary_source_records": 170,
+  "primary_source_images": 510,
+  "exchange_source_included": true,
+  "actual_source_images": [
+    "library/assembly-previews/A12-oblique.png",
+    "library/assembly-previews/A04-oblique.png"
+  ],
+  "optional_existing_media_links": [
+    {
+      "path": "media/逐步虚拟归位讲解.mp4",
+      "label": "播放逐步讲解视频"
+    },
+    {
+      "path": "逐步虚拟归位.html",
+      "label": "打开同步讲解"
+    }
+  ],
+  "optional_nonexistent_links_omitted": 0,
+  "network_resources": false,
+  "standard_library_only": true
+}

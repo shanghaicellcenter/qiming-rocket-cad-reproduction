@@ -1,0 +1,42 @@
+{
+  "source_path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/work/native-cad/assembly-viewer/mojave-source-assembly.html",
+  "destination_path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/mojave-machine/整箭原件检视.html",
+  "bytes": 229834863,
+  "sha256_before_move": "f4a63caea43a70cfc97ebe248f07dc00e4fff5d1a840a54bca6182da82629a78",
+  "sha256_after_move": "f4a63caea43a70cfc97ebe248f07dc00e4fff5d1a840a54bca6182da82629a78",
+  "same_hash": true,
+  "old_path_symlink": true,
+  "reviewed_html_rebuilt_or_modified": true,
+  "source_project": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/mojave-machine/source/assembly-viewer",
+  "historical_source_absolute_paths_rewritten": false,
+  "current_sha256": "3a25ecf6a53b9cee7e51a37eb751aa9d06856fd2444cd5c5abaf4e4f7c508c00",
+  "current_bytes": 229838266,
+  "display_name_revision": {
+    "project_name": "启明火箭",
+    "previous_html_sha256": "f4a63caea43a70cfc97ebe248f07dc00e4fff5d1a840a54bca6182da82629a78",
+    "current_html_sha256": "c5d8bfd114715249c3f6e8fa43dec6f8b78f452eaaddd0c9c4a7fe05cc98f2ec",
+    "geometry_glb_sha256_unchanged": true,
+    "raw_data_js_bytes_unchanged": true,
+    "audit": "rename-display-review.json"
+  },
+  "component_deeplink_revision": {
+    "updated_utc": "2026-10-19T16:39:36.462779+00:00",
+    "html": "整箭原件检视.html",
+    "bytes": 229838045,
+    "sha256": "96f52b6cca1123716f38d772b29cea721c7587dced3b4dddd7e8c2cf1bd38d61",
+    "previous_html_sha256": "c5d8bfd114715249c3f6e8fa43dec6f8b78f452eaaddd0c9c4a7fe05cc98f2ec",
+    "change": "Exact original source filename initial selection via part query; unknown filename falls back to whole assembly.",
+    "model_geometry_changed": false,
+    "proof": "research/component-link-review/review.json"
+  },
+  "independent_part_deeplink_revision": {
+    "updated_utc": "2026-10-19T17:22:27.164811+00:00",
+    "html": "整箭原件检视.html",
+    "bytes": 229838266,
+    "sha256": "3a25ecf6a53b9cee7e51a37eb751aa9d06856fd2444cd5c5abaf4e4f7c508c00",
+    "previous_html_sha256": "96f52b6cca1123716f38d772b29cea721c7587dced3b4dddd7e8c2cf1bd38d61",
+    "change": "Exact source filename selection now also resolves independent source library parts, explicitly labelled not an assembly placement.",
+    "model_geometry_changed": false,
+    "proof": "research/component-link-review/review.json"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "title_zh": "R01源CAD视觉归位动画",
+  "files": [
+    {
+      "path": "alignment-qc.json",
+      "bytes": 14239761,
+      "sha256": "225a910da3c34b697f6f87844038c6472f643ff0c6d7aa99e1a69fb7fd980242"
+    },
+    {
+      "path": "assembly-stages.json",
+      "bytes": 1015404,
+      "sha256": "463c0f6dfa04c1ac838730cdbcaf60fedb669bd43920cf2bc056eede0392c0cf"
+    },
+    {
+      "path": "build_virtual_assembly.py",
+      "bytes": 24353,
+      "sha256": "d33e798163d943d083905c54d7cc18e38c4d0fb472236690c29b04cd4a610c1b"
+    },
+    {
+      "path": "plan_assembly_stages.py",
+      "bytes": 7163,
+      "sha256": "f073d7fddda255880905a20822ab2afc47ae1576b7d9ffa1c4b8723c5370d214"
+    },
+    {
+      "path": "renders/motion-checks/01_start_separated.png",
+      "bytes": 1230937,
+      "sha256": "3b48b1217daaa449ab9ea8c4513c9453c32c2a5ec3240f01ca7e932b3cea17fd"
+    },
+    {
+      "path": "renders/motion-checks/02_stage_01_moving.png",
+      "bytes": 1276645,
+      "sha256": "baadea8942c10733758757cdab64a1609291ebae19a4f205fc852d2fce76492c"
+    },
+    {
+      "path": "renders/motion-checks/03_stage_02_moving.png",
+      "bytes": 1304304,
+      "sha256": "ce738bfa807a28762cdaff4ce88f7a227ceba8ef10e63ff77fdbe1a8eb500914"
+    },
+    {
+      "path": "renders/motion-checks/04_stage_06_moving.png",
+      "bytes": 1323218,
+      "sha256": "886f49416c41c09445f4d1da851180e80703a8b460172af79ca289b700a1cf6e"
+    },
+    {
+      "path": "renders/motion-checks/05_stage_10_moving.png",
+      "bytes": 1264413,
+      "sha256": "0c849c4002fcd28f4baebd012bb86b841161fda9adafe7fd92abdec485f59d9a"
+    },
+    {
+      "path": "renders/motion-checks/06_stage_14_moving.png",
+      "bytes": 1216582,
+      "sha256": "468f3c0d26cd822cbee74b44e936d3c561060e7f99ce71723cec30eed379e4ed"
+    },
+    {
+      "path": "renders/motion-checks/07_final_original_positions.png",
+      "bytes": 1263116,
+      "sha256": "97ae2067dac107292d83ab5af59cf499bd80a5698dbd260de118aa342f3ee13b"
+    },
+    {
+      "path": "renders/motion-checks/motion-contact-sheet.png",
+      "bytes": 250450,
+      "sha256": "0d493c1b94d18d376ef70c498342832d19238c2b310a5ce8445cbe6fe537d3d2"
+    },
+    {
+      "path": "renders/stages/01_stage_01_returned.png",
+      "bytes": 1262656,
+      "sha256": "a81ab0fd7ef22d044ca67fe26d4771cbe4dc9861ac45330ec0bc26e0273daa49"
+    },
+    {
+      "path": "renders/stages/02_stage_02_returned.png",
+      "bytes": 1340911,
+      "sha256": "4bcae6ec9c5e44afb587dd223baefeb9db80a307507cea0dd9b70f1648bdc34b"
+    },
+    {
+      "path": "renders/stages/03_stage_03_returned.png",
+      "bytes": 1321247,
+      "sha256": "9ff190c310a5be70be5d13a5d76bf2da9702b6a8f713b82073e6fa212e10d83b"
+    },
+    {
+      "path": "renders/stages/04_stage_04_returned.png",
+      "bytes": 1378884,
+      "sha256": "fc73d62c61aecf313794c7793b9c4f82c0a51b805bdca414c0d844d077888184"
+    },
+    {
+      "path": "renders/stages/05_stage_05_returned.png",
+      "bytes": 1241846,
+      "sha256": "2dd9a1eb0021fd2909b14605b3e2b553e8891e5e6d4ee247365278e19ab9c237"
+    },
+    {
+      "path": "renders/stages/06_stage_06_returned.png",
+      "bytes": 1232314,
+      "sha256": "1ebbbd1e49873f912277cf5f946b9932133ab3e293a7457d42efa3fa796b4361"
+    },
+    {
+      "path": "renders/stages/07_stage_07_returned.png",
+      "bytes": 1232224,
+      "sha256": "f9d84508f09ad5d1a5c2feff10b400bc01567bc0d07d6939ec986bd98a6eef34"
+    },
+    {
+      "path": "renders/stages/08_stage_08_returned.png",
+      "bytes": 1261458,
+      "sha256": "11466ad7206b20643b4b1f35610e030f19f536fc55e43d02b8093359907a5c39"
+    },
+    {
+      "path": "renders/stages/09_stage_09_returned.png",
+      "bytes": 1261213,
+      "sha256": "fa3d04b2fc805b6e474e381f9238651e926d9924c8486ac1f9bb9836231c82da"
+    },
+    {
+      "path": "renders/stages/10_stage_10_returned.png",
+      "bytes": 1263140,
+      "sha256": "b963aae950f4795a9eb9f1cf968b8f0e551ad0ce4e96190632fd1e812f6da883"
+    },
+    {
+      "path": "renders/stages/11_stage_11_returned.png",
+      "bytes": 1223275,
+      "sha256": "4653f92c1ae927067b383ccc4989688cf2d42288da5bf72f29f6d084f9302c9b"
+    },
+    {
+      "path": "renders/stages/12_stage_12_returned.png",
+      "bytes": 1273556,
+      "sha256": "ca448dd9e49886ecfe6afc74ac80a8fe07aa89a7798dc92caa1a307ccd29f6c8"
+    },
+    {
+      "path": "renders/stages/13_stage_13_returned.png",
+      "bytes": 1268019,
+      "sha256": "b6e395f9230dbb45f6ac68efc33a48d06364721a4a664e9af31e31bcbe5e4928"
+    },
+    {
+      "path": "renders/stages/14_stage_14_returned.png",
+      "bytes": 1253826,
+      "sha256": "b08141094b18911940b565a8157a938decaaa6221716dfd05c640c6b4b090807"
+    },
+    {
+      "path": "renders/stages/15_stage_15_returned.png",
+      "bytes": 1205894,
+      "sha256": "c23f26a8a9a13f5b3f328134566c2b214180e182678737aa8bcc153252eb0171"
+    },
+    {
+      "path": "renders/stages/stage-contact-sheet.png",
+      "bytes": 302440,
+      "sha256": "9f6464bf6fc6ce229399e57b47e09dcec7182f81f53c72933e98e32eab896d8a"
+    },
+    {
+      "path": "review-frames.json",
+      "bytes": 5545,
+      "sha256": "ee9cbfaa2a8a33fa965896fd3dda8517354e44f429fed7c7c73bbd7ebb0cb905"
+    },
+    {
+      "path": "saved-file-motion-qc.json",
+      "bytes": 1199430,
+      "sha256": "81f7cb59ab44fb6652f2d8d558cac3fd2642364e141252cab634733923c36494"
+    },
+    {
+      "path": "verify_virtual_assembly.py",
+      "bytes": 8988,
+      "sha256": "193075b583e1f4bf1f8c9668682f8f7c1f2926859a9c75ce6334c45ab1c2c836"
+    },
+    {
+      "path": "virtual-assembly.blend",
+      "bytes": 97264094,
+      "sha256": "b29af11549ac933236b47378778e611c16eb6c9760aba1769029bc1b59229697"
+    },
+    {
+      "path": "visual-review.json",
+      "bytes": 2018,
+      "sha256": "a0d5b0a0d247e1a280c6aab7222910d328e93af18034cabcca089e2929dfefbe"
+    },
+    {
+      "path": "阅读说明.md",
+      "bytes": 1933,
+      "sha256": "fc5444418165717a442bc7b280b0c330617d2faf5613b803ff22273573bac123"
+    }
+  ]
+}

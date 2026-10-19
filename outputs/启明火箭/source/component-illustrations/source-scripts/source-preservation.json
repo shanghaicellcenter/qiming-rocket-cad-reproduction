@@ -1,0 +1,134 @@
+{
+  "created_utc": "2026-10-19T18:07:39.886137+00:00",
+  "files": [
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/stock-visual-evidence/stock-visual-patch.json",
+      "original_inventory_sha256": "3e4b264f1b5b039f39030a40ec528883e77ef26d6e1046d77db919d60f1c0454",
+      "copied_current_sha256": "3e4b264f1b5b039f39030a40ec528883e77ef26d6e1046d77db919d60f1c0454",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/stock-visual-evidence/stock-visual-patch.json",
+      "bytes": 83674
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/manual-details-evidence/parts-visual-patch-all22.json",
+      "original_inventory_sha256": "7087364eb8afba14fc59596f9f62b57b736bafaea161d30c5853a8f807baab03",
+      "copied_current_sha256": "7087364eb8afba14fc59596f9f62b57b736bafaea161d30c5853a8f807baab03",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/manual-details-evidence/parts-visual-patch-all22.json",
+      "bytes": 75400
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/functional-visual-evidence/functional-visual-patch.json",
+      "original_inventory_sha256": "701b1d73a8ec2608d2e9dcdbc86fdb38eda5ba6772176e3692c6a5ca145f7118",
+      "copied_current_sha256": "701b1d73a8ec2608d2e9dcdbc86fdb38eda5ba6772176e3692c6a5ca145f7118",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/functional-visual-evidence/functional-visual-patch.json",
+      "bytes": 54334
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/source-details-evidence/parts-visual-patch.json",
+      "original_inventory_sha256": "58911300f372aac308e63c1e447575cc6ea578bc4f00cb385e0b2c011cdc7660",
+      "copied_current_sha256": "d871eb4c90ca7e378430e5d466d647b4ef11bd6ff8c967791a5c80bba84160c2",
+      "matches_original_inventory_snapshot": false,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/source-details-evidence/parts-visual-patch.json",
+      "bytes": 18720
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/render_stock_details.py",
+      "original_inventory_sha256": "11bfd51f757e7bd581dca07bb9de7cfeeab7a2d4a692fdb8e86917f8c227d2b7",
+      "copied_current_sha256": "11bfd51f757e7bd581dca07bb9de7cfeeab7a2d4a692fdb8e86917f8c227d2b7",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/render_stock_details.py",
+      "bytes": 14769
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/stock-visual-evidence/stock-editorial.json",
+      "original_inventory_sha256": "4c1733c08bd901dddf5cc3b8e5953848ade70dbd9b1a9a08e0221cf95f59219a",
+      "copied_current_sha256": "4c1733c08bd901dddf5cc3b8e5953848ade70dbd9b1a9a08e0221cf95f59219a",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/stock-visual-evidence/stock-editorial.json",
+      "bytes": 4489
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/stock-visual-evidence/source-bom-rows.json",
+      "original_inventory_sha256": "930c26d696ebb98523af8852027d73ae7107acffa92ee6640ced6d3b64adae2b",
+      "copied_current_sha256": "930c26d696ebb98523af8852027d73ae7107acffa92ee6640ced6d3b64adae2b",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/stock-visual-evidence/source-bom-rows.json",
+      "bytes": 9652
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/manual-details-evidence/render_first3.py",
+      "original_inventory_sha256": "fca56c431cc005e2fed8c0f654a26c486e8ff4537a414092c2c5bd3da903f1a7",
+      "copied_current_sha256": "fca56c431cc005e2fed8c0f654a26c486e8ff4537a414092c2c5bd3da903f1a7",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/manual-details-evidence/render_first3.py",
+      "bytes": 10624
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/manual-details-evidence/render_remaining19.py",
+      "original_inventory_sha256": "5f0a6ebc8ef370445d35c5adbe2e6947e05fa4946ef4d0059f366758ff6c1197",
+      "copied_current_sha256": "5f0a6ebc8ef370445d35c5adbe2e6947e05fa4946ef4d0059f366758ff6c1197",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/manual-details-evidence/render_remaining19.py",
+      "bytes": 6872
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/manual-details-evidence/first3-spec.json",
+      "original_inventory_sha256": "c1c814202dcf3c89f7b01b9c42ade0e03478450d2a26d279b2d6c465509ccd65",
+      "copied_current_sha256": "c1c814202dcf3c89f7b01b9c42ade0e03478450d2a26d279b2d6c465509ccd65",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/manual-details-evidence/first3-spec.json",
+      "bytes": 3410
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/manual-details-evidence/remaining19-spec.json",
+      "original_inventory_sha256": "29de404cf1226a09729470258c0ad808bf4316c875fa666cf22ecd5ecdd16294",
+      "copied_current_sha256": "29de404cf1226a09729470258c0ad808bf4316c875fa666cf22ecd5ecdd16294",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/manual-details-evidence/remaining19-spec.json",
+      "bytes": 18809
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/functional-visual-evidence/build_function_diagrams.py",
+      "original_inventory_sha256": "c0be8ea25f945a929ce25ebad473a5fde6bd6091322b90d638e56d241f29c6f1",
+      "copied_current_sha256": "c0be8ea25f945a929ce25ebad473a5fde6bd6091322b90d638e56d241f29c6f1",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/functional-visual-evidence/build_function_diagrams.py",
+      "bytes": 20912
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/functional-visual-evidence/editorial-descriptions.json",
+      "original_inventory_sha256": "f76da80fed3d72cd8bf398926070e660856b1eae8129ebe16b43fabcd39b9052",
+      "copied_current_sha256": "f76da80fed3d72cd8bf398926070e660856b1eae8129ebe16b43fabcd39b9052",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/functional-visual-evidence/editorial-descriptions.json",
+      "bytes": 6162
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/functional-visual-evidence/text-basis.json",
+      "original_inventory_sha256": "e2119759d29db775af16ab28b97d2b0e579c20c4f3ff721afa6e76246f7c03b9",
+      "copied_current_sha256": "e2119759d29db775af16ab28b97d2b0e579c20c4f3ff721afa6e76246f7c03b9",
+      "matches_original_inventory_snapshot": true,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/functional-visual-evidence/text-basis.json",
+      "bytes": 4950
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket-v2/source-details-evidence/render_source_details.py",
+      "original_inventory_sha256": "db8a6f91d12175e1c1b995ba5d3274e25feb906d61b290978aadf41a408634bd",
+      "copied_current_sha256": "997224ea39b28de84579605cd7e04aadff15ed14fb4d53831d127747c4d5284a",
+      "matches_original_inventory_snapshot": false,
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket-v2/source-details-evidence/render_source_details.py",
+      "bytes": 13762
+    },
+    {
+      "original_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/work/rocket/parts.json",
+      "copied_current_sha256": "a425677e36d62e657d56c47f9d9cfa75b0fac5423ca75e611cc413e357ab6895",
+      "release_relative_path": "source/component-illustrations/source-scripts/rocket/parts.json",
+      "bytes": 793391,
+      "scope": "Current original partner catalogue source snapshot; not claimed as historical generation bytes"
+    }
+  ],
+  "historical_scripts": "Historical paths retained for provenance, not runnable installers. Actual editable publication Blend copies are self-contained within delivered image package.",
+  "changes_since_atlas_snapshot": "The source8 patch/renderer were updated by partner to pack original image dependencies; copies here record current actual SHA separately. Original Blend job identity remains frozen and separately checked."
+}

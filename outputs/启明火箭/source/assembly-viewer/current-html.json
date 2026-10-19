@@ -1,0 +1,10 @@
+{
+  "updated_utc": "2026-10-19T17:22:27.164811+00:00",
+  "html": "整箭原件检视.html",
+  "bytes": 229838266,
+  "sha256": "3a25ecf6a53b9cee7e51a37eb751aa9d06856fd2444cd5c5abaf4e4f7c508c00",
+  "previous_html_sha256": "96f52b6cca1123716f38d772b29cea721c7587dced3b4dddd7e8c2cf1bd38d61",
+  "change": "Exact source filename selection now also resolves independent source library parts, explicitly labelled not an assembly placement.",
+  "model_geometry_changed": false,
+  "proof": "research/component-link-review/review.json"
+}

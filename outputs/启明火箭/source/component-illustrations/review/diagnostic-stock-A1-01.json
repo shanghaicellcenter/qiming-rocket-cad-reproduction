@@ -1,0 +1,41 @@
+{
+  "phase": "before_save",
+  "objects": {
+    "Solid unmachined bar": {
+      "before": {
+        "type": "MESH",
+        "world_matrix_sha256": "238e86cce880e49a04b6e6cac2156a970003e77b823e72b6a2061421221984bb",
+        "local_matrix_sha256": "2a3878286951b1e45bf20468319a1ebcf9f5b8ccace7128976afb880a283d7ea",
+        "hide_render": false,
+        "hide_viewport": false,
+        "base_mesh": {
+          "sha256": "724d0ac7ef9d2ade38bd7ec7ef0de378f56df284847580f7d6988805fe306016",
+          "vertices": 192,
+          "polygons": 98
+        },
+        "evaluated_mesh": {
+          "sha256": "5c11965f9b8da703bd85ed41335cc2fe0fd3f26f3d033b29df5363cf891c5bc8",
+          "vertices": 768,
+          "polygons": 674
+        }
+      },
+      "after": {
+        "type": "MESH",
+        "world_matrix_sha256": "238e86cce880e49a04b6e6cac2156a970003e77b823e72b6a2061421221984bb",
+        "local_matrix_sha256": "2a3878286951b1e45bf20468319a1ebcf9f5b8ccace7128976afb880a283d7ea",
+        "hide_render": false,
+        "hide_viewport": false,
+        "base_mesh": {
+          "sha256": "724d0ac7ef9d2ade38bd7ec7ef0de378f56df284847580f7d6988805fe306016",
+          "vertices": 192,
+          "polygons": 98
+        },
+        "evaluated_mesh": {
+          "sha256": "f14a88f2be36620088a69d78e3dc647c0e83e0c5360256b9e6f09b83ffe12bff",
+          "vertices": 768,
+          "polygons": 674
+        }
+      }
+    }
+  }
+}

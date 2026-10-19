@@ -1,0 +1,71 @@
+{
+  "paired_scene_count": 5,
+  "method": "Original/full source and publication outline copies rendered with same retained scene settings. Non-identical pixels are reported, not claimed byte-exact.",
+  "items": [
+    {
+      "id": "A1-01",
+      "family": "stock",
+      "size": [
+        1600,
+        1000
+      ],
+      "max_channel_abs_difference": 8,
+      "mean_abs_8bit": 0.000125,
+      "changed_pixel_fraction": 0.000323125,
+      "difference_over_2_fraction": 4.375e-06,
+      "pixel_identical": false
+    },
+    {
+      "id": "A6-15",
+      "family": "stock",
+      "size": [
+        1600,
+        1000
+      ],
+      "max_channel_abs_difference": 6,
+      "mean_abs_8bit": 2.9791666666666668e-05,
+      "changed_pixel_fraction": 6.8125e-05,
+      "difference_over_2_fraction": 1.875e-06,
+      "pixel_identical": false
+    },
+    {
+      "id": "C1-11",
+      "family": "manual",
+      "size": [
+        1600,
+        1000
+      ],
+      "max_channel_abs_difference": 0,
+      "mean_abs_8bit": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "difference_over_2_fraction": 0.0,
+      "pixel_identical": true
+    },
+    {
+      "id": "A3-10",
+      "family": "function",
+      "size": [
+        1600,
+        1000
+      ],
+      "max_channel_abs_difference": 0,
+      "mean_abs_8bit": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "difference_over_2_fraction": 0.0,
+      "pixel_identical": true
+    },
+    {
+      "id": "A7-01",
+      "family": "source",
+      "size": [
+        1200,
+        800
+      ],
+      "max_channel_abs_difference": 0,
+      "mean_abs_8bit": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "difference_over_2_fraction": 0.0,
+      "pixel_identical": true
+    }
+  ]
+}

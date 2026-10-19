@@ -1,0 +1,11 @@
+{
+  "size": [
+    1600,
+    1000
+  ],
+  "pixels_exact": false,
+  "max_channel_difference": 8,
+  "mean_abs_channel_difference": 9.375e-05,
+  "changed_pixel_fraction": 0.000323125,
+  "changed_above2_fraction": 4.375e-06
+}

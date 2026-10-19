@@ -1,0 +1,89 @@
+{
+  "created_utc": "2026-10-19T18:09:58.859891+00:00",
+  "reviewer": "independent publication sub-agent actual visual inspection",
+  "viewed_all_five_paired_scene_overview": true,
+  "viewed_full_resolution_pair_files": [
+    "manual-C1-11-pair.jpg",
+    "source-A7-01-pair.jpg"
+  ],
+  "viewed_previous_stock_pilot_pair": true,
+  "paired_count": 5,
+  "observations": [
+    "All five pairs retain identical line breaks, glyph silhouettes, camera framing, object positions and illustration context. No missing image, purple block, blank glyph, cropped title or reflow observed.",
+    "Manual C1-11 deliberately mutes the original internal apparatus and traces only the equipment box; publication copy retains that original styling.",
+    "Source A7-01 remains the original simplified electronics exterior, with the original limits visible; no new circuit geometry added.",
+    "Three pairs are pixel-identical; two stock Cycles pairs have sparse subpixel shading differences. Pixel metrics are retained rather than claimed byte-identical."
+  ],
+  "blocking_publication_findings": [],
+  "limits": [
+    "All62 files were/will be actually reopened and numerically checked; only five representative scenes were rendered before and after, not all62.",
+    "Font software removed from publication copies only; original source and original392 snapshot not changed."
+  ],
+  "pixel_comparisons": [
+    {
+      "id": "A1-01",
+      "family": "stock",
+      "size": [
+        1600,
+        1000
+      ],
+      "max_channel_abs_difference": 8,
+      "mean_abs_8bit": 0.000125,
+      "changed_pixel_fraction": 0.000323125,
+      "difference_over_2_fraction": 4.375e-06,
+      "pixel_identical": false
+    },
+    {
+      "id": "A6-15",
+      "family": "stock",
+      "size": [
+        1600,
+        1000
+      ],
+      "max_channel_abs_difference": 6,
+      "mean_abs_8bit": 2.9791666666666668e-05,
+      "changed_pixel_fraction": 6.8125e-05,
+      "difference_over_2_fraction": 1.875e-06,
+      "pixel_identical": false
+    },
+    {
+      "id": "C1-11",
+      "family": "manual",
+      "size": [
+        1600,
+        1000
+      ],
+      "max_channel_abs_difference": 0,
+      "mean_abs_8bit": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "difference_over_2_fraction": 0.0,
+      "pixel_identical": true
+    },
+    {
+      "id": "A3-10",
+      "family": "function",
+      "size": [
+        1600,
+        1000
+      ],
+      "max_channel_abs_difference": 0,
+      "mean_abs_8bit": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "difference_over_2_fraction": 0.0,
+      "pixel_identical": true
+    },
+    {
+      "id": "A7-01",
+      "family": "source",
+      "size": [
+        1200,
+        800
+      ],
+      "max_channel_abs_difference": 0,
+      "mean_abs_8bit": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "difference_over_2_fraction": 0.0,
+      "pixel_identical": true
+    }
+  ]
+}

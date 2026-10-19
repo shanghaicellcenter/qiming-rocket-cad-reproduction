@@ -1,0 +1,1312 @@
+{
+  "title": "15项独立功能示意图补图与建议patch",
+  "createdAtUTC": "2026-10-19T16:48:49.389032+00:00",
+  "sourceCandidateAudit": "work/rocket-v2/qa/unverified-visual-candidates/candidates-45.json",
+  "candidateInputPartsSha256": "465f5bbb5eb9a5a007970bcd8b29ea8bf8a25e4e44c245a21b6ee905ae61304f",
+  "scope": "仅新建独立功能示意图、独立编辑源与补图证据。未修改parts.json、公共JS或原始中文资料；未打开或保存冻结原理blend。",
+  "status": "teaching_schematic",
+  "productAppearanceVerification": "not_verified",
+  "globalCaption": "功能示意 · 不代表原件外形或尺寸；颜色仅用于教学区分。",
+  "renderSettings": {
+    "blender": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "samples": 48,
+    "denoise": true,
+    "background": "uniform pale emissive",
+    "resolution": [
+      1600,
+      1000
+    ]
+  },
+  "reviewRounds": [
+    {
+      "round": 1,
+      "scope": [
+        "A3-10",
+        "A3-12",
+        "A7-04"
+      ],
+      "finding": "自看三种机制样图并交主线程；发现接触间距、颗粒背景、标题投影残影及绳系对比度。"
+    },
+    {
+      "round": 2,
+      "scope": [
+        "A3-10",
+        "A3-12",
+        "A7-04"
+      ],
+      "finding": "改连续接触、平滑浅色背景、Cycles48采样降噪及深灰伞绳，重渲重看。"
+    },
+    {
+      "round": 3,
+      "scope": [
+        "A3-10",
+        "A3-11",
+        "A3-12",
+        "A6-19",
+        "A7-04",
+        "A7-14",
+        "B1-01",
+        "B1-02",
+        "B1-05",
+        "B1-06",
+        "B1-07",
+        "C1-04",
+        "C1-10",
+        "C1-15",
+        "C1-18"
+      ],
+      "finding": "全15逐张自看；发现N2O字体、螺钉头遮挡、线端微断、薄层留白与软管端头歧义。"
+    },
+    {
+      "round": 4,
+      "scope": [
+        "A3-11",
+        "A3-12",
+        "A6-19",
+        "A7-14",
+        "B1-01",
+        "B1-02",
+        "C1-04",
+        "C1-10",
+        "C1-18"
+      ],
+      "finding": "逐项修复并重渲重看；最终WebP转换与总览校验。"
+    }
+  ],
+  "counts": {
+    "items": 15,
+    "webp": 15,
+    "editableBlend": 15,
+    "uniqueImageHashes": 15,
+    "actualViewed": 15
+  },
+  "items": [
+    {
+      "id": "A3-10",
+      "name": "摇臂连接平垫圈",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/A3-10.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/A3-10.webp",
+      "imageSha256": "b73859abc505dc6f6624a552f6526a88af6d72d67bb4a267520b6565281e69f9",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "局部剖面功能示意：平垫圈夹在螺钉头与摇臂接触面之间，铺宽接触支承。任意教学形体，不代表原件外形、尺寸、货号或装配检验。",
+      "beginner": {
+        "look": "看橙色薄层：它夹在灰色螺钉头与蓝色摇臂之间，把接触面铺宽。画的是剖面功能关系，不是原件外形或尺寸。"
+      },
+      "editableSource": "functional-sources/A3-10.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/A3-10.blend",
+      "editableSourceSha256": "a2ed85565c0d0f7c919cfc866afad804b5767dddd5346e2ed0837a046688027d",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在摇臂连接位置提供局部接触支承",
+        "interfaces": [
+          "摇臂连接螺钉",
+          "舵机摇臂",
+          "连接件"
+        ],
+        "sourcePrintedPages": [
+          122,
+          123,
+          141
+        ],
+        "sourcePhysicalPages": [
+          131,
+          132,
+          150
+        ],
+        "bomLine": 119,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 122,
+            "physicalPage": 131,
+            "lines": [
+              3572,
+              3573
+            ],
+            "basis": "物料表把M3平垫圈与薄头螺钉分别列出，使用位置均为舵机摇臂连接件。"
+          },
+          {
+            "printedPage": 123,
+            "physicalPage": 132,
+            "lines": [
+              3595,
+              3596
+            ],
+            "basis": "供应商表93475A210为M3垫圈，92855A310为螺钉；保留BOM行错配边界。"
+          }
+        ],
+        "sourceIdentityLimit": "正确PN为93475A210而非错行92855A310；未在源库找到同号单件。原图不适合把某黑环直接认成该垫圈。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:34.969383+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "接触剖面已修成连续的螺钉头—平垫圈—摇臂层次，三条引线不遮挡关键区域。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 11,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "A3-11",
+      "name": "舵机延长线",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/A3-11.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/A3-11.webp",
+      "imageSha256": "546b515473d6be769cdef9b4e590dc7783a184f0f10051458355337e8e27e5e2",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "三芯联系的延长功能示意：一端是舵机，一端是控制接口，中间没有分支。颜色只用于区分线芯，不规定针序、实物颜色、长度或产品身份。",
+      "beginner": {
+        "look": "看中间不分叉的三芯软线和两端接头：它把舵机与控制接口之间的联系延长。颜色不是针脚定义，图形不是已核实产品。"
+      },
+      "editableSource": "functional-sources/A3-11.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/A3-11.blend",
+      "editableSourceSha256": "5190c5b2049793821bcccbd8bf0e48782dcdc271c61aeeb455982eea0a0f0cc3",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "把舵机的电源与控制信号引到相邻控制界面",
+        "interfaces": [
+          "舵机",
+          "控制系统",
+          "线束接头"
+        ],
+        "sourcePrintedPages": [
+          197,
+          204,
+          289
+        ],
+        "sourcePhysicalPages": [
+          206,
+          213,
+          298
+        ],
+        "bomLine": 120,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 122,
+            "physicalPage": 131,
+            "lines": [
+              3574,
+              3574
+            ],
+            "basis": "三芯舵机延长线用途为舵机导线。"
+          },
+          {
+            "printedPage": 197,
+            "physicalPage": 206,
+            "lines": [
+              4944,
+              4944
+            ],
+            "basis": "SRV-3PIN-1MXT列作舵机延长线，与Y形线束是不同项。"
+          },
+          {
+            "printedPage": 204,
+            "physicalPage": 213,
+            "lines": [
+              5035,
+              5035
+            ],
+            "basis": "正文区分延长段与最终Y形分支关系；图只转绘电气延长，不转绘布置或连接步骤。"
+          }
+        ],
+        "sourceIdentityLimit": "原照片有三芯线但不能核验1m延长线或SRV-3PIN-1MXT具体产品，p213原CAD图省略线束。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:36.028922+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "不分支三芯延长段与舵机和控制接口可辨，线端已消除小断口。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 16,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "A3-12",
+      "name": "舵机分支线束",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/A3-12.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/A3-12.webp",
+      "imageSha256": "c317d049b54329c987939f7586237b8202ec28fa3042fd3d903fbb04ab944d69",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "Y形电气分支功能示意：共同的兼容控制联系分给两只舵机。分支不增加独立控制通道；颜色与接头形状不是针序或具体线束证据。",
+      "beginner": {
+        "look": "看一端进入、两端分出的三芯线：两支来自共同控制联系，不代表两路独立命令。这是Y形线束的功能示意。"
+      },
+      "editableSource": "functional-sources/A3-12.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/A3-12.blend",
+      "editableSourceSha256": "73304605654b7ff402397bb758c4149e3d09efd5e685b68b43c545fae65a38c8",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在兼容的控制关系中提供线束分支",
+        "interfaces": [
+          "控制接口",
+          "舵机线束分支"
+        ],
+        "sourcePrintedPages": [
+          197,
+          204,
+          236
+        ],
+        "sourcePhysicalPages": [
+          206,
+          213,
+          245
+        ],
+        "bomLine": 121,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 197,
+            "physicalPage": 206,
+            "lines": [
+              4943,
+              4944
+            ],
+            "basis": "三芯Y形线束和三芯延长线分别列出。"
+          },
+          {
+            "printedPage": 204,
+            "physicalPage": 213,
+            "lines": [
+              5035,
+              5035
+            ],
+            "basis": "Y形线束关联燃料侧与氧化剂侧的两只舵机；图仅表示共同联系的分支，不增加独立控制通道。"
+          }
+        ],
+        "sourceIdentityLimit": "没有可核验具体Y线束实物图；不能整张线路图充作单件。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:37.644027+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "一个共同联系到两舵机分支，没有两路独立命令暗示。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 18,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "A6-19",
+      "name": "连接筒贴合垫带",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/A6-19.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/A6-19.webp",
+      "imageSha256": "da18f13438d149fa25aa5eeefe0967d021b73dfa98ebe7a45aad3c6128e87251",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "套接处局部层次示意：外筒内表面、胶带薄贴合层与连接筒外表面相邻。厚度为便于阅读而放大，不代表真实间隙、尺寸、承压或增强能力。",
+      "beginner": {
+        "look": "看外筒与连接筒之间的橙色薄层：它代表贴合垫带。薄层为说明层次而放大，不是厚金属壳，也不是尺寸图。"
+      },
+      "editableSource": "functional-sources/A6-19.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/A6-19.blend",
+      "editableSourceSha256": "009c2942537027391bb4921ff33dc26ffecef9f56a79ced2f53522722d7586dc",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "调整连接筒与相邻箭体之间的表面贴合关系",
+        "interfaces": [
+          "电子舱连接筒",
+          "箭体纸管"
+        ],
+        "sourcePrintedPages": [
+          128,
+          224,
+          227,
+          296
+        ],
+        "sourcePhysicalPages": [
+          137,
+          233,
+          236,
+          305
+        ],
+        "bomLine": 195,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 128,
+            "physicalPage": 137,
+            "lines": [
+              3734,
+              3734
+            ],
+            "basis": "铝箔胶带的本项用途明确为连接筒加垫。"
+          },
+          {
+            "printedPage": 296,
+            "physicalPage": 305,
+            "lines": [
+              6877,
+              6877
+            ],
+            "basis": "正文在连接筒与箭体管贴合处提到铝箔胶带加垫。图不复述装配操作，仅表示薄层位置。"
+          }
+        ],
+        "sourceIdentityLimit": "BOM写Coupler Shimming；p305有同用途文字。p236外表铝箔装饰不是此配合作用的照片；p233是螺母保持的另一个用途。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:38.813221+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "橙色薄贴合层在上下接触表面间连续相邻，按局部层次阅读。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 8,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "A7-04",
+      "name": "回收减速伞",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/A7-04.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/A7-04.webp",
+      "imageSha256": "c8645ba5fa2058b58a3c29a659f84106ea14a755c22f0050e4ab9a86732e30fc",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "通用减速伞功能示意：伞面和绳系与下降箭体相连，空气阻力与下降方向相反。伞形、颜色、绳数和比例均为教学表达，不是36英寸原件复原或性能验证。",
+      "beginner": {
+        "look": "看通用展开伞面、绳系和相反方向的两支箭头：箭体下降时，空气阻力向上。图中伞形、颜色和绳数不代表原件。"
+      },
+      "editableSource": "functional-sources/A7-04.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/A7-04.blend",
+      "editableSourceSha256": "421bca56a2184a4d5b8f2124bab75563e7763d99c9fef5564619ad47d973bc0a",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在回收的早期下降阶段提供阻力并组织下降状态",
+        "interfaces": [
+          "减震绳",
+          "箭体回收锚点",
+          "后续主伞系统"
+        ],
+        "sourcePrintedPages": [
+          61,
+          66,
+          230,
+          296,
+          297
+        ],
+        "sourcePhysicalPages": [
+          70,
+          75,
+          239,
+          305,
+          306
+        ],
+        "bomLine": 214,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 61,
+            "physicalPage": 70,
+            "lines": [
+              1870,
+              1870
+            ],
+            "basis": "正文区分早期减速伞与后续主伞阶段。图只表示伞的空气阻力，不绘执行或释放结构。"
+          },
+          {
+            "printedPage": 230,
+            "physicalPage": 239,
+            "lines": [
+              5481,
+              5481
+            ],
+            "basis": "REC-CHT-DRG-36列为减速伞。未从质量体积占位模型推断真实伞形。"
+          }
+        ],
+        "sourceIdentityLimit": "P104只提供Mass Volume占位；p302/303拍的是主伞，不能当36英寸减速伞。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:39.744010+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "展开伞面、深灰绳系与下降箭体可辨；阻力箭头和下降箭头相反。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 7,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "A7-14",
+      "name": "回收系统尼龙连接螺钉",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/A7-14.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/A7-14.webp",
+      "imageSha256": "c59f57142b9ca06c515845abec98c50ffd165bf100aa9c3aa4e65cad4f97ecd8",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "两个不同连接角色的功能示意：电子板固定与舱段临时约束分别显示。不能据此声称任意尼龙螺钉天然满足预定分离要求；原资料货号差异保留，图不验证型号或分离性能。",
+      "beginner": {
+        "look": "左图是电子板固定点，右图是舱段界面的临时约束点。先认用途和位置；普通尼龙螺钉是否满足分离作用，须由具体设计验证。"
+      },
+      "editableSource": "functional-sources/A7-14.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/A7-14.blend",
+      "editableSourceSha256": "4802df08034d6912ab10e63323fcf8313a8c9b887a545b210d7197d31a7175a7",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在原表所列的电子安装与可分离舱体约束中承担不同连接角色",
+        "interfaces": [
+          "高度计安装界面",
+          "头锥舱体界面"
+        ],
+        "sourcePrintedPages": [
+          131,
+          132,
+          210,
+          228,
+          296
+        ],
+        "sourcePhysicalPages": [
+          140,
+          141,
+          219,
+          237,
+          305
+        ],
+        "bomLine": 224,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 131,
+            "physicalPage": 140,
+            "lines": [
+              3807,
+              3807
+            ],
+            "basis": "同一采购行列出高度计安装、剪切销与头锥等多种用途。"
+          },
+          {
+            "printedPage": 132,
+            "physicalPage": 141,
+            "lines": [
+              3838,
+              3838
+            ],
+            "basis": "供应商表的显示货号与链接并不一致，未据此验证型号。"
+          },
+          {
+            "printedPage": 210,
+            "physicalPage": 219,
+            "lines": [
+              5147,
+              5147
+            ],
+            "basis": "此处为高度计电路板的固定用途，使用货号90604A303。"
+          },
+          {
+            "printedPage": 228,
+            "physicalPage": 237,
+            "lines": [
+              5453,
+              5453
+            ],
+            "basis": "此处为舱段连接区域的临时约束用途，使用货号93135A013。图不转绘孔位或安装步骤，不验证分离性能。"
+          }
+        ],
+        "sourceIdentityLimit": "BOM为94735A707，p219文字为90604A303，p237为93135A013；照片黑螺钉不能凭外观认成94735A707。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:40.630033+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "两个面板分别表示电子板固定与舱段临时约束，螺钉头已可见，验证限界显著。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 15,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "B1-01",
+      "name": "氧化剂消耗介质",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/B1-01.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/B1-01.webp",
+      "imageSha256": "68b698893d8ef279590a9b74c804e6e57a85619706a5791bba32fde3b1a260f4",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "N2O物质与氧化剂角色概念图：分子式和抽象球形符号指向其与燃料共同参与反应的角色。它不是固定形状零件，也不是气瓶、配方、供给或操作示意。",
+      "beginner": {
+        "look": "看N2O名称、抽象分子符号与氧化剂角色：清单列的是参与反应的物质。球形和蓝色只是教学符号，不代表物质外观或容器。"
+      },
+      "editableSource": "functional-sources/B1-01.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/B1-01.blend",
+      "editableSourceSha256": "9bdf3e15012d71d20a059475e7becce1795c13808322fabd8576786b13cc3225",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在推进能量转换中承担氧化剂的化学角色",
+        "interfaces": [
+          "氧化剂贮存边界",
+          "供给系统",
+          "推力室"
+        ],
+        "sourcePrintedPages": [
+          35,
+          40,
+          45,
+          46,
+          133
+        ],
+        "sourcePhysicalPages": [
+          44,
+          49,
+          54,
+          55,
+          142
+        ],
+        "bomLine": 239,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 133,
+            "physicalPage": 142,
+            "lines": [
+              3852,
+              3852
+            ],
+            "basis": "消耗品表列一氧化二氮N2O，工作角色为氧化剂。物质没有固定机械零件外形。"
+          }
+        ],
+        "sourceIdentityLimit": "物质不是具有固定形状的机械零件；不应为了补图而伪造品牌瓶子或把贮箱冒充介质。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:41.598934+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "N2O字体已改用不缺字的普通数字，抽象物质符号与氧化剂角色可读。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 8,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "B1-02",
+      "name": "燃料消耗介质",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/B1-02.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/B1-02.webp",
+      "imageSha256": "f497080878489bd684cf6924e0665d5b4465d1116fc057fce96322201921a045",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "E85混合燃料的工作角色概念图：液滴与多色圆点仅表示混合物类别，以及与氧化剂共同参与反应的关系。不表示可凭颜色鉴别成分，也不提供配制或操作信息。",
+      "beginner": {
+        "look": "看E85混合燃料的抽象液滴符号和反应角色。颜色、圆点与比例只帮助识别主题，不能据此判断实物成分或外观。"
+      },
+      "editableSource": "functional-sources/B1-02.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/B1-02.blend",
+      "editableSourceSha256": "13e4c9ff4773d6e052adc637373d8381bee1785b25ffd1a651034cd64e011262",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在主推进反应中承担燃料的化学角色",
+        "interfaces": [
+          "燃料贮存边界",
+          "燃料通路",
+          "推力室"
+        ],
+        "sourcePrintedPages": [
+          41,
+          133
+        ],
+        "sourcePhysicalPages": [
+          50,
+          142
+        ],
+        "bomLine": 240,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 133,
+            "physicalPage": 142,
+            "lines": [
+              3853,
+              3853
+            ],
+            "basis": "消耗品表将E85列为燃料。示意只表达混合燃料类别与反应角色，不提供成分或配制信息。"
+          }
+        ],
+        "sourceIdentityLimit": "不假称透明液体外观能识别E85；不把来源中的名义成分升级成每次采购的实测结果。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:42.489083+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "独立液滴/混合物符号与燃料角色可读，没有气瓶、配比或制备细节。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 9,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "B1-05",
+      "name": "回收分离能量耗材",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/B1-05.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/B1-05.webp",
+      "imageSha256": "e9f3e705abfa33f8240991023671e0730071f5a7befd7fa2299cece831a4fdc6",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "仅表示回收信号→短时能量→舱段分开的功能关系。闪电符号是抽象能量标记；不呈现耗材外观、药量、容器、制作、装填或执行步骤，也不代表主推进。",
+      "beginner": {
+        "look": "从左到右看回收信号、抽象短时能量和已经分开的舱段。它讲的是回收事件关系；图中没有原耗材外形或制作操作。"
+      },
+      "editableSource": "functional-sources/B1-05.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/B1-05.blend",
+      "editableSourceSha256": "6e0d0ad8ca6be5b000324fef945fc472878be74cca75d55018647c530eddc231",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在回收子系统中提供一次性分离作用的能量来源",
+        "interfaces": [
+          "回收控制器",
+          "回收执行端",
+          "伞舱结构"
+        ],
+        "sourcePrintedPages": [
+          133,
+          291,
+          292
+        ],
+        "sourcePhysicalPages": [
+          142,
+          300,
+          301
+        ],
+        "bomLine": 243,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 133,
+            "physicalPage": 142,
+            "lines": [
+              3856,
+              3856
+            ],
+            "basis": "消耗品表的该项属于回收执行能量耗材。仅转绘回收信号、短时能量与舱段分开三个功能节点。"
+          }
+        ],
+        "sourceIdentityLimit": "未找到能核验4F商品的独立原图；不可用普通黑色粉末照片冒充。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:43.431333+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "只有回收信号、抽象短时能量与分开舱段三个节点，未画物料或装药结构。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 11,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "B1-06",
+      "name": "柔性一次性辅助耗材",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/B1-06.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/B1-06.webp",
+      "imageSha256": "edc1d91a5b49a446b8af4d50a87efe51182df2be329a10af3058d3c78098b6a7",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "通用丁腈手套轮廓与柔性薄膜角色示意：原表把它列为一次性辅助耗材。未复原52555T644商品，也未展示耗材容纳、制备或装填方法。",
+      "beginner": {
+        "look": "看手套轮廓、薄膜和手腕开口：这里强调的是柔软的一次性辅助材料。图不是该采购件的实拍，也不表示使用或制备步骤。"
+      },
+      "editableSource": "functional-sources/B1-06.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/B1-06.blend",
+      "editableSourceSha256": "2f186749b1830cc9426e44003b27e167b4740655669145ee534f81ed2ba0871c",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在原表回收消耗品中提供柔性一次性材料",
+        "interfaces": [
+          "回收辅助耗材"
+        ],
+        "sourcePrintedPages": [
+          133,
+          291
+        ],
+        "sourcePhysicalPages": [
+          142,
+          300
+        ],
+        "bomLine": 244,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 133,
+            "physicalPage": 142,
+            "lines": [
+              3857,
+              3857
+            ],
+            "basis": "丁腈手套被列入回收辅助耗材。图仅表示手套薄膜的柔性辅助材料身份。"
+          }
+        ],
+        "sourceIdentityLimit": "原图中的裸手不是丁腈手套；不能拿防热护布或其他手套作型号替代。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:44.307995+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "通用手套五指与腕部开口可辨，柔性薄膜和一次性辅助身份可读。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 5,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "B1-07",
+      "name": "电气绝缘与辅助固定胶带",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/B1-07.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/B1-07.webp",
+      "imageSha256": "fbbff201cc3820ebd6e36163946c24ae17d5723b6010dc5639301e4c93efd604",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "电连接表面绝缘边界的局部功能示意：局部露出的金属仅用于区分导体与覆盖层。图不是装配方法、胶带产品外观、额定绝缘性能或其他辅助用途的验证。",
+      "beginner": {
+        "look": "看金属导体外面的蓝色覆盖层：它表示胶带形成的绝缘边界。图为说明层次而局部露出导体，不是接线或包覆操作步骤。"
+      },
+      "editableSource": "functional-sources/B1-07.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/B1-07.blend",
+      "editableSourceSha256": "49678b6c09b323addc9216bc9b08ae21300582c92ff7e07deb6c355f4ff098ca",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "为电气连接提供表面绝缘并参与原表所列辅助固定用途",
+        "interfaces": [
+          "绝缘导线",
+          "局部电气连接",
+          "辅助耗材"
+        ],
+        "sourcePrintedPages": [
+          133,
+          212,
+          216,
+          272
+        ],
+        "sourcePhysicalPages": [
+          142,
+          221,
+          225,
+          281
+        ],
+        "bomLine": 245,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 133,
+            "physicalPage": 142,
+            "lines": [
+              3858,
+              3858
+            ],
+            "basis": "电工胶带在表中同时涉及电连接与回收辅助用途。本图仅画电连接表面的绝缘边界。"
+          }
+        ],
+        "sourceIdentityLimit": "未找到可核验7619A11整卷商品的原图，不能拿连接筒铝箔或回收缓冲用美纹纸替代。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:45.133787+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "两导体和局部绝缘覆盖边界可辨；暴露区用于教学区分层次，不是施工步骤。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 6,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "C1-04",
+      "name": "地面电气导线",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/C1-04.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/C1-04.webp",
+      "imageSha256": "24bce7d389ec96cc11da5e04f5d76858f25d26c856f7f19f499e98864e422d4f",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "地面电源与电气模块之间的导线功能示意，圆形放大符号区分金属导体与绝缘外皮。不规定实际走线、线径、长度、针脚、颜色含义或20GA-RBP产品外形。",
+      "beginner": {
+        "look": "看地面电源与模块间的红黑软线，再看放大的圆形剖面：里面是金属导体，外面是绝缘层。颜色与粗细不构成采购或接线规格。"
+      },
+      "editableSource": "functional-sources/C1-04.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/C1-04.blend",
+      "editableSourceSha256": "d121f6c99bd779c7148a1ade7bea5a393e7da11b0fdda753e85603f661fc8ff1",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "承载地面设备内部的电气连接。",
+        "interfaces": [
+          "电源",
+          "电气模块",
+          "绝缘边界"
+        ],
+        "sourcePrintedPages": [
+          237,
+          262,
+          270,
+          272
+        ],
+        "sourcePhysicalPages": [
+          246,
+          271,
+          279,
+          281
+        ],
+        "bomLine": 259,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 237,
+            "physicalPage": 246,
+            "lines": [
+              5620,
+              5620
+            ],
+            "basis": "地面设备物料表列红黑硅胶包覆导线，并说明来自电子舱剩余材料。"
+          }
+        ],
+        "sourceIdentityLimit": "没有可核验20GA-RBP具体商品的地面实物近景。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:46.019257+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "地面两模块间红黑导线与独立放大剖面可辨，线端已连续。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 9,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "C1-10",
+      "name": "地面控制延长线",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/C1-10.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/C1-10.webp",
+      "imageSha256": "52b706ed9c7900025a1562ce687646f8582240c144194bcff7dc47ce531b334a",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "地面机箱上下文中的三芯电气延长功能示意：接收控制端与相邻模块保持联系。任意机箱与模块形体不代表原设备；不能将此图作为A3-11的同一采购身份、针序或新增控制能力证据。",
+      "beginner": {
+        "look": "看浅色地面设备底板上，接收控制端与相邻模块之间的三芯延长线。它没有Y分支，也不新增控制判断；图中设备外形是教学形体。"
+      },
+      "editableSource": "functional-sources/C1-10.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/C1-10.blend",
+      "editableSourceSha256": "5031c798e94c456ceca059cadaca4d85a43cb37770b7e13bfd1661042e7a0531",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "延伸地面控制设备之间的信号连接。",
+        "interfaces": [
+          "信号源",
+          "控制模块",
+          "线缆路径"
+        ],
+        "sourcePrintedPages": [
+          237,
+          262,
+          270,
+          274,
+          275
+        ],
+        "sourcePhysicalPages": [
+          246,
+          271,
+          279,
+          283,
+          284
+        ],
+        "bomLine": 265,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 237,
+            "physicalPage": 246,
+            "lines": [
+              5626,
+              5626
+            ],
+            "basis": "地面设备物料表单列三芯舵机延长线，来源为阀门部分剩余材料。图强调地面控制上下文，不合并采购身份。"
+          }
+        ],
+        "sourceIdentityLimit": "BOM此行供应商码YXQ，实际线束不在源库，不能直接沿用A3-11采购身份。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:47.621701+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "地面设备底板构成专属上下文，三芯线延长关系与箭上A3-11画面不同。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 16,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "C1-15",
+      "name": "地面氧化剂储存容器",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/C1-15.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/C1-15.webp",
+      "imageSha256": "30141a74206edc99587c8c8a0d1d40bce4bb1b54a6b065760c469727b668e711",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "矩形色域仅表示留在地面的氧化剂物料储存边界，灰色箭体只作随箭边界的对照。没有画气瓶产品或内部结构，不代表20LBALVLV-326的外形、容量、认证或操作关系。",
+      "beginner": {
+        "look": "看左侧留在地面的蓝色储存边界，右侧灰色箭体只是对照。左边不是实际气瓶轮廓，也不是箭上贮箱，更不构成产品外观证据。"
+      },
+      "editableSource": "functional-sources/C1-15.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/C1-15.blend",
+      "editableSourceSha256": "6ff39dfecca8f029c789f891aa34c99dff3a4bed02fa3f58bdf5ae2aa0f06372",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "作为地面支持系统的物料储存边界。",
+        "interfaces": [
+          "地面储存系统",
+          "地面流体系统"
+        ],
+        "sourcePrintedPages": [
+          236,
+          237,
+          239,
+          243,
+          244
+        ],
+        "sourcePhysicalPages": [
+          245,
+          246,
+          248,
+          252,
+          253
+        ],
+        "bomLine": 270,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 237,
+            "physicalPage": 246,
+            "lines": [
+              5631,
+              5631
+            ],
+            "basis": "地面支持设备清单单列N2O储存气瓶。"
+          },
+          {
+            "printedPage": 239,
+            "physicalPage": 248,
+            "lines": [
+              5683,
+              5683
+            ],
+            "basis": "供应商表给出20LBALVLV-326，但本轮没有可验证该产品的独立图。图仅表示地面储存边界。"
+          }
+        ],
+        "sourceIdentityLimit": "170源库无该瓶；没有独立、可核验20LBALVLV-326的原图，不能拿任意气瓶或箭上筒体替代。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:48.516049+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "地面色域边界与远处箭体对照可读；故意不造气瓶产品外形。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 11,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    },
+    {
+      "id": "C1-18",
+      "name": "地面编织软管",
+      "status": "teaching_schematic",
+      "image": "assets/function-details/C1-18.webp",
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/function-details/C1-18.webp",
+      "imageSha256": "5cb12a43257b5a0d6f9afd6bfcf24ab2c4f253ff6f4c500b5b73e0e23c3ddea0",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "caption": "独立弯曲软管的功能示意：两端连接界面、编织外层与内部通道分别可见。弯曲形状与编织线条为概念表达，不复原4468K811外形、结构细节、接口规格或压力性能。",
+      "beginner": {
+        "look": "看两端连接界面之间的弯曲段：交叉线条表示编织外层，内侧蓝线表示通道。图用来区分角色，不是指定软管的结构或尺寸图。"
+      },
+      "editableSource": "functional-sources/C1-18.blend",
+      "editableSourcePath": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/functional-sources/C1-18.blend",
+      "editableSourceSha256": "4fce492ae68943c8ab244aa1eda7a57c49ebcbe80090c71ef6cd0bb9e04905c4",
+      "evidence": {
+        "candidateKind": "functional_only",
+        "originalRole": "在分开的地面流体部件之间提供柔性连接形式。",
+        "interfaces": [
+          "地面流体部件",
+          "柔性连接段"
+        ],
+        "sourcePrintedPages": [
+          237,
+          239,
+          243,
+          244
+        ],
+        "sourcePhysicalPages": [
+          246,
+          248,
+          252,
+          253
+        ],
+        "bomLine": 273,
+        "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+        "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+        "textBasisReadThisRun": [
+          {
+            "printedPage": 237,
+            "physicalPage": 246,
+            "lines": [
+              5634,
+              5634
+            ],
+            "basis": "地面清单列带接头的编织软管，使用关系为气瓶侧与阀门侧之间的软管。"
+          },
+          {
+            "printedPage": 239,
+            "physicalPage": 248,
+            "lines": [
+              5686,
+              5686
+            ],
+            "basis": "本项货号4468K811；相似源库货号不被当作此产品外形。"
+          }
+        ],
+        "sourceIdentityLimit": "源库4468K031/858/865均不是4468K811，不能套用为同货号；原手册未找到该软管的清楚独立近景。",
+        "sourceProductAppearanceVerified": false,
+        "originalCADUsed": false,
+        "methods": "独立Blender教学几何与中文文本；无原CAD导入、无品牌产品仿造。"
+      },
+      "visualReview": {
+        "actualViewed": true,
+        "reviewedAtUTC": "2026-10-19T16:48:49.389013+00:00",
+        "scope": "教学清晰度、标注、接口关系和限界；非工程或产品真实性验收",
+        "result": "retain_as_teaching_schematic",
+        "notes": "弯曲软管的通用侧视接头、平顺编织层与内部通道可辨，已消除圆环似垫圈的问题。",
+        "realAppearanceOrDimensionsVerified": false,
+        "unresolvedVisualConcerns": []
+      },
+      "sourceAudit": {
+        "editableVerified": true,
+        "meshObjects": 7,
+        "textObjects": 7,
+        "labelsExcludingHeaderFooter": 3,
+        "renderEngine": "CYCLES",
+        "samples": 48,
+        "denoise": true
+      }
+    }
+  ]
+}

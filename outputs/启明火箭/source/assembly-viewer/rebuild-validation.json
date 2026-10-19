@@ -1,0 +1,28 @@
+{
+  "node": "24.19.0",
+  "three": "0.170.0",
+  "esbuild": "0.27.7",
+  "metadata_preparation_executed": true,
+  "asset_count": 3,
+  "assets": [
+    {
+      "id": "browse",
+      "path": "../../assembly/vehicle-browse.compact.glb"
+    },
+    {
+      "id": "precision",
+      "path": "../../assembly/vehicle-original.compact.glb"
+    },
+    {
+      "id": "supplements",
+      "path": "../../library/supplements/supplements.glb"
+    }
+  ],
+  "esbuild_write": false,
+  "bundle_bytes": 2650631,
+  "bundle_sha256": "52ba792f8ea19772888e32668aca87b4ed426fcc9a6253ff5d98c1eb5aa1f414",
+  "mode": "embedded-single-html",
+  "planned_output": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/启明火箭/整箭原件检视-rebuilt.html",
+  "html_written": true,
+  "conversion_scope": "Original CAD curves were tessellated upstream. This build packages existing visual geometry; it does not solve native mates or physical reliability."
+}

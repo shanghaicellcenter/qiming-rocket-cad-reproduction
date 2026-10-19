@@ -1,0 +1,22 @@
+{
+  "manualFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+  "bomFile": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/02-HCR-5101 物料清单-中英对照.md",
+  "method": "本轮读取原中文手册的页标与相应行。仅摘录功能依据的概述；原文操作段落不转绘为操作说明。physicalPage = printedPage + 9，沿用候选审计页码规则。",
+  "items": {
+    "A3-10": [{"printedPage":122,"physicalPage":131,"lines":[3572,3573],"basis":"物料表把M3平垫圈与薄头螺钉分别列出，使用位置均为舵机摇臂连接件。"},{"printedPage":123,"physicalPage":132,"lines":[3595,3596],"basis":"供应商表93475A210为M3垫圈，92855A310为螺钉；保留BOM行错配边界。"}],
+    "A3-11": [{"printedPage":122,"physicalPage":131,"lines":[3574,3574],"basis":"三芯舵机延长线用途为舵机导线。"},{"printedPage":197,"physicalPage":206,"lines":[4944,4944],"basis":"SRV-3PIN-1MXT列作舵机延长线，与Y形线束是不同项。"},{"printedPage":204,"physicalPage":213,"lines":[5035,5035],"basis":"正文区分延长段与最终Y形分支关系；图只转绘电气延长，不转绘布置或连接步骤。"}],
+    "A3-12": [{"printedPage":197,"physicalPage":206,"lines":[4943,4944],"basis":"三芯Y形线束和三芯延长线分别列出。"},{"printedPage":204,"physicalPage":213,"lines":[5035,5035],"basis":"Y形线束关联燃料侧与氧化剂侧的两只舵机；图仅表示共同联系的分支，不增加独立控制通道。"}],
+    "A6-19": [{"printedPage":128,"physicalPage":137,"lines":[3734,3734],"basis":"铝箔胶带的本项用途明确为连接筒加垫。"},{"printedPage":296,"physicalPage":305,"lines":[6877,6877],"basis":"正文在连接筒与箭体管贴合处提到铝箔胶带加垫。图不复述装配操作，仅表示薄层位置。"}],
+    "A7-04": [{"printedPage":61,"physicalPage":70,"lines":[1870,1870],"basis":"正文区分早期减速伞与后续主伞阶段。图只表示伞的空气阻力，不绘执行或释放结构。"},{"printedPage":230,"physicalPage":239,"lines":[5481,5481],"basis":"REC-CHT-DRG-36列为减速伞。未从质量体积占位模型推断真实伞形。"}],
+    "A7-14": [{"printedPage":131,"physicalPage":140,"lines":[3807,3807],"basis":"同一采购行列出高度计安装、剪切销与头锥等多种用途。"},{"printedPage":132,"physicalPage":141,"lines":[3838,3838],"basis":"供应商表的显示货号与链接并不一致，未据此验证型号。"},{"printedPage":210,"physicalPage":219,"lines":[5147,5147],"basis":"此处为高度计电路板的固定用途，使用货号90604A303。"},{"printedPage":228,"physicalPage":237,"lines":[5453,5453],"basis":"此处为舱段连接区域的临时约束用途，使用货号93135A013。图不转绘孔位或安装步骤，不验证分离性能。"}],
+    "B1-01": [{"printedPage":133,"physicalPage":142,"lines":[3852,3852],"basis":"消耗品表列一氧化二氮N2O，工作角色为氧化剂。物质没有固定机械零件外形。"}],
+    "B1-02": [{"printedPage":133,"physicalPage":142,"lines":[3853,3853],"basis":"消耗品表将E85列为燃料。示意只表达混合燃料类别与反应角色，不提供成分或配制信息。"}],
+    "B1-05": [{"printedPage":133,"physicalPage":142,"lines":[3856,3856],"basis":"消耗品表的该项属于回收执行能量耗材。仅转绘回收信号、短时能量与舱段分开三个功能节点。"}],
+    "B1-06": [{"printedPage":133,"physicalPage":142,"lines":[3857,3857],"basis":"丁腈手套被列入回收辅助耗材。图仅表示手套薄膜的柔性辅助材料身份。"}],
+    "B1-07": [{"printedPage":133,"physicalPage":142,"lines":[3858,3858],"basis":"电工胶带在表中同时涉及电连接与回收辅助用途。本图仅画电连接表面的绝缘边界。"}],
+    "C1-04": [{"printedPage":237,"physicalPage":246,"lines":[5620,5620],"basis":"地面设备物料表列红黑硅胶包覆导线，并说明来自电子舱剩余材料。"}],
+    "C1-10": [{"printedPage":237,"physicalPage":246,"lines":[5626,5626],"basis":"地面设备物料表单列三芯舵机延长线，来源为阀门部分剩余材料。图强调地面控制上下文，不合并采购身份。"}],
+    "C1-15": [{"printedPage":237,"physicalPage":246,"lines":[5631,5631],"basis":"地面支持设备清单单列N2O储存气瓶。"},{"printedPage":239,"physicalPage":248,"lines":[5683,5683],"basis":"供应商表给出20LBALVLV-326，但本轮没有可验证该产品的独立图。图仅表示地面储存边界。"}],
+    "C1-18": [{"printedPage":237,"physicalPage":246,"lines":[5634,5634],"basis":"地面清单列带接头的编织软管，使用关系为气瓶侧与阀门侧之间的软管。"},{"printedPage":239,"physicalPage":248,"lines":[5686,5686],"basis":"本项货号4468K811；相似源库货号不被当作此产品外形。"}]
+  }
+}

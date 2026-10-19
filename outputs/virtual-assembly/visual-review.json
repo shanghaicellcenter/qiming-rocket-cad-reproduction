@@ -1,0 +1,43 @@
+{
+  "actual_visual_review": true,
+  "review_tool": "view_image",
+  "round_count": 4,
+  "scope": "Source geometry presentation only",
+  "rounds": [
+    {
+      "round": 1,
+      "observation_zh": "阶段图在初始摄影机下过小，阀、电子舱、鼻锥没有充分占据画面。",
+      "action_zh": "增加独立无动画的近景检查摄影机。"
+    },
+    {
+      "round": 2,
+      "observation_zh": "独立摄影机仍被时间标记绑定覆盖。",
+      "action_zh": "移除重复的摄影机标记绑定，使近景检查实际使用当前摄影机。"
+    },
+    {
+      "round": 3,
+      "observation_zh": "15段源形体清楚，但第3尾翼实例接近刃面。",
+      "action_zh": "按原尾翼点云主平面选择四组尾翼的观察方向；没有改动几何。"
+    },
+    {
+      "round": 4,
+      "observation_zh": "实际审看修正后的15段总览、阀/电子舱单帧和保存后重新打开的7张运动及归位图。阶段近景清晰，最终整箭未截断。",
+      "action_zh": "接受当前源几何展示版本；保留模型、逐节点矩阵核对和运动中浮点差说明。"
+    }
+  ],
+  "evidence_images": [
+    "renders/stages/stage-contact-sheet.png",
+    "renders/motion-checks/motion-contact-sheet.png",
+    "renders/stages/03_stage_03_returned.png",
+    "renders/stages/10_stage_10_returned.png",
+    "renders/motion-checks/07_final_original_positions.png"
+  ],
+  "known_limits_zh": [
+    "不是实物装配/制造顺序；没有配合、碰撞、工作或物理可靠性求解。",
+    "阶段相机聚焦当前源组，其他未归位组可能在阶段画面外；原位/分开总览完整保留全部源实例。",
+    "MassVolume仍为源五种定义六实例占位；没有创造展开伞几何。",
+    "动画使用同源LOD1三角化；LOD3完整精细静态源版本另外保存。",
+    "中间展示平移存在浮点计算差；最终1980节点局部/世界矩阵与源数值一致，误差0。"
+  ],
+  "failed_review_images_archived": false
+}

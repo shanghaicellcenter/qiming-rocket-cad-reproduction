@@ -1,0 +1,48 @@
+{
+  "started_utc": "2026-10-19T15:55:28.841467+00:00",
+  "old_public_html_sha256": "f4a63caea43a70cfc97ebe248f07dc00e4fff5d1a840a54bca6182da82629a78",
+  "old_public_html_bytes": 229834863,
+  "source_data_js_sha256_before": "782afafe5bf419b4d18b4889039608c0f6f271df6ce1b04fb302155fb271b2f6",
+  "geometry_assets_before": {
+    "assembly/vehicle-browse.compact.glb": "7f73303448c50038d9009c443acade12886149b7a0a458f8c46ecb34ab95fc31",
+    "assembly/vehicle-original.compact.glb": "26db38a0d17c61f68d05599d7a02fbecbdd8b42649e39cdf98d22fe12809de62",
+    "library/supplements/supplements.glb": "d8bc902b85353b31a34242ba2620f26779684bfb5f21a4a986f772e5e4b05db5"
+  },
+  "scope_zh": "仅更改项目显示名为启明火箭；内部源身份、源CAD文件名匹配、几何与来源哈希保留。",
+  "new_public_html_sha256": "c5d8bfd114715249c3f6e8fa43dec6f8b78f452eaaddd0c9c4a7fe05cc98f2ec",
+  "new_public_html_bytes": 229837823,
+  "geometry_assets_after": {
+    "assembly/vehicle-browse.compact.glb": "7f73303448c50038d9009c443acade12886149b7a0a458f8c46ecb34ab95fc31",
+    "assembly/vehicle-original.compact.glb": "26db38a0d17c61f68d05599d7a02fbecbdd8b42649e39cdf98d22fe12809de62",
+    "library/supplements/supplements.glb": "d8bc902b85353b31a34242ba2620f26779684bfb5f21a4a986f772e5e4b05db5"
+  },
+  "geometry_glb_sha256_unchanged": true,
+  "source_data_js_sha256_after": "782afafe5bf419b4d18b4889039608c0f6f271df6ce1b04fb302155fb271b2f6",
+  "all_existing_raw_data_module_bytes_unchanged": true,
+  "completed_utc": "2026-10-19T16:01:33.350806+00:00",
+  "public_project_name": "启明火箭",
+  "atomic_replacement_completed": true,
+  "final_html_path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/mojave-machine/整箭原件检视.html",
+  "final_html_doctype_verified": true,
+  "original_source_api_matching_and_raw_identity_preserved": true,
+  "source_attribution_preserved": "Half Cat Rocketry",
+  "geometry_or_blend_modified": false,
+  "final_path_browser_review_pending": false,
+  "packaging_note_zh": "使用当前归档打包器重新嵌入同一份GLB与原数据模块；公开名称转换只作用于显示文本，固定依赖与许可随当前打包器保留。",
+  "final_path_browser_review": {
+    "passed": true,
+    "checks": 29,
+    "visible_states_checked": 8,
+    "visible_legacy_name_matches": 0,
+    "exact_original_source_filename_api_selection": true,
+    "source_component_paths_unchanged": 4,
+    "source_mesh_identities": 688,
+    "triangles": 2864600,
+    "source_hidden_meshes": 3,
+    "http_requests": 0,
+    "page_errors": 0,
+    "console_errors": 0,
+    "report": "../../research/browser-review/public-name-final.json",
+    "actual_visual_review": true
+  }
+}

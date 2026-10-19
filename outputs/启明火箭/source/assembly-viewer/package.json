@@ -1,0 +1,11 @@
+{
+  "name": "qiming-original-assembly-inspector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An offline inspector for the supplied R01 CAD tessellation, original hierarchy and source identities.",
+  "engines": {"node": ">=18"},
+  "scripts": {"build": "node build.mjs", "validate": "node build.mjs --validate", "prepare": "python3 prepare_data.py"},
+  "dependencies": {"three": "0.170.0"},
+  "devDependencies": {"esbuild": "0.27.7"}
+}

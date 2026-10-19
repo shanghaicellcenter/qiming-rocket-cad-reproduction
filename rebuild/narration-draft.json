@@ -1,0 +1,979 @@
+{
+  "schema_version": 1,
+  "status": "Source roles rechecked; novice wording revision; previous FireRed voice ineligible for final movie.",
+  "language": "zh-CN",
+  "title_zh": "从原件到整箭：十五组源CAD视觉归位",
+  "scope_zh": "原CAD静态部件的视觉归位与高层原理讲解；不是实物制造、施工、操作或认证。",
+  "source_lod": "Upstream native CAD tessellation LOD1; complete source hierarchy and all occurrences",
+  "source_triangle_count": 2864600,
+  "source_stage_file_sha256": "463c0f6dfa04c1ac838730cdbcaf60fedb669bd43920cf2bc056eede0392c0cf",
+  "source_alignment_qc_file_sha256": "269e0c0e5ac88828c4069688850913eccf89ac25dae00369497555ebb68b649c",
+  "intro": {
+    "title_zh": "先说明我们在看什么",
+    "narration_zh": "接下来，我们按原始设计图逐组归位，看清部件之间的关系。这是数字模型的讲解顺序，不是实物施工步骤，也不代表已经通过实物检验。",
+    "han_character_count": 55
+  },
+  "stages": [
+    {
+      "stage_id": "01",
+      "title_zh": "贮箱：上部燃料，下部氧化剂",
+      "narration_zh": "这根长筒里，燃料在上部，氧化剂在下部，中间的活塞把两者隔开。这样，一根筒体里就有了两个彼此分开的储存空间。",
+      "han_character_count": 47,
+      "principle_zh": "贮箱的高层作用是储存和分隔两类工作介质。源书将它描述为叠置贮箱；本段只解释空间分区，不演示流体、活塞运行或装填。",
+      "short_screen_note_zh": "上部燃料／下部氧化剂，活塞隔开",
+      "source_mesh_occurrences": 111,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxTankAssembly1_WQDIWC"
+      ],
+      "source_cad_filenames": [
+        "Mojave Sphinx Tank Assembly.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段111个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "01",
+        "frame": 192,
+        "checked_source_objects": 326,
+        "checked_source_nonmesh_objects": 215,
+        "checked_source_mesh_objects": 111,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体密封、承压能力和介质相容性未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.2 推进剂贮箱；图2.8、2.9",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-01",
+          "file": "assembly-stages.json",
+          "stage_id": "01"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 2.0,
+        "end": 8.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state",
+      "novice_source_crosscheck": "Supplied guide §2.3.2–2.3.3; fuel upper / oxidizer lower; actual fuel/oxidizer native subtree identities preserved."
+    },
+    {
+      "stage_id": "02",
+      "title_zh": "推力室：能量释放的位置",
+      "narration_zh": "下面这组是推力室。它是释放能量、让气体向后排出的部位；这一段只把原结构放回位置，帮助理解它和贮箱的关系。",
+      "han_character_count": 47,
+      "principle_zh": "推力室是火箭中释放能量并排出气体的部位，排气与推力的关系是基本作用原理。这里展示既有部件的空间关系，不产生火焰、喷流、温度或性能数值。",
+      "short_screen_note_zh": "静态源结构，不运行",
+      "source_mesh_occurrences": 73,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxThrustChamberAssembly1_fZ0DKSmG"
+      ],
+      "source_cad_filenames": [
+        "Mojave Sphinx Thrust Chamber Assembly.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段73个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "02",
+        "frame": 336,
+        "checked_source_objects": 224,
+        "checked_source_nonmesh_objects": 151,
+        "checked_source_mesh_objects": 73,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体热负荷、结构强度、密封与工作可靠性未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "1.3.3 推力室组件；2.3.4 推力室组件；图2.17",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-02",
+          "file": "assembly-stages.json",
+          "stage_id": "02"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 8.0,
+        "end": 14.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state"
+    },
+    {
+      "stage_id": "03",
+      "title_zh": "上端燃料阀：电驱动与阀体相连",
+      "narration_zh": "上端这一只是燃料阀。电驱动部件通过连接件带动阀柄，阀柄带动里面的球形阀芯转动；阀体由支架固定，不跟着转。",
+      "han_character_count": 48,
+      "principle_zh": "舵机的运动经连接结构传给阀柄和内部球形阀芯；阀体由支架保持固定。本镜头展示原静态几何，未让阀体或阀芯实际运动，也不补造源CAD没有表达的内部构造。",
+      "short_screen_note_zh": "电驱动 → 阀柄 → 内部阀芯；阀体固定",
+      "source_mesh_occurrences": 32,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxTankAssembly1_WQDIWC/tn__MojaveSphinxFuelBulkheadSubassambly1_hb0DIRjH/tn__SABV04FFServoActuatedBallValveAssemblyMojaveSphinx1_yq0ENSY0h0o0cNX1x0"
+      ],
+      "source_cad_filenames": [
+        "SABV-04FF Servo Actuated Ball Valve Assembly, Mojave Sphinx.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段32个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "03",
+        "frame": 480,
+        "checked_source_objects": 103,
+        "checked_source_nonmesh_objects": 71,
+        "checked_source_mesh_objects": 32,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体驱动行程、力矩、电控功能和阀体密封未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.3 流体系统·主推进剂阀",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-03",
+          "file": "assembly-stages.json",
+          "stage_id": "03"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 14.0,
+        "end": 20.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state",
+      "novice_source_crosscheck": "Supplied guide §2.3.2–2.3.3; fuel upper / oxidizer lower; actual fuel/oxidizer native subtree identities preserved."
+    },
+    {
+      "stage_id": "04",
+      "title_zh": "下端氧化剂阀：另一条通路",
+      "narration_zh": "下端这一只是氧化剂阀，和上端燃料阀负责不同的通路。两只阀外形相近，却各有自己的位置和连接，不能把它们混为一个。",
+      "han_character_count": 50,
+      "principle_zh": "两组来自同一原SLDASM定义，在整箭源树中是不同实例。源文件共同身份不等于同一个空间对象；本段强调实例身份与原位置。",
+      "short_screen_note_zh": "两只阀负责不同通路，位置各自独立",
+      "source_mesh_occurrences": 32,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxTankAssembly1_WQDIWC/tn__MojaveSphinxOxidizerBulkheadSubassembly1_lf0DMV0dJ/tn__SABV04FFServoActuatedBallValveAssemblyMojaveSphinx1_yq0ENSY0h0o0cNX1x0"
+      ],
+      "source_cad_filenames": [
+        "SABV-04FF Servo Actuated Ball Valve Assembly, Mojave Sphinx.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段32个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "04",
+        "frame": 624,
+        "checked_source_objects": 103,
+        "checked_source_nonmesh_objects": 71,
+        "checked_source_mesh_objects": 32,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "两个实体阀的一致性、各自驱动和密封状态未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.3 流体系统·主推进剂阀",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-04",
+          "file": "assembly-stages.json",
+          "stage_id": "04"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 20.0,
+        "end": 26.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state",
+      "novice_source_crosscheck": "Supplied guide §2.3.2–2.3.3; fuel upper / oxidizer lower; actual fuel/oxidizer native subtree identities preserved."
+    },
+    {
+      "stage_id": "05",
+      "title_zh": "外侧管路：把上下部件联系起来",
+      "narration_zh": "燃料的出口在贮箱上端，推力室却在下方。沿筒体外侧的长管把两处联系起来，接头则把管路与相邻部件连接起来。",
+      "han_character_count": 47,
+      "principle_zh": "源书把管路归为流体系统。该视觉分组另含源树中未由前述组覆盖的随附原件；它不是新定义的单一工程子系统，也不演示其中任何运行过程。",
+      "short_screen_note_zh": "外侧长管联系上端出口与下方组件",
+      "source_mesh_occurrences": 42,
+      "source_hidden_mesh_occurrences": 1,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE"
+      ],
+      "source_cad_filenames": [
+        "Mojave Sphinx Propulsion Assembly.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段42个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "05",
+        "frame": 768,
+        "checked_source_objects": 113,
+        "checked_source_nonmesh_objects": 71,
+        "checked_source_mesh_objects": 42,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体连接的泄漏、弯曲受力、承压和各随附件功能未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.1 推进系统；2.3.3 流体系统",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-05",
+          "file": "assembly-stages.json",
+          "stage_id": "05"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 26.0,
+        "end": 32.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state",
+      "novice_source_crosscheck": "Supplied guide §2.3.2–2.3.3; fuel upper / oxidizer lower; actual fuel/oxidizer native subtree identities preserved."
+    },
+    {
+      "stage_id": "06",
+      "title_zh": "翼面：与气流相互作用",
+      "narration_zh": "先看红色的翼面。火箭相对空气运动时，翼面会受到空气的作用；这些作用还要通过连接处，传到支架和箭体结构。",
+      "han_character_count": 46,
+      "principle_zh": "源书说明尾翼固定在推力结构支架上。高层原理是翼面受到空气作用，而连接结构传递作用力；这里只能观察源几何的连接关系。",
+      "short_screen_note_zh": "翼面受空气作用，连接结构传递作用力",
+      "source_mesh_occurrences": 35,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxFinBracketAssembly1_cW0DHPbF"
+      ],
+      "source_cad_filenames": [
+        "Mojave Sphinx Fin Bracket Assembly.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段35个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "06",
+        "frame": 912,
+        "checked_source_objects": 110,
+        "checked_source_nonmesh_objects": 75,
+        "checked_source_mesh_objects": 35,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体紧固、材料强度、气动载荷和稳定性未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.5 推进系统结构连接；图2.20",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-06",
+          "file": "assembly-stages.json",
+          "stage_id": "06"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 32.0,
+        "end": 38.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state",
+      "novice_source_crosscheck": "Supplied guide §2.3.5; actual stage SLDPRT identities include angle, fin and SPCR-400SD; only source-static spatial relationships shown."
+    },
+    {
+      "stage_id": "07",
+      "title_zh": "长支架：连接翼面与箭体",
+      "narration_zh": "第二组里，留意翼面旁边的细长支架。它的截面像一个直角，一边连接尾翼，另一边联系贮箱和下方推力室结构。",
+      "han_character_count": 45,
+      "principle_zh": "这一组是源Fin Bracket Assembly的第二实例，身份由原路径确定。环绕分布来自原坐标，不由影片按对称外观补造。",
+      "short_screen_note_zh": "直角截面的长支架，把部件联系起来",
+      "source_mesh_occurrences": 35,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxFinBracketAssembly2_cW0DHPbF"
+      ],
+      "source_cad_filenames": [
+        "Mojave Sphinx Fin Bracket Assembly.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段35个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "07",
+        "frame": 1056,
+        "checked_source_objects": 110,
+        "checked_source_nonmesh_objects": 75,
+        "checked_source_mesh_objects": 35,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体安装角度与接触、紧固状态未测；不作稳定性结论。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.5 推进系统结构连接；图2.20",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-07",
+          "file": "assembly-stages.json",
+          "stage_id": "07"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 38.0,
+        "end": 44.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state",
+      "novice_source_crosscheck": "Supplied guide §2.3.5; actual stage SLDPRT identities include angle, fin and SPCR-400SD; only source-static spatial relationships shown."
+    },
+    {
+      "stage_id": "08",
+      "title_zh": "隔套：圆筒与平支架之间",
+      "narration_zh": "圆筒表面是弯的，支架接触面却是平的。两者之间的隔套填补了形状差别；这段会放大这个小件，看清它所在的位置。",
+      "han_character_count": 47,
+      "principle_zh": "第三实例按自身源位置归位。影片解释多个真实实例的空间关系，没有用同一张截图代替，也没有新增对称复制件。",
+      "short_screen_note_zh": "隔套近景：弧形筒面与平支架之间",
+      "source_mesh_occurrences": 35,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxFinBracketAssembly3_cW0DHPbF"
+      ],
+      "source_cad_filenames": [
+        "Mojave Sphinx Fin Bracket Assembly.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段35个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "08",
+        "frame": 1200,
+        "checked_source_objects": 110,
+        "checked_source_nonmesh_objects": 75,
+        "checked_source_mesh_objects": 35,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体装配误差、连接刚度和空气作用未测。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.5 推进系统结构连接；图2.20",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-08",
+          "file": "assembly-stages.json",
+          "stage_id": "08"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 44.0,
+        "end": 50.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state",
+      "novice_source_crosscheck": "Supplied guide §2.3.5; actual stage SLDPRT identities include angle, fin and SPCR-400SD; only source-static spatial relationships shown."
+    },
+    {
+      "stage_id": "09",
+      "title_zh": "四组尾翼：一起看环绕分布",
+      "narration_zh": "四组尾翼归位后，可以一起看它们围绕箭体的分布。不过，判断能否稳定飞行，还要结合质量分布和空气作用，不能只看有几片翼。",
+      "han_character_count": 52,
+      "principle_zh": "四组均来自整箭源树的真实实例。几何分布可以对照原CAD；稳定性需要独立的气动、质量分布与实际验证，不能由归位画面推出。",
+      "short_screen_note_zh": "四向分布；稳定性也取决于质量与气动条件",
+      "source_mesh_occurrences": 35,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxFinBracketAssembly4_cW0DHPbF"
+      ],
+      "source_cad_filenames": [
+        "Mojave Sphinx Fin Bracket Assembly.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段35个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "09",
+        "frame": 1344,
+        "checked_source_objects": 110,
+        "checked_source_nonmesh_objects": 75,
+        "checked_source_mesh_objects": 35,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "没有因四组外观归位而执行或通过气动稳定性、载荷或飞行验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.5 推进系统结构连接；2.5 飞行分析仅作验证范围线索",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-09",
+          "file": "assembly-stages.json",
+          "stage_id": "09"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 50.0,
+        "end": 56.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state",
+      "novice_source_crosscheck": "Supplied guide §2.3.5; actual stage SLDPRT identities include angle, fin and SPCR-400SD; only source-static spatial relationships shown."
+    },
+    {
+      "stage_id": "10",
+      "title_zh": "电子舱：模块与上下段的连接",
+      "narration_zh": "电子舱既容纳电子模块，也把上面的箭体和下面的箭体连在一起。画面保留原模块与托板的位置；源模型没有表达的布线，不凭想象补出。",
+      "han_character_count": 56,
+      "principle_zh": "源书将电子舱描述为回收电子件的容纳空间，也用作上下箭体之间的连接筒。此处说明物理位置与承载关系，不演示电路、控制或火工功能。",
+      "short_screen_note_zh": "原模块／原托板，不补布线",
+      "source_mesh_occurrences": 158,
+      "source_hidden_mesh_occurrences": 2,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__AVBYASSMAvbayAssemblyMojaveSphinx1_hZ0ENUvEi0d0"
+      ],
+      "source_cad_filenames": [
+        "AVBY-ASSM Avbay Assembly, Mojave Sphinx.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段158个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "10",
+        "frame": 1488,
+        "checked_source_objects": 416,
+        "checked_source_nonmesh_objects": 258,
+        "checked_source_mesh_objects": 158,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体电路、接线、电源、传感器与控制功能未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.6 箭体与回收系统·电子舱；图2.23、2.25",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-10",
+          "file": "assembly-stages.json",
+          "stage_id": "10"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 56.0,
+        "end": 62.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state"
+    },
+    {
+      "stage_id": "11",
+      "title_zh": "回收组：认清原作的简化模型",
+      "narration_zh": "回收组在原图里是五种简化模型，共六个实例。它们表示收纳空间与部件关系，并不是已经展开的伞，也不是织物细节。",
+      "han_character_count": 48,
+      "principle_zh": "本段几何身份以原CAD的MassVolume命名为依据：两类伞、两类保护件与连接绳的五种定义，连接绳出现两次。源书说明回收系统的减速和连接角色，但这些几何没有表达织物、绳结、折叠或展开动力学。",
+      "short_screen_note_zh": "源MassVolume：5种定义／6实例",
+      "source_mesh_occurrences": 6,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__RECCHTDRG36ParachuteDrogue36InchMassVolumeMojaveSphinx1_av0LSV0a0f0m0t0ZOMUd0q0f17Bd1",
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__RECCHTMN84ParachuteMain84InchMassVolumeMojaveSphinx1_Ws0KPSX0c0j0q0dNQZ0m0b17AZ1",
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__RECPRTDRG8ParachuteProtectorDrogue8InchMassVolumeMojaveSphinx1_gX1KUb0d0i0n0u0W1bRV0d0l0y0n17Bl1",
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__RECPRTMN16ParachuteProtectorMain16InchMassVolumeMojaveSphinx1_fW1KUZ0c0h0m0t0V1uQV0b0k0x0m17Ak1",
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__RECTNSC3KLB25FTShockCord25FTMassVolumeMojaveSphinx1_ar0LQV0a0h0o0qMW0j0Y18DW1",
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__RECTNSC3KLB25FTShockCord25FTMassVolumeMojaveSphinx2_ar0LQV0a0h0o0qMW0j0Y18DW1"
+      ],
+      "source_cad_filenames": [
+        "REC-CHT-DRG-36, Parachute, Drogue, 36 Inch, Mass Volume, Mojave Sphinx.SLDPRT",
+        "REC-CHT-MN-84 Parachute, Main, 84 Inch, Mass Volume, Mojave Sphinx.SLDPRT",
+        "REC-PRT-DRG-8, Parachute Protector, Drogue, 8 Inch, Mass Volume, Mojave Sphinx.SLDPRT",
+        "REC-PRT-MN-16, Parachute Protector, Main, 16 Inch, Mass Volume, Mojave Sphinx.SLDPRT",
+        "REC-TNSC-3KLB-25FT Shock Cord, 25FT, Mass Volume, Mojave Sphinx.SLDPRT"
+      ],
+      "geometric_qc_done": [
+        "本阶段6个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "11",
+        "frame": 1632,
+        "checked_source_objects": 22,
+        "checked_source_nonmesh_objects": 16,
+        "checked_source_mesh_objects": 6,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体织物、绳索、收纳与展开可靠性未验证；未新造布伞或绳结。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.6 箭体与回收系统·减速伞、主伞、减震绳；源CAD MassVolume命名",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-11",
+          "file": "assembly-stages.json",
+          "stage_id": "11"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 62.0,
+        "end": 68.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state"
+    },
+    {
+      "stage_id": "12",
+      "title_zh": "下段外壳：围住内部空间",
+      "narration_zh": "下面这节外壳围住内部的回收空间，并连接电子舱与下方结构。筒壁回到原位置后，内外部件之间的层次就更容易理解。",
+      "han_character_count": 49,
+      "principle_zh": "源书把下段箭体描述为减速伞容纳空间，并说明它与电子舱及下部接口相接。本段按单个源外壳边界展示位置，不把筒壁扩大、缩短或补厚。",
+      "short_screen_note_zh": "按源外壳边界归位",
+      "source_mesh_occurrences": 1,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__20545T38AFLWRAirframeTubeLowerMojaveSphinx3_vi0MRX0e0vIY0x0Bp0"
+      ],
+      "source_cad_filenames": [
+        "20545T38-AF-LWR Airframe Tube, Lower, Mojave Sphinx.SLDPRT"
+      ],
+      "geometric_qc_done": [
+        "本阶段1个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "12",
+        "frame": 1776,
+        "checked_source_objects": 7,
+        "checked_source_nonmesh_objects": 6,
+        "checked_source_mesh_objects": 1,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体接触、配合间隙、材料和连接承载未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.6 箭体与回收系统·下段箭体管",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-12",
+          "file": "assembly-stages.json",
+          "stage_id": "12"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 68.0,
+        "end": 74.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state"
+    },
+    {
+      "stage_id": "13",
+      "title_zh": "上段外壳：连接电子舱与鼻锥",
+      "narration_zh": "上段外壳包围上部的回收空间，两端分别与电子舱和鼻锥相接。这里按照原件边界归位，保留它与相邻组件的原始关系。",
+      "han_character_count": 49,
+      "principle_zh": "源书描述上段箭体容纳主伞，并与电子舱及鼻锥相接。该段只显示原边界和原位置，不把相邻件合并为一个新外壳。",
+      "short_screen_note_zh": "保留上段原件边界",
+      "source_mesh_occurrences": 1,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__20545T38AFUPRAirframeTubeUpperMojaveSphinx2_vi0MRX0e0vIY0x0Bp0"
+      ],
+      "source_cad_filenames": [
+        "20545T38-AF-UPR Airframe Tube, Upper, Mojave Sphinx.SLDPRT"
+      ],
+      "geometric_qc_done": [
+        "本阶段1个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "13",
+        "frame": 1920,
+        "checked_source_objects": 7,
+        "checked_source_nonmesh_objects": 6,
+        "checked_source_mesh_objects": 1,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体配合、连接受力与回收分离功能未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.6 箭体与回收系统·上段箭体管",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-13",
+          "file": "assembly-stages.json",
+          "stage_id": "13"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 74.0,
+        "end": 80.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state"
+    },
+    {
+      "stage_id": "14",
+      "title_zh": "鼻锥：前端外形与内部源结构",
+      "narration_zh": "鼻锥让箭体前端形成连续外形，内部保留源件已有的连接结构与空间。它由多个原件组成，不能用一个光滑外壳代替。",
+      "han_character_count": 48,
+      "principle_zh": "源书说明鼻锥封闭箭体前端，并提供内部空间及回收连接身份。这里保留源多段结构和已建模内部件，不把外部曲面当作完整内部细节。",
+      "short_screen_note_zh": "多段原件与原内部结构",
+      "source_mesh_occurrences": 55,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [
+        "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxAirframeAssembly1_aUDMvD/tn__NSCNASSMNoseConeAssemblyMojaveSphinx1_kc0DIRY0lGm0h0"
+      ],
+      "source_cad_filenames": [
+        "NSCN-ASSM Nose Cone Assembly, Mojave Sphinx.SLDASM"
+      ],
+      "geometric_qc_done": [
+        "本阶段55个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "14",
+        "frame": 2064,
+        "checked_source_objects": 170,
+        "checked_source_nonmesh_objects": 115,
+        "checked_source_mesh_objects": 55,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体气动阻力、层间强度、连接承载与回收功能未验证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.6 箭体与回收系统·头锥；图2.28",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-14",
+          "file": "assembly-stages.json",
+          "stage_id": "14"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 80.0,
+        "end": 86.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state"
+    },
+    {
+      "stage_id": "15",
+      "title_zh": "连接件与辅助件：对齐全部源节点",
+      "narration_zh": "最后归位连接件与原树保留的辅助件。所有源节点回到原坐标，完成数字模型的对照；辅助件是否随实物飞行，需要另核。",
+      "han_character_count": 49,
+      "principle_zh": "剩余组由整箭源网格的精确集合补集确定，含连接件、导向件，以及原树中保留的钻孔辅助塞。该辅助件的源命名表明其工具身份；按源保留不等于宣称它应随箭飞行。",
+      "short_screen_note_zh": "包含源树保留的辅助件",
+      "source_mesh_occurrences": 37,
+      "source_hidden_mesh_occurrences": 0,
+      "source_subtree_paths": [],
+      "source_cad_filenames": [
+        "8947T26_Oval-Shaped Threaded Connecting Link.SLDPRT",
+        "90272A194_ZINC-PLTD STL PAN HEAD PHILLIPS MACHINE SCREW.SLDPRT",
+        "91306A279_Button Head Hex Drive Screw Zinc Plated.SLDPRT",
+        "92141A029_18-8 Stainless Steel Washer.SLDPRT",
+        "93135A013_Off-White Nylon Pan Head Screws.SLDPRT",
+        "97654A620_18-8 Stainless Steel Flanged Button Head Screw.SLDPRT",
+        "PLG-DRL-AF-UPR1-416 Backing Plug, Sacrificial, for Upper Airframe Tube Drilling.SLDPRT",
+        "RLBTN-A-1515-250C Rail Button, 1515, Part A, Mojave Sphinx.SLDPRT",
+        "RLBTN-B-1515-250C Rail Button, 1515, Part B, Mojave Sphinx.SLDPRT"
+      ],
+      "geometric_qc_done": [
+        "本阶段37个源网格实例已在互斥、完整分区中核对；网格实例数不是实物零件数。",
+        "归位时源对象局部与世界矩阵逐项数值差为0；这是数字坐标对照，不是实体公差。",
+        "沿用原网格数据和源显隐记录，未补造、加厚或简化本阶段源几何。"
+      ],
+      "geometric_qc_measurement": {
+        "stage_id": "15",
+        "frame": 2208,
+        "checked_source_objects": 107,
+        "checked_source_nonmesh_objects": 70,
+        "checked_source_mesh_objects": 37,
+        "max_local_matrix_abs_error": 0.0,
+        "max_world_matrix_abs_error_source_units": 0.0,
+        "all_local_matrices_numerically_exact": true,
+        "all_world_matrices_numerically_exact": true
+      },
+      "physical_qc_not_done": [
+        "实体完整配置、工具移除状态、装配约束和实物可靠性未认证。"
+      ],
+      "source_references": [
+        {
+          "id": "HCR-5100-R01",
+          "kind": "supplied primary guidebook, verified against official Git blob",
+          "url": "https://github.com/HalfCatRocketry/mojave-sphinx/blob/6e455cf94c840fbb4b18315aa462218cb665644a/HCR-5100%20-%20Mojave%20Sphinx%20Build%2C%20Integration%2C%20and%20Launch%20Guidebook%20-%20R01.pdf",
+          "section": "2.3.6 箭体与回收系统；原CAD源名与完整集合补集",
+          "local_translation": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/01-HCR-5100 建造集成与发射指南-中文版.md",
+          "claim_scope": "仅本段高层部件身份、角色和关系，不提取制造或运行步骤。"
+        },
+        {
+          "id": "STAGE-15",
+          "file": "assembly-stages.json",
+          "stage_id": "15"
+        },
+        {
+          "id": "ALIGNMENT-QC",
+          "file": "alignment-qc.json",
+          "scope": "本段与终态数字几何对齐结果"
+        }
+      ],
+      "existing_visual_time_reference_only": {
+        "start": 86.0,
+        "end": 92.0
+      },
+      "formal_audio_status": "source content internally approved; consult narration-audio-manifest.json for actual generation, ASR, and listening state"
+    }
+  ],
+  "outro": {
+    "title_zh": "几何对齐证明了什么",
+    "narration_zh": "所有源节点都已回到原坐标，几何核对通过。它证明数字展示与原模型对齐；实体的接触、密封、强度和飞行可靠性，还需要各自的验证。",
+    "han_character_count": 54
+  },
+  "global_geometric_qc": {
+    "frame": 2256,
+    "source_objects_checked": 1980,
+    "source_mesh_occurrences": 688,
+    "source_mesh_occurrences_in_animation": 688,
+    "all_source_mesh_data_shared_with_reference_scene": true,
+    "all_source_meshes_preserved": true,
+    "partition_disjoint": true,
+    "partition_complete": true,
+    "source_hidden_meshes": 3,
+    "source_transform_action_keys_created": 0,
+    "max_local_matrix_abs_error": 0.0,
+    "max_world_matrix_abs_error_source_units": 0.0,
+    "all_local_matrices_numerically_exact": true,
+    "all_world_matrices_numerically_exact": true,
+    "world_matrix_error_note": "Maximum error among the 16 world-matrix coefficients in USD-to-Blender source coordinates; not a manufacturing tolerance.",
+    "constraints_or_collision_solver_executed": false,
+    "source_mesh_data_modified": false,
+    "source_visibility_records_preserved": true,
+    "default_hidden_visibility_matches_usd": true
+  },
+  "not_claimed": [
+    "实物装配配合或无碰撞可达性",
+    "密封、材料、强度、运行或飞行可靠性",
+    "原BOM每行物料具有独立CAD",
+    "MassVolume具备织物细节或展开动力学",
+    "辅助件属于最终飞行配置"
+  ],
+  "timing_policy": "以每段实际生成音频测量的时长为准重新计时；不按汉字均分，也不把当前6秒片段当作正式时长。",
+  "delivery_style": "自然、平静、清楚地解释；句间留真实停顿；不变速，不模仿或自称特定真人。",
+  "total_han_character_count": 827,
+  "source_content_review": "passed by parent",
+  "formal_audio_progress_file": "narration-audio-manifest.json"
+}

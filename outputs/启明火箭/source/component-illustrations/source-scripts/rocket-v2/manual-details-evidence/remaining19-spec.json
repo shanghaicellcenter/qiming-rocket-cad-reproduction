@@ -1,0 +1,579 @@
+{
+  "scope": "Remaining 19; first 3 independently reviewed before continuing",
+  "canvas": [
+    1600,
+    1000
+  ],
+  "rows": [
+    {
+      "id": "A3-01",
+      "title": "舵机摇臂连接螺钉",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p150_i2.png",
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "crop": [
+            310,
+            230,
+            730,
+            530
+          ],
+          "anchor": [
+            515,
+            404
+          ],
+          "physicalPage": 150,
+          "printedPage": 141
+        }
+      ],
+      "label": "看右侧黑色螺钉",
+      "role": "把摇臂与连接件留在一起，\n让转动能够传过去。",
+      "note": "把螺钉、垫圈和\n周围连接件分开认。",
+      "limitations": "原BOM前十行货号错位，正确92855A310不在170源库；DS3225是舵机，不能匹配。原页说明M3螺钉/垫圈，图片不能核验供应商型号。",
+      "sourcePartNumberOriginal": "DS3225",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "A7-05",
+      "title": "回收减震带",
+      "kind": "source_photo_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p303_i3.jpeg",
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "crop": [
+            0,
+            575,
+            505,
+            1290
+          ],
+          "anchor": [
+            160,
+            960
+          ],
+          "physicalPage": 303,
+          "printedPage": 294
+        }
+      ],
+      "label": "看宽的浅色扁带",
+      "role": "连接回收锚点与分离舱段，\n缓和突然拉紧时的冲击。",
+      "note": "宽扁带与细黄色伞绳分开。\n不由颜色判断型号或强度。",
+      "limitations": "P108是Mass Volume；照片可展示原项目扁带形态，不能从颜色证明额定强度或型号。 REC-TNSC-3KLB / P108 Mass Volume不是实物强度或材质证据；原照与本图中的细黄伞绳不是宽尼龙扁带。",
+      "sourcePartNumberOriginal": "REC-TNSC-3KLB",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "A7-18",
+      "title": "电子舱绝缘导线",
+      "kind": "source_photo_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p222_i3.jpeg",
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "crop": [
+            280,
+            65,
+            830,
+            300
+          ],
+          "anchor": [
+            507,
+            255
+          ],
+          "physicalPage": 222,
+          "printedPage": 213
+        }
+      ],
+      "label": "看红黑包覆导线",
+      "role": "导线传递电能与信号，\n外层绝缘把导体隔开。",
+      "note": "只看导线的外观局部。\n不展示完整接线或接口定义。",
+      "limitations": "照片控制板是替代型号；不能用颜色核验20GA线径、硅胶材质或20GA-RBP产品。 原照中的控制板为StratologgerCF替代实例，不是Quark；本图不将原接线图升级为该线产品身份。",
+      "sourcePartNumberOriginal": "20GA-RBP",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "B1-03",
+      "title": "点火能量耗材",
+      "kind": "source_photo",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p297_i3.jpeg",
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "crop": [
+            550,
+            65,
+            1120,
+            685
+          ],
+          "anchor": [
+            960,
+            550
+          ],
+          "physicalPage": 297,
+          "printedPage": 288
+        }
+      ],
+      "label": "看小型圆筒端部",
+      "role": "在点火子系统提供短时能量，\n与主推进的液体介质分开。",
+      "note": "只作原照片的端部外观参照。\n不据此核验内部、型号或尺寸。",
+      "limitations": "P090没有A3-4T型号字样，不能声称其内部细节、完整商品标记或尺寸已经验证；不展示改装、装药或接入步骤。 本图仅显示小型圆筒的外部端面，不展示改装、装药、接入、接线或内部制造细节。",
+      "sourcePartNumberOriginal": "A3-4T",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "B1-04",
+      "title": "电启动信号转换耗材",
+      "kind": "source_photo_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p298_i2.jpeg",
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "crop": [
+            925,
+            280,
+            1265,
+            470
+          ],
+          "anchor": [
+            1140,
+            393
+          ],
+          "physicalPage": 298,
+          "printedPage": 289
+        }
+      ],
+      "label": "看红色小头",
+      "role": "这是一种一次性执行耗材，\n把启动信号变成启动事件。",
+      "note": "原手册中的使用实例。\n它不是控制器或主燃料。",
+      "limitations": "照片不能独立核验MJG1834型号；不把电点火头当作控制器或主燃料。 本图仅红色小头及引线的外观定位，不展示改装、装药、连接、布线或启动操作。",
+      "sourcePartNumberOriginal": "1834",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-02",
+      "title": "开关防护盖",
+      "kind": "source_photo_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p286_i2.jpeg",
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "crop": [
+            78,
+            0,
+            200,
+            165
+          ],
+          "anchor": [
+            128,
+            60
+          ],
+          "physicalPage": 286,
+          "printedPage": 277
+        }
+      ],
+      "label": "看红色透明盖",
+      "role": "覆盖开关，\n降低无意碰动的机会。",
+      "note": "护盖与下面的开关是两件。\n不从照片认定销售型号。",
+      "limitations": "同页TGL-GRD-12MM描述与BOM商品码不同，不能从图片证明AZ18080602-03这一销售型号。",
+      "sourcePartNumberOriginal": "AZ18080602-03",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-03",
+      "title": "地面蓄电池",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p260_i3.jpeg",
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "crop": [
+            515,
+            215,
+            806,
+            452
+          ],
+          "anchor": [
+            690,
+            355
+          ],
+          "physicalPage": 260,
+          "printedPage": 251
+        }
+      ],
+      "label": "看深色电池本体",
+      "role": "为地面电气设备\n储存并提供电能。",
+      "note": "灰色约束件属于邻件。\n电池是原CAD中的简化外形。",
+      "limitations": "原CAD箱内电池是简化体，不能核验62586商品、160CCA或AGM内部结构。",
+      "sourcePartNumberOriginal": "62586",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-05",
+      "title": "受控负载继电器模块",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p272_i2.png",
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "crop": [
+            502,
+            172,
+            638,
+            258
+          ],
+          "anchor": [
+            568,
+            206
+          ],
+          "physicalPage": 272,
+          "printedPage": 263
+        }
+      ],
+      "label": "看中间继电器模块",
+      "role": "让较弱的控制信号，\n改变一个电负载的通断。",
+      "note": "原图继电器实例。\n原图与物料表的型号/额定值有差异。",
+      "limitations": "p272标PWM-RLY-30A，BOM写10A/LCATMC1569；只能称原图继电器实例，不能宣称完全同型号或额定值。",
+      "sourcePartNumberOriginal": "LCATMC1569",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-06",
+      "title": "稳压电源模块",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p272_i2.png",
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "crop": [
+            634,
+            190,
+            790,
+            252
+          ],
+          "anchor": [
+            712,
+            217
+          ],
+          "physicalPage": 272,
+          "printedPage": 263
+        }
+      ],
+      "label": "看带散热纹的模块",
+      "role": "转换供电条件，\n供接收机等设备使用。",
+      "note": "原图DROK模块实例。\n不由绘图推断功率或效率。",
+      "limitations": "源图为DROK-12V-5V，BOM销售码090600AFA；不从绘图推断真实额定功率、电流或效率。",
+      "sourcePartNumberOriginal": "090600AFA",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-07",
+      "title": "地面电源开关",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p275_i2.jpeg",
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "crop": [
+            213,
+            175,
+            468,
+            425
+          ],
+          "anchor": [
+            285,
+            305
+          ],
+          "physicalPage": 275,
+          "printedPage": 266
+        }
+      ],
+      "label": "看盖后方形开关本体",
+      "role": "控制地面电源的\n接通或断开。",
+      "note": "红色防护盖另列。\n拨杆被盖遮挡，原图不完整显示。",
+      "limitations": "原图可说明开关形态/位置，不能独立核验GSW-17销售型号。 原图外侧红盖遮挡了拨杆，本图只定位灰色开关本体，不补画不可见的拨杆。",
+      "sourcePartNumberOriginal": "GSW-17",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-08",
+      "title": "地面电气插座",
+      "kind": "source_photo",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p276_i2.jpeg",
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "crop": [
+            95,
+            145,
+            365,
+            400
+          ],
+          "anchor": [
+            218,
+            283
+          ],
+          "physicalPage": 276,
+          "printedPage": 267
+        }
+      ],
+      "label": "看白色插孔面",
+      "role": "给外部电气联系\n提供可插拔接口。",
+      "note": "这里只认插孔和白色外壳。\n原照周围物件不属于本条。",
+      "limitations": "BOM7159K3，正文p2777159K91；只称原手册插座实例，不能判成同一货号。",
+      "sourcePartNumberOriginal": "7159K3",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-09",
+      "title": "插座面板盖板",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p278_i2.jpeg",
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "crop": [
+            324,
+            126,
+            794,
+            562
+          ],
+          "anchor": [
+            715,
+            240
+          ],
+          "physicalPage": 278,
+          "printedPage": 269
+        }
+      ],
+      "label": "看白色外框盖板",
+      "role": "盖住插座周边，\n形成清楚的面板边界。",
+      "note": "盖板与中间插孔分开识别。\n保留原图用途标识，不核验规格。",
+      "limitations": "没有独立商品图；原图刻有用途标识，不从外观核验7526K23材质或规格。",
+      "sourcePartNumberOriginal": "7526K23",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-11",
+      "title": "地面设备机箱",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p260_i2.jpeg",
+          "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "crop": [
+            0,
+            0,
+            772,
+            440
+          ],
+          "anchor": [
+            747,
+            165
+          ],
+          "physicalPage": 260,
+          "printedPage": 251
+        }
+      ],
+      "label": "看外壳与提手",
+      "role": "为设备提供容纳、\n保护和安装的箱体。",
+      "note": "只描外箱轮廓，内部部件淡化。\n这是上下文定位，不是独立空箱图。",
+      "limitations": "图中还含其他部件，不允许直接复用整箱系统图作各个单件的首图。 本图以原CAD源图纹理作为上下文，叠加白色淡化并描外箱/提手边界；并非独立空箱CAD或商品认证。原图文件及像素数据本身未修改。",
+      "sourcePartNumberOriginal": "91111",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-12",
+      "title": "蓄电池约束吊环",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p274_i2.jpeg",
+          "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+          "crop": [
+            66,
+            235,
+            275,
+            465
+          ],
+          "anchor": [
+            132,
+            408
+          ],
+          "physicalPage": 274,
+          "printedPage": 265
+        }
+      ],
+      "label": "看箱壁上的吊环",
+      "role": "为蓄电池约束关系\n提供固定的环形连接点。",
+      "note": "原图保留少量箱壁。\n它不是箭上鼻锥吊环。",
+      "limitations": "文字p274明确9489T519；图示局部可识别，未做尺寸或承载校验。",
+      "sourcePartNumberOriginal": "9489T519",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-16",
+      "title": "储存容器接口短节",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p253_i2.jpeg",
+          "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "crop": [
+            344,
+            0,
+            762,
+            212
+          ],
+          "anchor": [
+            472,
+            106
+          ],
+          "physicalPage": 253,
+          "printedPage": 244
+        }
+      ],
+      "label": "看中间细长管体",
+      "role": "把容器一侧接口\n过渡到后续连接界面。",
+      "note": "右侧大螺母是另一件。\n本体部分与邻件重叠。",
+      "limitations": "正文明确79215A673但原图无单件分解线；裁切不能使重叠螺母消失而伪称完整独立外形。",
+      "sourcePartNumberOriginal": "79215A673",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-17",
+      "title": "储存容器接口锁紧螺母",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p253_i2.jpeg",
+          "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "crop": [
+            575,
+            0,
+            762,
+            212
+          ],
+          "anchor": [
+            686,
+            80
+          ],
+          "physicalPage": 253,
+          "printedPage": 244
+        }
+      ],
+      "label": "看右端大六角螺母",
+      "role": "机械保持接口，\n与内侧细长短节分开。",
+      "note": "保留相邻短节的一小段。\n不能把整组连接件当一件。",
+      "limitations": "对应79215A672由同页正文确认，外形局部仍与短节重叠。",
+      "sourcePartNumberOriginal": "79215A672",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-20",
+      "title": "地面直通连接件",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p253_i2.jpeg",
+          "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "crop": [
+            158,
+            18,
+            410,
+            191
+          ],
+          "anchor": [
+            282,
+            100
+          ],
+          "physicalPage": 253,
+          "printedPage": 244
+        }
+      ],
+      "label": "看中间短接本体",
+      "role": "以直通形式，\n连接相邻的流体接口。",
+      "note": "位置依同页正文对应。\n不套用相近货号的CAD。",
+      "limitations": "图没有原货号箭头，匹配依赖同页文字；不从相近外形借用50785K91/94源CAD。",
+      "sourcePartNumberOriginal": "50785K92",
+      "annotationLabelCount": 1
+    },
+    {
+      "id": "C1-27",
+      "title": "管路穿壁连接件",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p256_i2.jpeg",
+          "sha256": "7fc0479ec5379f4f97d8a49b5d948af841e316f75359343f7ed851113237539c",
+          "crop": [
+            0,
+            0,
+            850,
+            326
+          ],
+          "anchor": [
+            498,
+            160
+          ],
+          "physicalPage": 256,
+          "printedPage": 247
+        }
+      ],
+      "label": "看中间金色穿壁体",
+      "role": "让细管路穿过箱壁，\n并在壁面处保持位置。",
+      "note": "两端银色接头不是本物项。\n原图是相邻部件的组合上下文。",
+      "limitations": "两端9396T31不是该穿壁体本身，不可截整段冒充单件。",
+      "sourcePartNumberOriginal": "50785K272",
+      "annotationLabelCount": 3
+    },
+    {
+      "id": "C1-28",
+      "title": "地面压力表",
+      "kind": "source_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p255_i2.jpeg",
+          "sha256": "26f944c937cfff877cae5d9afe06c261111d9bf82f70857952761c6f9642f280",
+          "crop": [
+            0,
+            462,
+            329,
+            804
+          ],
+          "anchor": [
+            153,
+            644
+          ],
+          "physicalPage": 255,
+          "printedPage": 246
+        }
+      ],
+      "label": "看圆形表背",
+      "role": "显示取压位置的压力，\n不代表整个系统的全部状态。",
+      "note": "原图只见表背，没有真实读数。\n原图与物料表的型号有差异。",
+      "limitations": "图和正文为3846K93，BOM为3846K8/其系列链接；原图只见表背、没有真实读数。不能伪造表盘读数或认成同型号。",
+      "sourcePartNumberOriginal": "3846K8",
+      "annotationLabelCount": 1
+    }
+  ]
+}

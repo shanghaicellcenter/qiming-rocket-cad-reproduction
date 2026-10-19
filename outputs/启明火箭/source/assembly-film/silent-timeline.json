@@ -1,0 +1,91 @@
+{
+  "duration": 219.86,
+  "clips": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 15.03
+    },
+    {
+      "id": "stage01",
+      "start": 15.03,
+      "end": 26.38
+    },
+    {
+      "id": "stage02",
+      "start": 26.38,
+      "end": 39.34
+    },
+    {
+      "id": "stage03",
+      "start": 39.34,
+      "end": 51.61
+    },
+    {
+      "id": "stage04",
+      "start": 51.61,
+      "end": 64.34
+    },
+    {
+      "id": "stage05",
+      "start": 64.34,
+      "end": 77.07
+    },
+    {
+      "id": "stage06",
+      "start": 77.07,
+      "end": 88.65
+    },
+    {
+      "id": "stage07",
+      "start": 88.65,
+      "end": 100.69
+    },
+    {
+      "id": "stage08",
+      "start": 100.69,
+      "end": 113.42
+    },
+    {
+      "id": "stage09",
+      "start": 113.42,
+      "end": 126.15
+    },
+    {
+      "id": "stage10",
+      "start": 126.15,
+      "end": 139.34
+    },
+    {
+      "id": "stage11",
+      "start": 139.34,
+      "end": 152.53
+    },
+    {
+      "id": "stage12",
+      "start": 152.53,
+      "end": 165.26
+    },
+    {
+      "id": "stage13",
+      "start": 165.26,
+      "end": 178.45
+    },
+    {
+      "id": "stage14",
+      "start": 178.45,
+      "end": 191.41
+    },
+    {
+      "id": "stage15",
+      "start": 191.41,
+      "end": 204.83
+    },
+    {
+      "id": "outro",
+      "start": 204.83,
+      "end": 219.86
+    }
+  ],
+  "timing": "provisional until audio QA"
+}

@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "id": "browse",
+      "label": "浏览级",
+      "path": "../../assembly/vehicle-browse.compact.glb",
+      "audit": "../../assembly/vehicle-browse.audit.json",
+      "validation": "../../native-cad/vehicle-browse.validation.json",
+      "lod": 1
+    },
+    {
+      "id": "precision",
+      "label": "精细级",
+      "path": "../../assembly/vehicle-original.compact.glb",
+      "audit": "../../assembly/vehicle-original.audit.json",
+      "validation": "../../native-cad/vehicle.validation.json",
+      "lod": 3
+    }
+  ],
+  "library": [
+    {
+      "id": "supplements",
+      "label": "独立源原件库",
+      "path": "../../library/supplements/supplements.glb",
+      "audit": "../../library/supplements/supplements.audit.json"
+    }
+  ]
+}

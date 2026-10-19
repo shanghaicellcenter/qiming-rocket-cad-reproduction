@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "project_display_name": "启明火箭",
+  "stage_count": 15,
+  "stage_mesh_occurrence_sum": 688,
+  "stages": [
+    {
+      "stage_id": "01",
+      "title_zh": "贮箱：上部燃料，下部氧化剂",
+      "role_zh": "这根长筒里，燃料在上部，氧化剂在下部，中间的活塞把两者隔开。这样，一根筒体里就有了两个彼此分开的储存空间。",
+      "look_at_zh": "筒体、上下封头、筒内隔离活塞和外侧管路的相对位置。",
+      "why_quality_matters_zh": "储存、分隔、传力是不同功能；看见封闭外形，只能说明模型表达了边界。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 111,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 326,
+        "reference_blender_frame": 192,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "01"
+      },
+      "independent_physical_evidence_needed_zh": "材料身份与状态、真实边界和接口检验记录、同一配置的密封与压力完整性证据。HCR-5105涉及的已知接口问题另列，不能因模型对齐就算修复验收。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.2 推进剂贮箱；图2.8、2.9"
+      ]
+    },
+    {
+      "stage_id": "02",
+      "title_zh": "推力室：能量释放的位置",
+      "role_zh": "下面这组是推力室。它是释放能量、让气体向后排出的部位；这一段只把原结构放回位置，帮助理解它和贮箱的关系。",
+      "look_at_zh": "筒段、前后端结构及相邻连接件，不用外壳轮廓代替内部已有源件。",
+      "why_quality_matters_zh": "这一组把能量释放区域与外部结构连接起来；表面像金属不等于材料和热承载能力已经认证。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 73,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 224,
+        "reference_blender_frame": 336,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "02"
+      },
+      "independent_physical_evidence_needed_zh": "材料与构件可追溯记录、连接承载和热环境的独立验证，以及与其配置相符的原始试验记录。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "1.3.3 推力室组件；2.3.4 推力室组件；图2.17"
+      ]
+    },
+    {
+      "stage_id": "03",
+      "title_zh": "上端燃料阀：电驱动与阀体相连",
+      "role_zh": "上端这一只是燃料阀。电驱动部件通过连接件带动阀柄，阀柄带动里面的球形阀芯转动；阀体由支架固定，不跟着转。",
+      "look_at_zh": "上端燃料阀、驱动部件、连接件、阀柄与固定阀体的支架。",
+      "why_quality_matters_zh": "驱动对象是阀柄和内部阀芯，阀体保持固定；静态模型可以讲连接关系，不能证明驱动功能。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 32,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 103,
+        "reference_blender_frame": 480,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "03"
+      },
+      "independent_physical_evidence_needed_zh": "对应实体驱动链、固定结构与阀门功能的检验记录；电气响应和密封状态需要独立证据。这里没有把阀体做旋转动画。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.3 流体系统·主推进剂阀"
+      ]
+    },
+    {
+      "stage_id": "04",
+      "title_zh": "下端氧化剂阀：另一条通路",
+      "role_zh": "下端这一只是氧化剂阀，和上端燃料阀负责不同的通路。两只阀外形相近，却各有自己的位置和连接，不能把它们混为一个。",
+      "look_at_zh": "下端氧化剂阀的独立位置和连接；与上端燃料阀区分。",
+      "why_quality_matters_zh": "相同外形的两只阀仍是两个空间实例、两条不同通路，不能以一个通过来代表另一个。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 32,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 103,
+        "reference_blender_frame": 624,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "04"
+      },
+      "independent_physical_evidence_needed_zh": "两只实体各自的来源与功能记录，以及它们与对应通路的实际一致性；不由同一CAD定义推导两个实体都合格。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.3 流体系统·主推进剂阀"
+      ]
+    },
+    {
+      "stage_id": "05",
+      "title_zh": "外侧管路：把上下部件联系起来",
+      "role_zh": "燃料的出口在贮箱上端，推力室却在下方。沿筒体外侧的长管把两处联系起来，接头则把管路与相邻部件连接起来。",
+      "look_at_zh": "沿筒体外侧的长管、弯曲走向、接头和相邻部件。",
+      "why_quality_matters_zh": "管路表达连接关系；源走向被保留，不表示真实软管在受力、环境或装配状态下仍有同样形状。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 42,
+        "source_hidden_mesh_occurrences": 1,
+        "source_objects_compared_at_return": 113,
+        "reference_blender_frame": 768,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "05"
+      },
+      "independent_physical_evidence_needed_zh": "实体连接身份、真实管路状态、接口完整性和环境适用的独立记录；没有进行弯曲、泄漏或流动验证。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.1 推进系统；2.3.3 流体系统"
+      ]
+    },
+    {
+      "stage_id": "06",
+      "title_zh": "翼面：与气流相互作用",
+      "role_zh": "先看红色的翼面。火箭相对空气运动时，翼面会受到空气的作用；这些作用还要通过连接处，传到支架和箭体结构。",
+      "look_at_zh": "本段归位第1侧完整翼支架总成；标题分别指出翼面、长支架、隔套、四侧分布的观察重点。每侧均含35个源网格、110个源对象。 红色翼面、与长支架连接处，以及原件已经建模的孔位。",
+      "why_quality_matters_zh": "翼面受空气作用，连接结构传递作用力；看得见孔，不等于实体紧固和载荷都通过。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 35,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 110,
+        "reference_blender_frame": 912,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "06"
+      },
+      "independent_physical_evidence_needed_zh": "翼面材料与损伤状态、实体连接质量和相应载荷证据；本次只核对已有源几何与位置。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.5 推进系统结构连接；图2.20"
+      ],
+      "group_scope_zh": "本段归位第1侧完整翼支架总成；标题分别指出翼面、长支架、隔套、四侧分布的观察重点。每侧均含35个源网格、110个源对象。"
+    },
+    {
+      "stage_id": "07",
+      "title_zh": "长支架：连接翼面与箭体",
+      "role_zh": "第二组里，留意翼面旁边的细长支架。它的截面像一个直角，一边连接尾翼，另一边联系贮箱和下方推力室结构。",
+      "look_at_zh": "本段归位第2侧完整翼支架总成；标题分别指出翼面、长支架、隔套、四侧分布的观察重点。每侧均含35个源网格、110个源对象。 直角截面的细长支架，以及翼面、贮箱和下方结构之间的关系。",
+      "why_quality_matters_zh": "角材的两条边把不同部件联系起来；结构连接与一个零件单独有多结实，是两个问题。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 35,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 110,
+        "reference_blender_frame": 1056,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "07"
+      },
+      "independent_physical_evidence_needed_zh": "支架材料/构件身份、连接部位状态，以及整条传力关系的独立验证，不能只看渲染颜色或单件外形。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.5 推进系统结构连接；图2.20"
+      ],
+      "group_scope_zh": "本段归位第2侧完整翼支架总成；标题分别指出翼面、长支架、隔套、四侧分布的观察重点。每侧均含35个源网格、110个源对象。"
+    },
+    {
+      "stage_id": "08",
+      "title_zh": "隔套：圆筒与平支架之间",
+      "role_zh": "圆筒表面是弯的，支架接触面却是平的。两者之间的隔套填补了形状差别；这段会放大这个小件，看清它所在的位置。",
+      "look_at_zh": "本段归位第3侧完整翼支架总成；标题分别指出翼面、长支架、隔套、四侧分布的观察重点。每侧均含35个源网格、110个源对象。 位于圆筒弧面与平支架之间的原隔套；镜头给出该小件近景。",
+      "why_quality_matters_zh": "隔套回应两种接触面形状的差别。回到原坐标只能证明数字摆放一致，尚未计算接触或配合间隙。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 35,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 110,
+        "reference_blender_frame": 1200,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "08"
+      },
+      "independent_physical_evidence_needed_zh": "实体接触与配合记录、连接状态和材料证据。没有求解接触压力或把零矩阵差解释为零间隙。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.5 推进系统结构连接；图2.20"
+      ],
+      "group_scope_zh": "本段归位第3侧完整翼支架总成；标题分别指出翼面、长支架、隔套、四侧分布的观察重点。每侧均含35个源网格、110个源对象。"
+    },
+    {
+      "stage_id": "09",
+      "title_zh": "四组尾翼：一起看环绕分布",
+      "role_zh": "四组尾翼归位后，可以一起看它们围绕箭体的分布。不过，判断能否稳定飞行，还要结合质量分布和空气作用，不能只看有几片翼。",
+      "look_at_zh": "本段归位第4侧完整翼支架总成；标题分别指出翼面、长支架、隔套、四侧分布的观察重点。每侧均含35个源网格、110个源对象。 四组翼面和支架围绕箭体的原始分布，随后一起显示。",
+      "why_quality_matters_zh": "飞行稳定与质量分布和空气作用有关，不能用“有四片翼”直接下结论。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 35,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 110,
+        "reference_blender_frame": 1344,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "09"
+      },
+      "independent_physical_evidence_needed_zh": "与同一实体配置相符的质量/气动模型和实测证据。本任务另有原OpenRocket模型实跑，仍保留其警告，且没有验证每个CAD连接。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.5 推进系统结构连接；2.5 飞行分析仅作验证范围线索"
+      ],
+      "group_scope_zh": "本段归位第4侧完整翼支架总成；标题分别指出翼面、长支架、隔套、四侧分布的观察重点。每侧均含35个源网格、110个源对象。"
+    },
+    {
+      "stage_id": "10",
+      "title_zh": "电子舱：模块与上下段的连接",
+      "role_zh": "电子舱既容纳电子模块，也连接上下两段箭体。画面保留原模块与托板的位置；源模型没有表达的布线，不凭想象补出。",
+      "look_at_zh": "电子模块、托板、连接支撑与外壳；临时透视仅帮助看见内部。",
+      "why_quality_matters_zh": "电子舱既容纳模块，也与上下结构相接。电路板的几何存在不等于电路、接线、供电与控制已经工作。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 158,
+        "source_hidden_mesh_occurrences": 2,
+        "source_objects_compared_at_return": 416,
+        "reference_blender_frame": 1488,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "10"
+      },
+      "independent_physical_evidence_needed_zh": "实体电气图与配置、模块/连接可追溯资料和独立功能证据；源未表达的布线没有凭想象补出。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.6 箭体与回收系统·电子舱；图2.23、2.25"
+      ]
+    },
+    {
+      "stage_id": "11",
+      "title_zh": "回收组：认清原作的简化模型",
+      "role_zh": "回收组在原图里是五种简化模型，共六个实例。它们表示收纳空间与部件关系，并不是已经展开的伞，也不是织物细节。",
+      "look_at_zh": "五种原作Mass Volume形体，共六个实例，以及它们所占的收纳空间。",
+      "why_quality_matters_zh": "这些是质量/体积与空间关系的简化表达，不能拿它们检查织物、绳结或展开动力学。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 6,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 22,
+        "reference_blender_frame": 1632,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "11"
+      },
+      "independent_physical_evidence_needed_zh": "与实际回收配置一致的织物/绳索/连接资料及独立功能记录；本次未新建伞布细节，也未以占位模型判定回收可靠。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.6 箭体与回收系统·减速伞、主伞、减震绳；源CAD MassVolume命名"
+      ]
+    },
+    {
+      "stage_id": "12",
+      "title_zh": "下段外壳：围住内部空间",
+      "role_zh": "下段外壳围住内部的回收空间，并连接电子舱与下方结构。筒壁回到原位置后，内外部件之间的层次就更容易理解。",
+      "look_at_zh": "下段原筒壁边界、上下接口与内部收纳空间的位置。",
+      "why_quality_matters_zh": "外壳归位让内外层次清楚，不能由此得出实体壁厚、接触或连接承载合格。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 1,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 7,
+        "reference_blender_frame": 1776,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "12"
+      },
+      "independent_physical_evidence_needed_zh": "原件材料与尺寸检验、真实接口配合和连接证据；本次没有扩大筒壁或补造厚度来让画面更好看。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.6 箭体与回收系统·下段箭体管"
+      ]
+    },
+    {
+      "stage_id": "13",
+      "title_zh": "上段外壳：连接电子舱与鼻锥",
+      "role_zh": "上段外壳包围上部的回收空间，两端分别与电子舱和鼻锥相接。这里按照原件边界归位，保留它与相邻组件的原始关系。",
+      "look_at_zh": "上段筒壁与电子舱、鼻锥相邻的边界。",
+      "why_quality_matters_zh": "相邻件保持独立源身份，外形连续不等于已经证明实体连接或回收分离功能。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 1,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 7,
+        "reference_blender_frame": 1920,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "13"
+      },
+      "independent_physical_evidence_needed_zh": "上段原件与接口的实际配置、材料/配合记录及独立功能证据；没有将相邻模型合成一个新外壳。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.6 箭体与回收系统·上段箭体管"
+      ]
+    },
+    {
+      "stage_id": "14",
+      "title_zh": "鼻锥：前端外形与内部源结构",
+      "role_zh": "鼻锥让箭体前端形成连续外形，内部保留源件已有的连接结构与空间。它由多个原件组成，不能用一个光滑外壳代替。",
+      "look_at_zh": "分段鼻锥、连接肩以及源已有的内部杆件和连接结构。",
+      "why_quality_matters_zh": "光滑前端只是外形的一部分，源内件也应保留；外形相似不能替代气动、材料或连接承载验证。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 55,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 170,
+        "reference_blender_frame": 2064,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "14"
+      },
+      "independent_physical_evidence_needed_zh": "同一构型的材料、层间/连接状态、气动与回收连接相关证据；本次只展示实际源件。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.6 箭体与回收系统·头锥；图2.28"
+      ]
+    },
+    {
+      "stage_id": "15",
+      "title_zh": "连接件与辅助件：对齐全部源节点",
+      "role_zh": "最后归位连接件与原树保留的辅助件。所有源节点回到原坐标，完成数字模型的对照；辅助件是否随实物飞行，需要另核。",
+      "look_at_zh": "连接环、紧固件、导向件，以及源树中命名为钻孔辅助塞的物件。",
+      "why_quality_matters_zh": "完整保留源树不等于断言其中每个对象都属于最终飞行配置；辅助件与飞行部件必须有配置依据。",
+      "verified_digital_qc": {
+        "source_mesh_occurrences": 37,
+        "source_hidden_mesh_occurrences": 0,
+        "source_objects_compared_at_return": 107,
+        "reference_blender_frame": 2208,
+        "source_mesh_data_preserved": true,
+        "max_local_matrix_abs_error": 0,
+        "max_world_matrix_abs_error_source_coordinates": 0,
+        "evidence_file": "alignment-qc.json",
+        "evidence_stage_id": "15"
+      },
+      "independent_physical_evidence_needed_zh": "实体完整配置及工具/辅助件的身份记录、连接质量证据。不能从一个辅助件在CAD里可见推定它应该随实物飞行。",
+      "physical_evidence_status": "not verified by this digital reproduction",
+      "source_sections": [
+        "2.3.6 箭体与回收系统；原CAD源名与完整集合补集"
+      ]
+    }
+  ],
+  "physical_quality_certified": false
+}

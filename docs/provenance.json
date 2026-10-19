@@ -1,0 +1,16 @@
+[
+  {
+    "file": "source-piston.png",
+    "source": "outputs/启明火箭/research/component-link-review/piston.png",
+    "bytes": 735334,
+    "sha256": "b2c0a7b39daf8c80bf8fd8f5477e3a9d4285b03d02e1776d99cf0b5dfe7c9d7d",
+    "scope": "Actual current source UI or encoded final-movie decoded frame, not a concept image"
+  },
+  {
+    "file": "assembly-lecture-frame.png",
+    "source": "work/assembly-film/root-final-frame-review/stage08-0.png",
+    "bytes": 158218,
+    "sha256": "c4cd6cee5763d19c09af096744f458d16caf66f4955dd868423804811adb038d",
+    "scope": "Actual current source UI or encoded final-movie decoded frame, not a concept image"
+  }
+]

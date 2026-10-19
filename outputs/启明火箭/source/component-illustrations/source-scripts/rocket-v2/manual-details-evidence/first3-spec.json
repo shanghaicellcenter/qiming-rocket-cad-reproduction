@@ -1,0 +1,103 @@
+{
+  "scope": "first 3 for parent review; no public data edits",
+  "canvas": [
+    1600,
+    1000
+  ],
+  "rows": [
+    {
+      "id": "A7-06",
+      "title": "回收伞防热护布",
+      "kind": "source_photo",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p304_i3.jpeg",
+          "sha256": "57ff83ab95ad53b72ca09e47021d95651d5a44e6d465a23970755bd19a21afd9",
+          "crop": [
+            310,
+            830,
+            735,
+            1400
+          ],
+          "anchor": [
+            505,
+            1100
+          ],
+          "physicalPage": 304,
+          "printedPage": 295
+        }
+      ],
+      "limitations": "P106/P107是Mass Volume占位体，不能当真实护布。原照片为主伞护布使用上下文；可识别黑色织物与缝边，不能从照片核验16×16英寸尺寸、Nomex材质、REC-PRT-16型号或防护性能。照片仅UV局部裁切，未改写像素内容。",
+      "role": "在伞衣附近形成保护层，\n隔开热气与颗粒作用。"
+    },
+    {
+      "id": "C1-01",
+      "title": "遥控发射机与接收机",
+      "kind": "source_photo_context",
+      "badge": "原图定位",
+      "sources": [
+        {
+          "file": "p286_i2.jpeg",
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "crop": [
+            0,
+            0,
+            661,
+            421
+          ],
+          "anchor": [
+            328,
+            260
+          ],
+          "physicalPage": 286,
+          "printedPage": 277
+        },
+        {
+          "file": "p273_i2.jpeg",
+          "sha256": "cdaa972941549f7c6cc34916d37383317254a885da9cedae4dc7fb20924b363b",
+          "crop": [
+            590,
+            245,
+            970,
+            535
+          ],
+          "anchor": [
+            710,
+            350
+          ],
+          "physicalPage": 273,
+          "printedPage": 264
+        }
+      ],
+      "limitations": "发射机原照可见FLYSKY品牌，FS-i6X型号依据同页正文，不以照片独立认证。接收机为p273原CAD安装局部，身份由p272带FS-iA10B原标签的上下文对应；不可把它称独立接收机商品照。两物件分别显示，不从发射机外观推断整套接收机存在、接口定义或性能。",
+      "role": "发射机发送遥控指令；\n接收机接收并交给地面系统。"
+    },
+    {
+      "id": "C1-33",
+      "title": "地面小部件系绳",
+      "kind": "same_material_reference",
+      "badge": "同类材料参照",
+      "sources": [
+        {
+          "file": "p303_i3.jpeg",
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "crop": [
+            305,
+            145,
+            710,
+            855
+          ],
+          "anchor": [
+            490,
+            505
+          ],
+          "physicalPage": 303,
+          "printedPage": 294
+        }
+      ],
+      "limitations": "黄色细绳是原照片中的主伞细伞绳，只作同类材料形态参照，不能冒称地面系留原实照。不能把较宽尼龙扁带当Kevlar细绳；照片不能核验EK5580商品、250lb额定强度、100ft长度或真实材质。右侧地面系留仅为新绘功能关系示意，不能代表原CAD、商品外形或安装操作。",
+      "role": "柔性连接把小部件留在附近。\n主伞细绳与地面系留用途分开。"
+    }
+  ]
+}

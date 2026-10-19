@@ -1,0 +1,1806 @@
+{
+  "patchOnly": true,
+  "publicDataModified": false,
+  "partsJsonModified": false,
+  "publicJsModified": false,
+  "frozenBlendModified": false,
+  "scope": "All 22 source-manual photo/context/material cards; parent independent review pending for each item",
+  "count": 22,
+  "first3ParentVisualReview": "A7-06/C1-01/C1-33 reviewed by parent before proceeding; pending flags intentionally kept true until parent final merge audit",
+  "items": [
+    {
+      "id": "A3-01",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/A3-01.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "DS3225",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p150_i2.png",
+              "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+              "crop": [
+                310,
+                230,
+                730,
+                530
+              ],
+              "anchor": [
+                515,
+                404
+              ],
+              "physicalPage": 150,
+              "printedPage": 141,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p150_i2.png",
+              "sourceSize": [
+                731,
+                532
+              ],
+              "renderImageBounds": [
+                78.0,
+                253.6428571428571,
+                828.0,
+                789.3571428571429
+              ],
+              "renderAnchor": [
+                444.0714285714286,
+                564.3571428571429
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p150_i2.png",
+          "sourceSha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "sourcePhysicalPage": 150,
+          "sourcePrintedPage": 141,
+          "cropPixels": [
+            310,
+            230,
+            730,
+            530
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            515,
+            404
+          ],
+          "anchorRenderPixels": [
+            444.0714285714286,
+            564.3571428571429
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "原BOM前十行货号错位，正确92855A310不在170源库；DS3225是舵机，不能匹配。原页说明M3螺钉/垫圈，图片不能核验供应商型号。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "父层逐图审阅后仅修正文案：把螺钉、垫圈和周围连接件分开认；原图、裁切和指针坐标均保持不变。已打开新WebP复核。",
+          "outputSha256": "d3ba702a486521eec08329413d6c22c3d6a161885d366a3587ec8106726271d7",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/A3-01.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/A3-01.blend"
+    },
+    {
+      "id": "A7-05",
+      "mergeVisual": {
+        "status": "source_photo_context",
+        "image": "assets/manual-details/A7-05.webp",
+        "caption": "原手册实照局部，青色圈定位本物项；非独立商品认证。",
+        "sourcePartNumberOriginal": "REC-TNSC-3KLB",
+        "sourceEvidence": {
+          "kind": "source_photo_context",
+          "sources": [
+            {
+              "file": "p303_i3.jpeg",
+              "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+              "crop": [
+                0,
+                575,
+                505,
+                1290
+              ],
+              "anchor": [
+                160,
+                960
+              ],
+              "physicalPage": 303,
+              "printedPage": 294,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p303_i3.jpeg",
+              "sourceSize": [
+                891,
+                1431
+              ],
+              "renderImageBounds": [
+                238.63986013986013,
+                218.0,
+                667.3601398601398,
+                825.0
+              ],
+              "renderAnchor": [
+                374.47202797202794,
+                544.8461538461538
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p303_i3.jpeg",
+          "sourceSha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "sourcePhysicalPage": 303,
+          "sourcePrintedPage": 294,
+          "cropPixels": [
+            0,
+            575,
+            505,
+            1290
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            160,
+            960
+          ],
+          "anchorRenderPixels": [
+            374.47202797202794,
+            544.8461538461538
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "P108是Mass Volume；照片可展示原项目扁带形态，不能从颜色证明额定强度或型号。 REC-TNSC-3KLB / P108 Mass Volume不是实物强度或材质证据；原照与本图中的细黄伞绳不是宽尼龙扁带。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开修正后最终WebP：宽浅色扁带的织纹、带宽和斜向轮廓可认，指针落在宽带中心；旁边细黄伞绳未混认。",
+          "outputSha256": "24fe7435472f7f7d9cf55106fb340aa861f516305eb49985552babad0644c7af",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/A7-05.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/A7-05.blend"
+    },
+    {
+      "id": "A7-06",
+      "mergeVisual": {
+        "status": "source_photo",
+        "image": "assets/manual-details/A7-06.webp",
+        "caption": "原手册护布照片局部；只作物项定位与外观认识，非独立单件图或商品认证。",
+        "sourcePartNumberOriginal": "REC-PRT-16",
+        "sourceEvidence": {
+          "kind": "source_photo",
+          "sources": [
+            {
+              "file": "p304_i3.jpeg",
+              "sha256": "57ff83ab95ad53b72ca09e47021d95651d5a44e6d465a23970755bd19a21afd9",
+              "crop": [
+                310,
+                830,
+                735,
+                1400
+              ],
+              "anchor": [
+                505,
+                1100
+              ],
+              "physicalPage": 304,
+              "printedPage": 295,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p304_i3.jpeg",
+              "sourceSize": [
+                741,
+                1431
+              ],
+              "renderImageBounds": [
+                198.7061403508772,
+                218.0,
+                651.2938596491229,
+                825.0
+              ],
+              "renderAnchor": [
+                406.36403508771934,
+                505.5263157894737
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p304_i3.jpeg",
+          "sourceSha256": "57ff83ab95ad53b72ca09e47021d95651d5a44e6d465a23970755bd19a21afd9",
+          "sourcePhysicalPage": 304,
+          "sourcePrintedPage": 295,
+          "cropPixels": [
+            310,
+            830,
+            735,
+            1400
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            505,
+            1100
+          ],
+          "anchorRenderPixels": [
+            406.36403508771934,
+            505.5263157894737
+          ],
+          "sourceImageContentModified": false,
+          "photoTreatment": "Original source image texture in Blender, UV crop only; no AI rewrite, no replacement pixels or photographic relighting.",
+          "limitations": "P106/P107是Mass Volume占位体，不能当真实护布。原照片为主伞护布使用上下文；可识别黑色织物与缝边，不能从照片核验16×16英寸尺寸、Nomex材质、REC-PRT-16型号或防护性能。照片仅UV局部裁切，未改写像素内容。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：黑色织物纹理、折边与白色缝边清楚，手部已由取景排除；青色目标圈在护布实体上；画面显著标原图定位及非独立单件/商品认证。",
+          "outputSha256": "bded763b95dc7fad88e6a7160e8553b5a18c9c09bc930274669c523e3a01dd68",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/A7-06.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/A7-06.blend"
+    },
+    {
+      "id": "A7-18",
+      "mergeVisual": {
+        "status": "source_photo_context",
+        "image": "assets/manual-details/A7-18.webp",
+        "caption": "原手册实照局部，青色圈定位本物项；非独立商品认证。",
+        "sourcePartNumberOriginal": "20GA-RBP",
+        "sourceEvidence": {
+          "kind": "source_photo_context",
+          "sources": [
+            {
+              "file": "p222_i3.jpeg",
+              "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+              "crop": [
+                280,
+                65,
+                830,
+                300
+              ],
+              "anchor": [
+                507,
+                255
+              ],
+              "physicalPage": 222,
+              "printedPage": 213,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p222_i3.jpeg",
+              "sourceSize": [
+                1300,
+                687
+              ],
+              "renderImageBounds": [
+                78.0,
+                361.27272727272725,
+                828.0,
+                681.7272727272727
+              ],
+              "renderAnchor": [
+                387.5454545454545,
+                620.3636363636363
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p222_i3.jpeg",
+          "sourceSha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "sourcePhysicalPage": 222,
+          "sourcePrintedPage": 213,
+          "cropPixels": [
+            280,
+            65,
+            830,
+            300
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            507,
+            255
+          ],
+          "anchorRenderPixels": [
+            387.5454545454545,
+            620.3636363636363
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "照片控制板是替代型号；不能用颜色核验20GA线径、硅胶材质或20GA-RBP产品。 原照中的控制板为StratologgerCF替代实例，不是Quark；本图不将原接线图升级为该线产品身份。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：红黑导线的曲线与包覆层清楚，青色圈落在红色包覆导线上；未呈现控制板接线端子与整套线路。",
+          "outputSha256": "2cd938912a0e44afca0196589152f342a4ace0ba9f60572b5b84be912fe5b2c7",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/A7-18.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/A7-18.blend"
+    },
+    {
+      "id": "B1-03",
+      "mergeVisual": {
+        "status": "source_photo",
+        "image": "assets/manual-details/B1-03.webp",
+        "caption": "原手册外观实例；仅认识外形与角色，不呈现改装、装药或接线操作。",
+        "sourcePartNumberOriginal": "A3-4T",
+        "sourceEvidence": {
+          "kind": "source_photo",
+          "sources": [
+            {
+              "file": "p297_i3.jpeg",
+              "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+              "crop": [
+                550,
+                65,
+                1120,
+                685
+              ],
+              "anchor": [
+                960,
+                550
+              ],
+              "physicalPage": 297,
+              "printedPage": 288,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p297_i3.jpeg",
+              "sourceSize": [
+                1431,
+                690
+              ],
+              "renderImageBounds": [
+                173.97580645161293,
+                218.0,
+                732.0241935483871,
+                825.0
+              ],
+              "renderAnchor": [
+                575.3790322580645,
+                692.8306451612902
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p297_i3.jpeg",
+          "sourceSha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "sourcePhysicalPage": 297,
+          "sourcePrintedPage": 288,
+          "cropPixels": [
+            550,
+            65,
+            1120,
+            685
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            960,
+            550
+          ],
+          "anchorRenderPixels": [
+            575.3790322580645,
+            692.8306451612902
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "P090没有A3-4T型号字样，不能声称其内部细节、完整商品标记或尺寸已经验证；不展示改装、装药或接入步骤。 本图仅显示小型圆筒的外部端面，不展示改装、装药、接入、接线或内部制造细节。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：小型圆筒外部端面轮廓可认，指针落在外圈；只解释端部外观及能量角色，没有改装、装药或接入步骤。",
+          "outputSha256": "b27b0a588fcc66f33711afe37dde16f817933bcc793efa4b19f6534dadea9e69",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/B1-03.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/B1-03.blend"
+    },
+    {
+      "id": "B1-04",
+      "mergeVisual": {
+        "status": "source_photo_context",
+        "image": "assets/manual-details/B1-04.webp",
+        "caption": "原手册外观实例；仅认识外形与角色，不呈现改装、装药或接线操作。",
+        "sourcePartNumberOriginal": "1834",
+        "sourceEvidence": {
+          "kind": "source_photo_context",
+          "sources": [
+            {
+              "file": "p298_i2.jpeg",
+              "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+              "crop": [
+                925,
+                280,
+                1265,
+                470
+              ],
+              "anchor": [
+                1140,
+                393
+              ],
+              "physicalPage": 298,
+              "printedPage": 289,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p298_i2.jpeg",
+              "sourceSize": [
+                1428,
+                661
+              ],
+              "renderImageBounds": [
+                78.0,
+                311.94117647058823,
+                828.0,
+                731.0588235294117
+              ],
+              "renderAnchor": [
+                552.2647058823529,
+                561.2058823529412
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p298_i2.jpeg",
+          "sourceSha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "sourcePhysicalPage": 298,
+          "sourcePrintedPage": 289,
+          "cropPixels": [
+            925,
+            280,
+            1265,
+            470
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            1140,
+            393
+          ],
+          "anchorRenderPixels": [
+            552.2647058823529,
+            561.2058823529412
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "照片不能独立核验MJG1834型号；不把电点火头当作控制器或主燃料。 本图仅红色小头及引线的外观定位，不展示改装、装药、连接、布线或启动操作。 目标在源图中的像素有限，本图仅保留原有轮廓与模糊，不做AI超分辨率、重绘或细节补全。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：红色小头、外引线局部和周边外观可认，青色圈指向红头；源图本身有模糊，未AI补造细节。",
+          "outputSha256": "f8270764cd54a9b4ced722aaed0408b3d65df6b80b07c351a83026d4eb5c71fb",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/B1-04.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/B1-04.blend"
+    },
+    {
+      "id": "C1-01",
+      "mergeVisual": {
+        "status": "source_photo_context",
+        "image": "assets/manual-details/C1-01.webp",
+        "caption": "原手册发射机实照与接收机安装局部分开识别；非独立CAD或商品认证图。",
+        "sourcePartNumberOriginal": "DTUS_FSI6X_10CH",
+        "sourceEvidence": {
+          "kind": "source_photo_context",
+          "sources": [
+            {
+              "file": "p286_i2.jpeg",
+              "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+              "crop": [
+                0,
+                0,
+                661,
+                421
+              ],
+              "anchor": [
+                328,
+                260
+              ],
+              "physicalPage": 286,
+              "printedPage": 277,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p286_i2.jpeg",
+              "sourceSize": [
+                661,
+                421
+              ],
+              "renderImageBounds": [
+                80.0,
+                280.04160363086237,
+                755.0,
+                709.9583963691377
+              ],
+              "renderAnchor": [
+                414.94704992435703,
+                545.5484114977307
+              ],
+              "sourcePixelsUnchanged": true
+            },
+            {
+              "file": "p273_i2.jpeg",
+              "sha256": "cdaa972941549f7c6cc34916d37383317254a885da9cedae4dc7fb20924b363b",
+              "crop": [
+                590,
+                245,
+                970,
+                535
+              ],
+              "anchor": [
+                710,
+                350
+              ],
+              "physicalPage": 273,
+              "printedPage": 264,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p273_i2.jpeg",
+              "sourceSize": [
+                975,
+                615
+              ],
+              "renderImageBounds": [
+                896.2758620689656,
+                280.0,
+                1459.7241379310344,
+                710.0
+              ],
+              "renderAnchor": [
+                1074.2068965517242,
+                435.68965517241384
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p286_i2.jpeg",
+          "sourceSha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "sourcePhysicalPage": 286,
+          "sourcePrintedPage": 277,
+          "cropPixels": [
+            0,
+            0,
+            661,
+            421
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            328,
+            260
+          ],
+          "anchorRenderPixels": [
+            414.94704992435703,
+            545.5484114977307
+          ],
+          "sourceImageContentModified": false,
+          "photoTreatment": "Original source image texture in Blender, UV crop only; no AI rewrite, no replacement pixels or photographic relighting.",
+          "limitations": "发射机原照可见FLYSKY品牌，FS-i6X型号依据同页正文，不以照片独立认证。接收机为p273原CAD安装局部，身份由p272带FS-iA10B原标签的上下文对应；不可把它称独立接收机商品照。两物件分别显示，不从发射机外观推断整套接收机存在、接口定义或性能。",
+          "identityContext": {
+            "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p272_i2.png",
+            "sourceSha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+            "actualViewed": true,
+            "basis": "Original FS-iA10B label identifies the same receiver mounting context; separate transmitter model uses original page text."
+          }
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：左侧FLYSKY发射机实照、右侧接收机安装局部分开呈现，两条青色指针分别落在两个设备本体，原图无误改或重绘，裁切未残留半截原标签。",
+          "outputSha256": "0ed974e9cf5b85b81ed26cf72ca6a63d3ab4cbd25c770be0e02d1539ccbc9ed0",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-01.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-01.blend"
+    },
+    {
+      "id": "C1-02",
+      "mergeVisual": {
+        "status": "source_photo_context",
+        "image": "assets/manual-details/C1-02.webp",
+        "caption": "原手册实照局部，青色圈定位本物项；非独立商品认证。",
+        "sourcePartNumberOriginal": "AZ18080602-03",
+        "sourceEvidence": {
+          "kind": "source_photo_context",
+          "sources": [
+            {
+              "file": "p286_i2.jpeg",
+              "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+              "crop": [
+                78,
+                0,
+                200,
+                165
+              ],
+              "anchor": [
+                128,
+                60
+              ],
+              "physicalPage": 286,
+              "printedPage": 277,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p286_i2.jpeg",
+              "sourceSize": [
+                661,
+                421
+              ],
+              "renderImageBounds": [
+                228.5939393939394,
+                218.0,
+                677.4060606060606,
+                825.0
+              ],
+              "renderAnchor": [
+                412.5333333333333,
+                438.72727272727275
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p286_i2.jpeg",
+          "sourceSha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "sourcePhysicalPage": 286,
+          "sourcePrintedPage": 277,
+          "cropPixels": [
+            78,
+            0,
+            200,
+            165
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            128,
+            60
+          ],
+          "anchorRenderPixels": [
+            412.5333333333333,
+            438.72727272727275
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "同页TGL-GRD-12MM描述与BOM商品码不同，不能从图片证明AZ18080602-03这一销售型号。 目标在源图中的像素有限，本图仅保留原有轮廓与模糊，不做AI超分辨率、重绘或细节补全。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：单个红透明护盖的完整主体轮廓可认，圈点在盖上；下面开关只作上下文，并明确两者不同。",
+          "outputSha256": "90266e5709e6f356b3cf4cfaf536c70b585ec748304472092ca9b5d0a0532ec5",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-02.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-02.blend"
+    },
+    {
+      "id": "C1-03",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-03.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "62586",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p260_i3.jpeg",
+              "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+              "crop": [
+                515,
+                215,
+                806,
+                452
+              ],
+              "anchor": [
+                690,
+                355
+              ],
+              "physicalPage": 260,
+              "printedPage": 251,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p260_i3.jpeg",
+              "sourceSize": [
+                807,
+                493
+              ],
+              "renderImageBounds": [
+                80.34810126582278,
+                218.0,
+                825.6518987341772,
+                825.0
+              ],
+              "renderAnchor": [
+                528.5548523206751,
+                576.5654008438819
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p260_i3.jpeg",
+          "sourceSha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "sourcePhysicalPage": 260,
+          "sourcePrintedPage": 251,
+          "cropPixels": [
+            515,
+            215,
+            806,
+            452
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            690,
+            355
+          ],
+          "anchorRenderPixels": [
+            528.5548523206751,
+            576.5654008438819
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "原CAD箱内电池是简化体，不能核验62586商品、160CCA或AGM内部结构。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：深色电池简化箱体及上缘可认，青色圈在电池侧面，灰色约束件明确为邻件。",
+          "outputSha256": "65822ca729c66d04145a683152c54beff18ff3b4282aa11bf4508c5cddb47707",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-03.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-03.blend"
+    },
+    {
+      "id": "C1-05",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-05.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "LCATMC1569",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p272_i2.png",
+              "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+              "crop": [
+                502,
+                172,
+                638,
+                258
+              ],
+              "anchor": [
+                568,
+                206
+              ],
+              "physicalPage": 272,
+              "printedPage": 263,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p272_i2.png",
+              "sourceSize": [
+                934,
+                538
+              ],
+              "renderImageBounds": [
+                78.0,
+                284.36764705882354,
+                828.0,
+                758.6323529411765
+              ],
+              "renderAnchor": [
+                441.9705882352941,
+                471.86764705882354
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p272_i2.png",
+          "sourceSha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "sourcePhysicalPage": 272,
+          "sourcePrintedPage": 263,
+          "cropPixels": [
+            502,
+            172,
+            638,
+            258
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            568,
+            206
+          ],
+          "anchorRenderPixels": [
+            441.9705882352941,
+            471.86764705882354
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "p272标PWM-RLY-30A，BOM写10A/LCATMC1569；只能称原图继电器实例，不能宣称完全同型号或额定值。 目标在源图中的像素有限，本图仅保留原有轮廓与模糊，不做AI超分辨率、重绘或细节补全。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开修正后最终WebP：蓝色端子区/黑色继电器本体及支承轮廓可认，圈点在模块本体；裁切排除了无标签的原箭头残尖，未声称额定值同版。",
+          "outputSha256": "b97b11a558bcc33d13b16d6a91b0ff22a40c150ec70280231d4d4a750cc56d03",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-05.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-05.blend"
+    },
+    {
+      "id": "C1-06",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-06.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "090600AFA",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p272_i2.png",
+              "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+              "crop": [
+                634,
+                190,
+                790,
+                252
+              ],
+              "anchor": [
+                712,
+                217
+              ],
+              "physicalPage": 272,
+              "printedPage": 263,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p272_i2.png",
+              "sourceSize": [
+                934,
+                538
+              ],
+              "renderImageBounds": [
+                78.0,
+                372.46153846153845,
+                828.0,
+                670.5384615384614
+              ],
+              "renderAnchor": [
+                453.0,
+                502.2692307692307
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p272_i2.png",
+          "sourceSha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "sourcePhysicalPage": 272,
+          "sourcePrintedPage": 263,
+          "cropPixels": [
+            634,
+            190,
+            790,
+            252
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            712,
+            217
+          ],
+          "anchorRenderPixels": [
+            453.0,
+            502.2692307692307
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "源图为DROK-12V-5V，BOM销售码090600AFA；不从绘图推断真实额定功率、电流或效率。 目标在源图中的像素有限，本图仅保留原有轮廓与模糊，不做AI超分辨率、重绘或细节补全。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开修正后最终WebP：带散热纹的DROK模块本体与外部引线可认，圈点在模块主体；裁掉原箭头残尖，不补造内部电路或性能。",
+          "outputSha256": "234fccc85b2cb26fcfb94fc9cefc4d6af16b3e8261f35c452acd339e209adb5b",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-06.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-06.blend"
+    },
+    {
+      "id": "C1-07",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-07.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "GSW-17",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p275_i2.jpeg",
+              "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+              "crop": [
+                213,
+                175,
+                468,
+                425
+              ],
+              "anchor": [
+                285,
+                305
+              ],
+              "physicalPage": 275,
+              "printedPage": 266,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p275_i2.jpeg",
+              "sourceSize": [
+                468,
+                741
+              ],
+              "renderImageBounds": [
+                143.43,
+                218.0,
+                762.5699999999999,
+                825.0
+              ],
+              "renderAnchor": [
+                318.246,
+                533.64
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p275_i2.jpeg",
+          "sourceSha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "sourcePhysicalPage": 275,
+          "sourcePrintedPage": 266,
+          "cropPixels": [
+            213,
+            175,
+            468,
+            425
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            285,
+            305
+          ],
+          "anchorRenderPixels": [
+            318.246,
+            533.64
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "原图可说明开关形态/位置，不能独立核验GSW-17销售型号。 原图外侧红盖遮挡了拨杆，本图只定位灰色开关本体，不补画不可见的拨杆。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开修正后最终WebP：方形开关本体与外侧红盖可分，圈点落在方形本体上；明确拨杆被盖遮挡，没有画出不存在的可见拨杆。",
+          "outputSha256": "8f11690c163908f4b0b809b6be77f30e249bc4d39a6b53180f551c2fe5e89a69",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-07.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-07.blend"
+    },
+    {
+      "id": "C1-08",
+      "mergeVisual": {
+        "status": "source_photo",
+        "image": "assets/manual-details/C1-08.webp",
+        "caption": "原手册实照局部，青色圈定位本物项；非独立商品认证。",
+        "sourcePartNumberOriginal": "7159K3",
+        "sourceEvidence": {
+          "kind": "source_photo",
+          "sources": [
+            {
+              "file": "p276_i2.jpeg",
+              "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+              "crop": [
+                95,
+                145,
+                365,
+                400
+              ],
+              "anchor": [
+                218,
+                283
+              ],
+              "physicalPage": 276,
+              "printedPage": 267,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p276_i2.jpeg",
+              "sourceSize": [
+                525,
+                700
+              ],
+              "renderImageBounds": [
+                131.6470588235294,
+                218.0,
+                774.3529411764706,
+                825.0
+              ],
+              "renderAnchor": [
+                424.43529411764706,
+                546.4941176470588
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p276_i2.jpeg",
+          "sourceSha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "sourcePhysicalPage": 276,
+          "sourcePrintedPage": 267,
+          "cropPixels": [
+            95,
+            145,
+            365,
+            400
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            218,
+            283
+          ],
+          "anchorRenderPixels": [
+            424.43529411764706,
+            546.4941176470588
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "BOM7159K3，正文p2777159K91；只称原手册插座实例，不能判成同一货号。 原照片周围仍可能可见工具或邻件边缘；本条只识别插孔和白色外壳，不声称取景中完全没有工具。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "父层逐图审阅后仅修正文案：这里只认插孔和白色外壳，原照周围物件不属于本条；不再声称完全不含工具。原图、裁切和指针保持不变。已打开新WebP复核。",
+          "outputSha256": "1328ae9ab70abc2713f7dad18abdb9efd4cbb689e95b1ff169e72c4286a490bb",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-08.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-08.blend"
+    },
+    {
+      "id": "C1-09",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-09.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "7526K23",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p278_i2.jpeg",
+              "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+              "crop": [
+                324,
+                126,
+                794,
+                562
+              ],
+              "anchor": [
+                715,
+                240
+              ],
+              "physicalPage": 278,
+              "printedPage": 269,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p278_i2.jpeg",
+              "sourceSize": [
+                944,
+                755
+              ],
+              "renderImageBounds": [
+                125.83256880733944,
+                218.0,
+                780.1674311926606,
+                825.0
+              ],
+              "renderAnchor": [
+                670.1834862385322,
+                376.7110091743119
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p278_i2.jpeg",
+          "sourceSha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "sourcePhysicalPage": 278,
+          "sourcePrintedPage": 269,
+          "cropPixels": [
+            324,
+            126,
+            794,
+            562
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            715,
+            240
+          ],
+          "anchorRenderPixels": [
+            670.1834862385322,
+            376.7110091743119
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "没有独立商品图；原图刻有用途标识，不从外观核验7526K23材质或规格。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：白色盖板外框完整可认，圈点在其上缘，原IGN/SRV图中标识保留；盖板和插孔分开解释。",
+          "outputSha256": "5d7c82bab6d7bce1d86c409551d0869f13dc2f546856893ed165bfee9e4fabbc",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-09.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-09.blend"
+    },
+    {
+      "id": "C1-11",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-11.webp",
+        "caption": "原CAD安装上下文，内部设备淡化，青线只描箱体与提手；不是独立空箱图或商品认证。",
+        "sourcePartNumberOriginal": "91111",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p260_i2.jpeg",
+              "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+              "crop": [
+                0,
+                0,
+                772,
+                440
+              ],
+              "anchor": [
+                747,
+                165
+              ],
+              "physicalPage": 260,
+              "printedPage": 251,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p260_i2.jpeg",
+              "sourceSize": [
+                772,
+                440
+              ],
+              "renderImageBounds": [
+                78.0,
+                307.76943005181346,
+                828.0,
+                735.2305699481865
+              ],
+              "renderAnchor": [
+                803.7124352331606,
+                468.0673575129533
+              ],
+              "sourcePixelsUnchanged": true,
+              "renderAnnotationTreatment": {
+                "wholeImageFadeTowardWhite": 0.78,
+                "caseOutlineTracedFromOriginal": true,
+                "sourcePixelsRewritten": false
+              }
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p260_i2.jpeg",
+          "sourceSha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "sourcePhysicalPage": 260,
+          "sourcePrintedPage": 251,
+          "cropPixels": [
+            0,
+            0,
+            772,
+            440
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            747,
+            165
+          ],
+          "anchorRenderPixels": [
+            803.7124352331606,
+            468.0673575129533
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": true,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "图中还含其他部件，不允许直接复用整箱系统图作各个单件的首图。 本图以原CAD源图纹理作为上下文，叠加白色淡化并描外箱/提手边界；并非独立空箱CAD或商品认证。原图文件及像素数据本身未修改。 不由箱体上下文验证91111商品、真实尺寸、材料或空箱构造。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：完整箱体/提手外轮廓被青线强调，内部设备淡化仍可见为上下文；圈点在箱壁，画面显著注明不是独立空箱图。",
+          "outputSha256": "6d39bd19345268410157025d06665f481580a7eabbb26bebcce2662c32050de2",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-11.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-11.blend"
+    },
+    {
+      "id": "C1-12",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-12.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "9489T519",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p274_i2.jpeg",
+              "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+              "crop": [
+                66,
+                235,
+                275,
+                465
+              ],
+              "anchor": [
+                132,
+                408
+              ],
+              "physicalPage": 274,
+              "printedPage": 265,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p274_i2.jpeg",
+              "sourceSize": [
+                975,
+                612
+              ],
+              "renderImageBounds": [
+                177.21086956521737,
+                218.0,
+                728.7891304347827,
+                825.0
+              ],
+              "renderAnchor": [
+                351.39347826086953,
+                674.5695652173913
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p274_i2.jpeg",
+          "sourceSha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+          "sourcePhysicalPage": 274,
+          "sourcePrintedPage": 265,
+          "cropPixels": [
+            66,
+            235,
+            275,
+            465
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            132,
+            408
+          ],
+          "anchorRenderPixels": [
+            351.39347826086953,
+            674.5695652173913
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "文字p274明确9489T519；图示局部可识别，未做尺寸或承载校验。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：单个吊环的环、杆和约束端在箱壁处可认，圈点落在环体；没有把它混称箭上鼻锥吊环。",
+          "outputSha256": "e525d48a6db5379cff6f586f7875a2635bc593ce99d9cdaaf15b7422d1d2f55f",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-12.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-12.blend"
+    },
+    {
+      "id": "C1-16",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-16.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "79215A673",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p253_i2.jpeg",
+              "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+              "crop": [
+                344,
+                0,
+                762,
+                212
+              ],
+              "anchor": [
+                472,
+                106
+              ],
+              "physicalPage": 253,
+              "printedPage": 244,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p253_i2.jpeg",
+              "sourceSize": [
+                762,
+                212
+              ],
+              "renderImageBounds": [
+                78.0,
+                331.3086124401914,
+                828.0,
+                711.6913875598086
+              ],
+              "renderAnchor": [
+                307.6650717703349,
+                521.5
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p253_i2.jpeg",
+          "sourceSha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "sourcePhysicalPage": 253,
+          "sourcePrintedPage": 244,
+          "cropPixels": [
+            344,
+            0,
+            762,
+            212
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            472,
+            106
+          ],
+          "anchorRenderPixels": [
+            307.6650717703349,
+            521.5
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "正文明确79215A673但原图无单件分解线；裁切不能使重叠螺母消失而伪称完整独立外形。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：细长短节的管体和邻接螺纹可认，圈点在细长主体；右侧大螺母明确另列，未将重叠部件抹去。",
+          "outputSha256": "42e9df493936939ad061878e84d82d59ef919e9bfd58fbabe26a0be9d9a2d8ec",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-16.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-16.blend"
+    },
+    {
+      "id": "C1-17",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-17.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "79215A672",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p253_i2.jpeg",
+              "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+              "crop": [
+                575,
+                0,
+                762,
+                212
+              ],
+              "anchor": [
+                686,
+                80
+              ],
+              "physicalPage": 253,
+              "printedPage": 244,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p253_i2.jpeg",
+              "sourceSize": [
+                762,
+                212
+              ],
+              "renderImageBounds": [
+                185.29009433962267,
+                218.0,
+                720.7099056603773,
+                825.0
+              ],
+              "renderAnchor": [
+                503.10613207547175,
+                447.0566037735849
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p253_i2.jpeg",
+          "sourceSha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "sourcePhysicalPage": 253,
+          "sourcePrintedPage": 244,
+          "cropPixels": [
+            575,
+            0,
+            762,
+            212
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            686,
+            80
+          ],
+          "anchorRenderPixels": [
+            503.10613207547175,
+            447.0566037735849
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "对应79215A672由同页正文确认，外形局部仍与短节重叠。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：右端大六角螺母完整轮廓可认，圈点在六角平面；保留相邻短节一小段以显示上下文。",
+          "outputSha256": "25806dbee4594e56d11cf8d86c0072b22945319d2ac0b8201c9ea86ceb08d112",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-17.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-17.blend"
+    },
+    {
+      "id": "C1-20",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-20.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "50785K92",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p253_i2.jpeg",
+              "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+              "crop": [
+                158,
+                18,
+                410,
+                191
+              ],
+              "anchor": [
+                282,
+                100
+              ],
+              "physicalPage": 253,
+              "printedPage": 244,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p253_i2.jpeg",
+              "sourceSize": [
+                762,
+                212
+              ],
+              "renderImageBounds": [
+                78.0,
+                264.0595238095238,
+                828.0,
+                778.9404761904761
+              ],
+              "renderAnchor": [
+                447.04761904761904,
+                508.1071428571429
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p253_i2.jpeg",
+          "sourceSha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "sourcePhysicalPage": 253,
+          "sourcePrintedPage": 244,
+          "cropPixels": [
+            158,
+            18,
+            410,
+            191
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            282,
+            100
+          ],
+          "anchorRenderPixels": [
+            447.04761904761904,
+            508.1071428571429
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "图没有原货号箭头，匹配依赖同页文字；不从相近外形借用50785K91/94源CAD。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：中央直通连接体两端及中部六角轮廓可认，圈点在中央本体；不是套用近似商品CAD。",
+          "outputSha256": "f5cff142fbcca6c18829186fc12e168ffd948aed1b83739ea39c3aa9f5493a03",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-20.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-20.blend"
+    },
+    {
+      "id": "C1-27",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-27.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "50785K272",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p256_i2.jpeg",
+              "sha256": "7fc0479ec5379f4f97d8a49b5d948af841e316f75359343f7ed851113237539c",
+              "crop": [
+                0,
+                0,
+                850,
+                326
+              ],
+              "anchor": [
+                498,
+                160
+              ],
+              "physicalPage": 256,
+              "printedPage": 247,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p256_i2.jpeg",
+              "sourceSize": [
+                850,
+                326
+              ],
+              "renderImageBounds": [
+                78.0,
+                377.6764705882353,
+                828.0,
+                665.3235294117646
+              ],
+              "renderAnchor": [
+                517.4117647058823,
+                518.8529411764706
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p256_i2.jpeg",
+          "sourceSha256": "7fc0479ec5379f4f97d8a49b5d948af841e316f75359343f7ed851113237539c",
+          "sourcePhysicalPage": 256,
+          "sourcePrintedPage": 247,
+          "cropPixels": [
+            0,
+            0,
+            850,
+            326
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            498,
+            160
+          ],
+          "anchorRenderPixels": [
+            517.4117647058823,
+            518.8529411764706
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "两端9396T31不是该穿壁体本身，不可截整段冒充单件。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：三标签分别指金色穿壁本体、锁紧区、右端银色外接件；两端银色件清楚保持为邻件，未将整组冒称单件。",
+          "outputSha256": "e2378994da4e6bb99192d057853e6617b2c6d6d393987534d721dae2be18d978",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-27.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-27.blend"
+    },
+    {
+      "id": "C1-28",
+      "mergeVisual": {
+        "status": "source_context",
+        "image": "assets/manual-details/C1-28.webp",
+        "caption": "原手册CAD安装局部，只定位该件；非独立单件CAD或商品认证。",
+        "sourcePartNumberOriginal": "3846K8",
+        "sourceEvidence": {
+          "kind": "source_context",
+          "sources": [
+            {
+              "file": "p255_i2.jpeg",
+              "sha256": "26f944c937cfff877cae5d9afe06c261111d9bf82f70857952761c6f9642f280",
+              "crop": [
+                0,
+                462,
+                329,
+                804
+              ],
+              "anchor": [
+                153,
+                644
+              ],
+              "physicalPage": 255,
+              "printedPage": 246,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p255_i2.jpeg",
+              "sourceSize": [
+                640,
+                804
+              ],
+              "renderImageBounds": [
+                161.03654970760232,
+                218.0,
+                744.9634502923977,
+                825.0
+              ],
+              "renderAnchor": [
+                432.5891812865497,
+                541.0233918128655
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p255_i2.jpeg",
+          "sourceSha256": "26f944c937cfff877cae5d9afe06c261111d9bf82f70857952761c6f9642f280",
+          "sourcePhysicalPage": 255,
+          "sourcePrintedPage": 246,
+          "cropPixels": [
+            0,
+            462,
+            329,
+            804
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            153,
+            644
+          ],
+          "anchorRenderPixels": [
+            432.5891812865497,
+            541.0233918128655
+          ],
+          "sourceImageContentModified": false,
+          "sourcePixelsRewritten": false,
+          "sourceFileBytesUnchanged": true,
+          "renderContextFaded": false,
+          "photoTreatment": "Original source image texture and UV crop; no AI rewrite or detail invention. C1-11 only: explicit shader fade of CAD context plus annotation outlines; packed source image remains unchanged.",
+          "limitations": "图和正文为3846K93，BOM为3846K8/其系列链接；原图只见表背、没有真实读数。不能伪造表盘读数或认成同型号。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：圆形表背/表壳及相邻取压界面可认，圈点在表壳边缘；没有伪造正面表盘、刻度或读数。",
+          "outputSha256": "00bc7218ce3cfd75e5792c37d82640f11184dcaebb94a0265b21b856d57e01a3",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-28.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-28.blend"
+    },
+    {
+      "id": "C1-33",
+      "mergeVisual": {
+        "status": "same_material_reference",
+        "image": "assets/manual-details/C1-33.webp",
+        "caption": "主伞细绳原照仅作同类材料参照；地面系留另为功能示意，不冒称地面实照。",
+        "sourcePartNumberOriginal": "EK5580",
+        "sourceEvidence": {
+          "kind": "same_material_reference",
+          "sources": [
+            {
+              "file": "p303_i3.jpeg",
+              "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+              "crop": [
+                305,
+                145,
+                710,
+                855
+              ],
+              "anchor": [
+                490,
+                505
+              ],
+              "physicalPage": 303,
+              "printedPage": 294,
+              "sourcePath": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p303_i3.jpeg",
+              "sourceSize": [
+                891,
+                1431
+              ],
+              "renderImageBounds": [
+                226.8767605633803,
+                219.0,
+                573.1232394366198,
+                826.0
+              ],
+              "renderAnchor": [
+                385.0387323943662,
+                526.7746478873239
+              ],
+              "sourcePixelsUnchanged": true
+            }
+          ],
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p303_i3.jpeg",
+          "sourceSha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "sourcePhysicalPage": 303,
+          "sourcePrintedPage": 294,
+          "cropPixels": [
+            305,
+            145,
+            710,
+            855
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], original source pixels, y downward",
+          "anchorSourcePixels": [
+            490,
+            505
+          ],
+          "anchorRenderPixels": [
+            385.0387323943662,
+            526.7746478873239
+          ],
+          "sourceImageContentModified": false,
+          "photoTreatment": "Original source image texture in Blender, UV crop only; no AI rewrite, no replacement pixels or photographic relighting.",
+          "limitations": "黄色细绳是原照片中的主伞细伞绳，只作同类材料形态参照，不能冒称地面系留原实照。不能把较宽尼龙扁带当Kevlar细绳；照片不能核验EK5580商品、250lb额定强度、100ft长度或真实材质。右侧地面系留仅为新绘功能关系示意，不能代表原CAD、商品外形或安装操作。"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：左侧黄色细绳原照清楚，目标圈落在细绳群而非宽尼龙带；右侧系留关系图显著标功能示意，图内明确主伞细绳只作材料参照、不是地面系留原实照。",
+          "outputSha256": "a940416d50b07c2964e22b4fce2ece544d8f30488073220667d55f75fea6a684",
+          "parentIndependentReviewPending": true
+        }
+      },
+      "sourceCandidateKind": "source_photo_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/manual-details/C1-33.webp",
+      "editableBlend": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-33.blend"
+    }
+  ]
+}

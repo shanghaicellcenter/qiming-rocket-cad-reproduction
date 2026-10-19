@@ -1,0 +1,378 @@
+{
+  "patchOnly": true,
+  "publicDataModified": false,
+  "scope": "8 source visual additions; merge only after parent independent review",
+  "items": [
+    {
+      "id": "A7-01",
+      "mergeVisual": {
+        "status": "native_geometry_preview",
+        "image": "assets/source-details/A7-01.webp",
+        "caption": "原CAD对应的简化外形；只作外形识别，不证明实物性能。",
+        "sourcePartNumberOriginal": "EGTMR-QRK",
+        "sourceEvidence": {
+          "kind": "source_cad_simplified",
+          "sourceImage": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/启明火箭/library/part-previews/P087-oblique.png",
+          "sourceSha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "sourcePhysicalPage": null,
+          "sourcePrintedPage": null,
+          "cropPixels": [
+            35,
+            180,
+            733,
+            600
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], source pixel coordinates, y downward",
+          "anchorSourcePixels": null,
+          "anchorRenderPixels": null,
+          "sourceLibraryId": "P087",
+          "limitations": "p222实照明确为StratologgerCF，不是Quark，不可挪作Quark商品实拍。原CAD没有完整真实电路。",
+          "preservedLocalSource": "source-inputs/partner-cad/source-previews/P087-oblique.png"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：完整板状Quark简化外形、端子与元件块清楚；未见旧火箭品牌。图内标明原CAD简化外形。",
+          "outputSha256": "5a6804c4a2ffc3ac5a4652d2e9a8e50da8a6be5dd5420a403572e2d9d8332adb",
+          "parentIndependentReviewPending": false,
+          "parentIndependentReview": "Root opened every final card: correct source identity, crop, leader target, legible Chinese and visible scope limitation."
+        },
+        "sourceBasename": "EggTimer Quark.SLDPRT",
+        "nativeImage": "assets/source-details/A7-01.webp",
+        "nativeMatches": [
+          {
+            "sourceLibraryId": "P087",
+            "source_basename": "EggTimer Quark.SLDPRT",
+            "label_basis": "source filename corresponds to BOM item; original library single-part preview",
+            "matchBasis": "原CAD文件名与对应物项身份一致；简化外形仅作外观识别"
+          }
+        ],
+        "editableSource": "source-detail-sources/A7-01.blend"
+      },
+      "sourceCandidateKind": "source_cad",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/source-details/A7-01.webp",
+      "mergeBeginner": {
+        "look": "先看原CAD中的板状电路、端子和元件块，这是Quark的简化外形。书中另一张电路实照用的是别的型号，不能混当同一物品。"
+      },
+      "editableSourceSha256": "28dd28fcad06eccfe771a08777f16bbbd95e88a09e78db4be8db099b5b2397a1"
+    },
+    {
+      "id": "A7-16",
+      "mergeVisual": {
+        "status": "native_geometry_preview",
+        "image": "assets/source-details/A7-16.webp",
+        "caption": "原CAD对应的简化外形；只作外形识别，不证明实物性能。通用9V电池外形，无品牌或性能含义。",
+        "sourcePartNumberOriginal": "9V-BATT",
+        "sourceEvidence": {
+          "kind": "source_cad_simplified",
+          "sourceImage": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/启明火箭/library/part-previews/P072-oblique.png",
+          "sourceSha256": "dc93d203038dda84055dbd83172087944dd6f8cde7df0771f9188e70b3d1c65c",
+          "sourcePhysicalPage": null,
+          "sourcePrintedPage": null,
+          "cropPixels": [
+            185,
+            55,
+            584,
+            733
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], source pixel coordinates, y downward",
+          "anchorSourcePixels": null,
+          "anchorRenderPixels": null,
+          "sourceLibraryId": "P072",
+          "limitations": "是原CAD通用9V电池外形，不能当成某品牌实拍或性能测试。",
+          "preservedLocalSource": "source-inputs/partner-cad/source-previews/P087-oblique.png"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：通用9V电池的两端子与壳体清楚；无品牌字样；图区分电池和电池座并限制性能含义。",
+          "outputSha256": "01c712521e46a6b78181f86a02b2b4c8875215b271c5b6e5debe747a4cf39b2d",
+          "parentIndependentReviewPending": false,
+          "parentIndependentReview": "Root opened every final card: correct source identity, crop, leader target, legible Chinese and visible scope limitation."
+        },
+        "sourceBasename": "9V Battery.SLDPRT",
+        "nativeImage": "assets/source-details/A7-16.webp",
+        "nativeMatches": [
+          {
+            "sourceLibraryId": "P072",
+            "source_basename": "9V Battery.SLDPRT",
+            "label_basis": "source filename corresponds to BOM item; original library single-part preview",
+            "matchBasis": "原CAD文件名与对应物项身份一致；简化外形仅作外观识别"
+          }
+        ],
+        "editableSource": "source-detail-sources/A7-16.blend"
+      },
+      "sourceCandidateKind": "source_cad",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/source-details/A7-16.webp",
+      "editableSourceSha256": "8c36110ae88e21843a0b553353c043f5ada5dfa33c74fb3e1edeaeb907d2bde1"
+    },
+    {
+      "id": "C1-19",
+      "mergeVisual": {
+        "status": "source_labelled_context",
+        "image": "assets/source-details/C1-19.webp",
+        "caption": "原手册局部，非单件CAD；原图货号与黑色箭头保留，青色引线标出本物项。",
+        "sourcePartNumberOriginal": "50675K162",
+        "sourceEvidence": {
+          "kind": "source_labelled_context",
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p254_i3.jpeg",
+          "sourceSha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "sourcePhysicalPage": 254,
+          "sourcePrintedPage": 245,
+          "cropPixels": [
+            590,
+            110,
+            835,
+            420
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], source pixel coordinates, y downward",
+          "anchorSourcePixels": [
+            704,
+            309
+          ],
+          "anchorRenderPixels": [
+            432.1677419354839,
+            491.4258064516129
+          ],
+          "sourceLibraryId": null,
+          "limitations": "有明确源标签，但不是三维独立单件或尺寸检验；不要误用源库50675K163/164。",
+          "preservedLocalSource": "source-inputs/partner-cad/source-previews/P087-oblique.png"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：原50675K162标签与黑箭头完整；青色引线结束于最右端转接件六角体内。",
+          "outputSha256": "8241e52239e93f871e77467a830e905924ea1d85c2d319d292eed3d201f26464",
+          "parentIndependentReviewPending": false,
+          "parentIndependentReview": "Root opened every final card: correct source identity, crop, leader target, legible Chinese and visible scope limitation."
+        },
+        "editableSource": "source-detail-sources/C1-19.blend"
+      },
+      "sourceCandidateKind": "source_labelled_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/source-details/C1-19.webp",
+      "editableSourceSha256": "3d1cfcd40b3a067078e6d1ee7b719d8efdf26f0b2e84452e2018ae7f0f756c67"
+    },
+    {
+      "id": "C1-21",
+      "mergeVisual": {
+        "status": "source_labelled_context",
+        "image": "assets/source-details/C1-21.webp",
+        "caption": "原手册局部，非单件CAD；原图货号与黑色箭头保留，青色引线标出本物项。原页正文有货号冲突，本图依原图明确标签对应。",
+        "sourcePartNumberOriginal": "50785K273",
+        "sourceEvidence": {
+          "kind": "source_labelled_context",
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p254_i3.jpeg",
+          "sourceSha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "sourcePhysicalPage": 254,
+          "sourcePrintedPage": 245,
+          "cropPixels": [
+            440,
+            110,
+            675,
+            410
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], source pixel coordinates, y downward",
+          "anchorSourcePixels": [
+            513,
+            281
+          ],
+          "anchorRenderPixels": [
+            375.58,
+            457.76
+          ],
+          "sourceLibraryId": null,
+          "limitations": "p254正文把一个male connector误写为50785K273，而图5485K22和物料表可区分；保留来源冲突，不把二者合并。",
+          "preservedLocalSource": "source-inputs/partner-cad/source-previews/P087-oblique.png"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：原50785K273标签与黑箭头完整；青色引线结束于金色穿壁接头左侧可见法兰，未指黑色螺母。",
+          "outputSha256": "f2c1baa265b100fb0f41f810b1560ed0e9e926139fc41eaf5d7765dd33a942ac",
+          "parentIndependentReviewPending": false,
+          "parentIndependentReview": "Root opened every final card: correct source identity, crop, leader target, legible Chinese and visible scope limitation."
+        },
+        "editableSource": "source-detail-sources/C1-21.blend"
+      },
+      "sourceCandidateKind": "source_labelled_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/source-details/C1-21.webp",
+      "editableSourceSha256": "f23d89c87605cf3f9752b71b75773fb88929dacbec29f26a7dfb081e2c7b5627"
+    },
+    {
+      "id": "C1-22",
+      "mergeVisual": {
+        "status": "source_labelled_context",
+        "image": "assets/source-details/C1-22.webp",
+        "caption": "原手册局部，非单件CAD；原图货号与黑色箭头保留，青色引线标出本物项。",
+        "sourcePartNumberOriginal": "97149A370",
+        "sourceEvidence": {
+          "kind": "source_labelled_context",
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p254_i3.jpeg",
+          "sourceSha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "sourcePhysicalPage": 254,
+          "sourcePrintedPage": 245,
+          "cropPixels": [
+            480,
+            240,
+            750,
+            497
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], source pixel coordinates, y downward",
+          "anchorSourcePixels": [
+            566,
+            327
+          ],
+          "anchorRenderPixels": [
+            355.7704280155642,
+            349.4280155642023
+          ],
+          "sourceLibraryId": null,
+          "limitations": "与接头重叠，局部图不是完整独立外形或螺纹检验。",
+          "preservedLocalSource": "source-inputs/partner-cad/source-previews/P087-oblique.png"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：原97149A370标签与黑箭头完整；青色引线结束于黑色六角螺母正面，未指金色接头。",
+          "outputSha256": "7e6c892d2b176921563a699f6fe99fe22a16ca7286a3cf0d9bd00f502630d70d",
+          "parentIndependentReviewPending": false,
+          "parentIndependentReview": "Root opened every final card: correct source identity, crop, leader target, legible Chinese and visible scope limitation."
+        },
+        "editableSource": "source-detail-sources/C1-22.blend"
+      },
+      "sourceCandidateKind": "source_labelled_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/source-details/C1-22.webp",
+      "editableSourceSha256": "8647ee4f3f025eb64b83e3c7460f427205c309d0079af22cbd19b25c06a379b6"
+    },
+    {
+      "id": "C1-23",
+      "mergeVisual": {
+        "status": "source_labelled_context",
+        "image": "assets/source-details/C1-23.webp",
+        "caption": "原手册局部，非单件CAD；原图货号与黑色箭头保留，青色引线标出本物项。",
+        "sourcePartNumberOriginal": "50785K222",
+        "sourceEvidence": {
+          "kind": "source_labelled_context",
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p254_i3.jpeg",
+          "sourceSha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "sourcePhysicalPage": 254,
+          "sourcePrintedPage": 245,
+          "cropPixels": [
+            280,
+            245,
+            560,
+            497
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], source pixel coordinates, y downward",
+          "anchorSourcePixels": [
+            413,
+            319
+          ],
+          "anchorRenderPixels": [
+            432.0,
+            328.42857142857144
+          ],
+          "sourceLibraryId": null,
+          "limitations": "只能说明拓扑，不能凭图确认通径、密封状态或真实压力。",
+          "preservedLocalSource": "source-inputs/partner-cad/source-previews/P087-oblique.png"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：原50785K222标签与黑箭头完整；青色引线结束于中央三通的正面支路区域。",
+          "outputSha256": "ebb0b43a3cbe1444aa803f2e3e3f812a6b44b05b8e9f7eee6dfe9917e74a0af7",
+          "parentIndependentReviewPending": false,
+          "parentIndependentReview": "Root opened every final card: correct source identity, crop, leader target, legible Chinese and visible scope limitation."
+        },
+        "editableSource": "source-detail-sources/C1-23.blend"
+      },
+      "sourceCandidateKind": "source_labelled_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/source-details/C1-23.webp",
+      "editableSourceSha256": "8194231f9b9d5456e935adf443f6e091e8630b66de78169a4300784d0c876609"
+    },
+    {
+      "id": "C1-24",
+      "mergeVisual": {
+        "status": "source_labelled_context",
+        "image": "assets/source-details/C1-24.webp",
+        "caption": "原手册局部，非单件CAD；原图货号与黑色箭头保留，青色引线标出本物项。",
+        "sourcePartNumberOriginal": "5485K22",
+        "sourceEvidence": {
+          "kind": "source_labelled_context",
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p254_i3.jpeg",
+          "sourceSha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "sourcePhysicalPage": 254,
+          "sourcePrintedPage": 245,
+          "cropPixels": [
+            240,
+            110,
+            500,
+            410
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], source pixel coordinates, y downward",
+          "anchorSourcePixels": [
+            318,
+            314
+          ],
+          "anchorRenderPixels": [
+            363.88,
+            509.24
+          ],
+          "sourceLibraryId": null,
+          "limitations": "该件体积小、部分被邻件遮挡，不拿近似5485K21/31替代。",
+          "preservedLocalSource": "source-inputs/partner-cad/source-previews/P087-oblique.png"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：原5485K22标签与黑箭头完整；青色引线结束于阀与三通之间短接的可见六角体。",
+          "outputSha256": "9515eea40c1674cb13d39dd072c9250135c6390ad5a5012081297890a950e91e",
+          "parentIndependentReviewPending": false,
+          "parentIndependentReview": "Root opened every final card: correct source identity, crop, leader target, legible Chinese and visible scope limitation."
+        },
+        "editableSource": "source-detail-sources/C1-24.blend"
+      },
+      "sourceCandidateKind": "source_labelled_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/source-details/C1-24.webp",
+      "editableSourceSha256": "9d5d74c704a50d827e880492a0802ac003012ff4fb7873ee152aea527903c807"
+    },
+    {
+      "id": "C1-25",
+      "mergeVisual": {
+        "status": "source_labelled_context",
+        "image": "assets/source-details/C1-25.webp",
+        "caption": "原手册局部，非单件CAD；原图货号与黑色箭头保留，青色引线标出本物项。",
+        "sourcePartNumberOriginal": "9396T32",
+        "sourceEvidence": {
+          "kind": "source_labelled_context",
+          "sourceImage": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p254_i3.jpeg",
+          "sourceSha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "sourcePhysicalPage": 254,
+          "sourcePrintedPage": 245,
+          "cropPixels": [
+            0,
+            260,
+            180,
+            497
+          ],
+          "cropCoordinateSystem": "[left,top,right,bottom], source pixel coordinates, y downward",
+          "anchorSourcePixels": [
+            50,
+            319
+          ],
+          "anchorRenderPixels": [
+            366.0126582278481,
+            307.50632911392404
+          ],
+          "sourceLibraryId": null,
+          "limitations": "源库9396T31不是9396T32，不能凭相似外形套用。",
+          "preservedLocalSource": "source-inputs/partner-cad/source-previews/P087-oblique.png"
+        },
+        "visualReview": {
+          "reviewed": true,
+          "observation": "已打开最终WebP：原9396T32标签与黑箭头完整；青色引线结束于最左端快插头银色六角体。",
+          "outputSha256": "643758d386a298bf4ff77b1485c5e31399a0d54d4263b8e71cb884b67677a21c",
+          "parentIndependentReviewPending": false,
+          "parentIndependentReview": "Root opened every final card: correct source identity, crop, leader target, legible Chinese and visible scope limitation."
+        },
+        "editableSource": "source-detail-sources/C1-25.blend"
+      },
+      "sourceCandidateKind": "source_labelled_context",
+      "outputFile": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/assets/source-details/C1-25.webp",
+      "editableSourceSha256": "0f6f1b2e7ed6594023c9c30aedf663d65169f3a00e0be0bd44b09a9ec73b7945"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "Actual original production scripts, for inspection/reproduction evidence. Historical Spark paths are retained, not an auto-running TTS installer. Offline models/weights and shared service installation are not included. These code sources are separate from NC sound output licensing. Do not run a source publishing/dispatch script without adapting its explicit inputs and coordinating its shared writer.",
+  "files": [
+    {
+      "path": "client.py",
+      "sha256": "95af683bf6439c2ee354a05cbd51f26023500233c305092e1ca95294275f9631"
+    },
+    {
+      "path": "offline_asr.py",
+      "sha256": "d573da95d4c2ad78ac7f73ae0a3642d93061be35b524164370b8b39b8825c312"
+    },
+    {
+      "path": "paraformer_crosscheck.py",
+      "sha256": "6159ee35383c1605208df7e498bd2f16820ed2b6f5a0cc766c015c0635e2a74f"
+    },
+    {
+      "path": "level_audio.py",
+      "sha256": "1360fe5b840a2c15e1e05a1dd3d6be84bbccda2be11a556fbc1c85ccf07bcf2a"
+    },
+    {
+      "path": "prepare_bundle.py",
+      "sha256": "04f41b4d8cbcefbd3324e09d115d3eda84c6dc814625cd6a523c46282510b4a9"
+    },
+    {
+      "path": "collect_breeze.py",
+      "sha256": "32f6e46d0b8695399193de43ac368cac38960350a87bbcee5a881bc39f8bc005"
+    },
+    {
+      "path": "publish_canonical.py",
+      "sha256": "ab9565631678bddf1d450a317916ea9d8ace8ad8cb73272ef8a7beed82572784"
+    },
+    {
+      "path": "pilot-leveling-contract.json",
+      "sha256": "9f5abd0a48b2ad55046ee7b141b16d7d342ae91e515c1a22ea96540b68711087"
+    },
+    {
+      "path": "revision-53db8ccf997e/client.py",
+      "sha256": "cbd2ffeaa6a44354b2cdd101e6266213cf9ede565c4d11ad2b98cdc04f32e4f9"
+    },
+    {
+      "path": "revision-53db8ccf997e/offline_asr.py",
+      "sha256": "22448748084769fb2bfb748ce7df160a6ae4bd81cd4de46ccb12c61b1ee7d3a0"
+    },
+    {
+      "path": "revision-53db8ccf997e/paraformer_crosscheck.py",
+      "sha256": "38fdcdb491cd6e477a2c70caae5a2d11bcf79c5e79a1c741576ea7996180fabf"
+    },
+    {
+      "path": "revision-53db8ccf997e/level_audio.py",
+      "sha256": "eb070f438854f3c3f5b3933ecd8496ac308fe300ef9a1342c75e8fc8286e0507"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "qiming-rocket-source-reproduction",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Editable offline CAD inspection and narrated visual assembly sources.",
+  "scripts": {
+    "build": "node assembly-viewer/build.mjs",
+    "build:film": "node assembly-film/build.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.27.7"
+  }
+}

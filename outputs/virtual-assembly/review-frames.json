@@ -1,0 +1,137 @@
+[
+  {
+    "stage_id": "01",
+    "frame": 192,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/01_stage_01_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 85.41868591308594
+  },
+  {
+    "stage_id": "02",
+    "frame": 336,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/02_stage_02_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 21.64728355407715
+  },
+  {
+    "stage_id": "03",
+    "frame": 480,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/03_stage_03_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 7.23431921005249
+  },
+  {
+    "stage_id": "04",
+    "frame": 624,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/04_stage_04_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 5.705806732177734
+  },
+  {
+    "stage_id": "05",
+    "frame": 768,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/05_stage_05_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 38.1928825378418
+  },
+  {
+    "stage_id": "06",
+    "frame": 912,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/06_stage_06_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 48.95695495605469
+  },
+  {
+    "stage_id": "07",
+    "frame": 1056,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/07_stage_07_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 48.95695495605469
+  },
+  {
+    "stage_id": "08",
+    "frame": 1200,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/08_stage_08_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 48.95695114135742
+  },
+  {
+    "stage_id": "09",
+    "frame": 1344,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/09_stage_09_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 48.95695114135742
+  },
+  {
+    "stage_id": "10",
+    "frame": 1488,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/10_stage_10_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 24.208742141723633
+  },
+  {
+    "stage_id": "11",
+    "frame": 1632,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/11_stage_11_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 43.26904296875
+  },
+  {
+    "stage_id": "12",
+    "frame": 1776,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/12_stage_12_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 34.814857482910156
+  },
+  {
+    "stage_id": "13",
+    "frame": 1920,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/13_stage_13_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 33.15174102783203
+  },
+  {
+    "stage_id": "14",
+    "frame": 2064,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/14_stage_14_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 27.065105438232422
+  },
+  {
+    "stage_id": "15",
+    "frame": 2208,
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat/outputs/virtual-assembly/renders/stages/15_stage_15_returned.png",
+    "temporary_group_isolation_for_review": true,
+    "source_default_visibility_respected": true,
+    "camera": "TEMP_UNKEYED_STAGE_REVIEW_CAMERA",
+    "ortho_scale": 60.866336822509766
+  }
+]

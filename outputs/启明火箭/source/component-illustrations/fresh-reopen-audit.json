@@ -1,0 +1,2926 @@
+{
+  "created_utc": "2026-10-19T18:09:49.101120+00:00",
+  "status": "passed_all_62_actual_saved_copies",
+  "blender_version": "5.2.2 LTS",
+  "file_count_expected": 62,
+  "file_count_checked": 62,
+  "all_passed": true,
+  "font_safe_manifest_sha256": "bbfc0f8702e5a2281e09e28a81eba3e60ce7cbab86de76b6b2cd913e1e17f633",
+  "read_only": true,
+  "items": [
+    {
+      "id": "A1-01",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A1-01.blend",
+      "published_sha256": "b365859f4a2041f926ba8f350ef006579bb3cc7599749979a83828ebee7bc8c6",
+      "source_sha256": "bc8278f4a75dbbbd0cb544659b57a9fbc39048d6d5ae77f07cfefa8fd5b29bff",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A1-02",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A1-02.blend",
+      "published_sha256": "fe352f11243b42c500bb54c9655554348bb142f6257cd2c87156d607b3808c4b",
+      "source_sha256": "e2be86b27251e6f98245336be94d61dc78402ecd6c366c5ac6bdafcf63bb446b",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Solid unmachined bar",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A1-03",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A1-03.blend",
+      "published_sha256": "bd54d5d6698f539d98f2bfe9e0815847797b2f4f43717bcba08c07bdcc03f6af",
+      "source_sha256": "a89e98b6c65a116d8c2bd898d920d36ef2ec13d7ae53b7c330f3b5e0ee1c80fe",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A1-04",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A1-04.blend",
+      "published_sha256": "5e74e8240815ea2ff731abbb4efd367b207bbd0af6a6f072de3db801b89875c1",
+      "source_sha256": "f697e10d0d8e4e29fcb36730b00caa3aaea29eb2538470156e5612a089399b01",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A2-11",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A2-11.blend",
+      "published_sha256": "10ea3e3ac4f702b3529c4c53bac9fb157b08ac21c4412c5a0993a6ca15b38801",
+      "source_sha256": "727f5b797b6ef6a4aebd5477d26de7e59c579fb38f19bc285fdb1caf3de9f002",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A2-15",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A2-15.blend",
+      "published_sha256": "f748c9370653b09c1a009f2fbdec9b5a9f2706dd0050fe102733f016ebde61ef",
+      "source_sha256": "770a1965388c305676359b69f3b124f2bf16132c52fa25283a499e583dabc9e0",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Solid unmachined bar",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A3-13",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A3-13.blend",
+      "published_sha256": "7ca26f361c3c974955fa8faaecc4878b3a5fd2399d92711ca5bc4fc1f43beffd",
+      "source_sha256": "06783cba235edf89871f7e2006ed4c9d6f87d1686ab8d8febe7324cd17bb015d",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A4-01",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A4-01.blend",
+      "published_sha256": "5237b2212b84aecd065a5d67ad38217f98a2d91ddd69c362819d6c82f0c57f97",
+      "source_sha256": "d0297690a2907a0935472f02fdd7d3c3083078124b33ef96301903dcfde97ae2",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A4-02",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A4-02.blend",
+      "published_sha256": "f7f83ae5b8de00773dcdb0475e32935f7b83eb9f0c7a75a0f07ad4917bdba868",
+      "source_sha256": "2b05bb286ca73dba8622e2bf4cbf74e083705680555977576a437720ad91631c",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A4-03",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A4-03.blend",
+      "published_sha256": "9348c53c16a7aca862f5050a904f8deea910db40ba7e98739d35ebf269c00159",
+      "source_sha256": "bc442ef3f937f49cc77a60d51aae0634e48e3f1c41a557924c7ea5cc87d9fa34",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Solid unmachined bar",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A6-09",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A6-09.blend",
+      "published_sha256": "a89a64d0978b5bb0306832be332b509b381956d5db287c289900be34fded60e3",
+      "source_sha256": "df7d72d99b42d913fa2f54f86b06c555e9abed10e81cc3efd91464961c8fc517",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A6-15",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A6-15.blend",
+      "published_sha256": "a62d86c5cd078831a682a4ca106cd28a3a35c6423b7490f6af8e59de4a997e76",
+      "source_sha256": "4d0a573ed2df163d8219079f4fd6095f4e8ee0a85fc9a2afb2c9853151dddc93",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A6-17",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A6-17.blend",
+      "published_sha256": "058b0952230b16540bde7a33b65120eeab62b6dfbca2dd3f7ff0a1a5323c0ad3",
+      "source_sha256": "2236596ff5d35572c87f924a2742d8fd5f3011aa90d6a8d8473ba65d6b848fd9",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-02",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A7-02.blend",
+      "published_sha256": "0d002e21290b910b0ddb4d7a3dd16579cf76d9745b64f417f2195c23c19ad286",
+      "source_sha256": "4dc44a25c93e28dd6765c933e23e7601e6c0c418b294e76ac3e83b247c028542",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-03",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/A7-03.blend",
+      "published_sha256": "5ead45466fc9d16df770b64a518b8b419a2bdcb9a949eae33e5228d42d1c3646",
+      "source_sha256": "ea766604cca9df603e3a9a6a23beeab47e5c0b234cf470049fc40125138e163f",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-34",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/C1-34.blend",
+      "published_sha256": "979fb7313f2c699cc3b8cd8cca3a3404fa81855e97d8f36fddda55943d03aa67",
+      "source_sha256": "ee23b785d9a163f04584b4e8a69395e8ad2b30c4beeac9d7f923a9997c9c82ed",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-35",
+      "family": "stock",
+      "release_path": "outputs/启明火箭/source/component-illustrations/stock/C1-35.blend",
+      "published_sha256": "3c7f0efd48bbfc2ca31958f728043c117c1e2ac560a2ef68df3dd4e8d98abf85",
+      "source_sha256": "e7ad755e5dd52b1e21cece55512a29351cbd757a783f1555dd42bd628198d5ef",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 6,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A3-01",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/A3-01.blend",
+      "published_sha256": "3455c9ef72534ec6db79ade2722763f65eb583b488a549741627dcac9f42c255",
+      "source_sha256": "2ba3834c5be96d1bf6ac561b676c9f9d2099bc02a844114c3d053d498b9f27b7",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-05",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/A7-05.blend",
+      "published_sha256": "95248f28b962608b1471d0238319b439833089711246dadf66519b11faa90b7d",
+      "source_sha256": "5459fec9bda8f2c129fcbcb2fbe9e33d375b3b593bddbea3936e8c6ec5ac64fa",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-06",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/A7-06.blend",
+      "published_sha256": "00346ff91f7891a97ea5b5db3ccacc9fd3e93f352658851bcc3c5d3f9276ad19",
+      "source_sha256": "0b0d057e66c1ea2ca80047a0cbb2083a30710c0176d35e8a32b2d70d32317dd7",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p304_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p304_i3.jpeg",
+          "size": [
+            741,
+            1431
+          ],
+          "sha256": "57ff83ab95ad53b72ca09e47021d95651d5a44e6d465a23970755bd19a21afd9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-18",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/A7-18.blend",
+      "published_sha256": "0a912a6676b41b18865c293c5add848489376d4d3c6cc1c4e3c8b89eaf65a737",
+      "source_sha256": "7538b626b387c427a4faf078338dcc78a401768c55ab5b9fd2340266fd5f38f9",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "B1-03",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/B1-03.blend",
+      "published_sha256": "2f9f93c230d8d99d45250ee63a67e1f3d59037b0dbb9ec1886ed02dc175c5d4f",
+      "source_sha256": "80a69306db0bdf75f35b14d1a18f67f684c3dbedd681a65e2971d7f61ca5fe2f",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "B1-04",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/B1-04.blend",
+      "published_sha256": "9679555f6aa23f10cbc8f659df65d764f4fb5040214a04a11197c3c11bdfd0ed",
+      "source_sha256": "c39b5b37493680b0bffdd6d993b92ebf65203351b3f487eaf301cf9605ec5525",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-01",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-01.blend",
+      "published_sha256": "85c4bfbb560a76ff6e6c95b0521d300686da3fbb99813a5ece7fc93059e07bf6",
+      "source_sha256": "3b24121f84b37744b1209beed64660130aa37b0cf0c4e04ae1b6af558a977ca9",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p273_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p273_i2.jpeg",
+          "size": [
+            975,
+            615
+          ],
+          "sha256": "cdaa972941549f7c6cc34916d37383317254a885da9cedae4dc7fb20924b363b",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p304_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p304_i3.jpeg",
+          "size": [
+            741,
+            1431
+          ],
+          "sha256": "57ff83ab95ad53b72ca09e47021d95651d5a44e6d465a23970755bd19a21afd9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-02",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-02.blend",
+      "published_sha256": "b57e6fb53deba2722cfa6f2e1dd9b14d962be491d7c588f94d110485834a17ed",
+      "source_sha256": "a9e3cebd65cff351e3e487e1b5de8571e837533be0223474eb464a3104bb32a3",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-03",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-03.blend",
+      "published_sha256": "f3ce827a301322602e7bbdb132a5aed05eecd5c5c5eb4664df877b1163d87b92",
+      "source_sha256": "cd85ba7255326e6f1abd32a006f6defa15ec207afa7d2f9e65f18f5c608fed70",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-05",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-05.blend",
+      "published_sha256": "076d617dbabdbf50e3b7afc0eb2187c1a82fd9ac6c3e7a15e142440b03f8d0ec",
+      "source_sha256": "2ca28b7b48358afdcd615b9ac02c9e1c742af541d50a29ba7d7efee88cd43518",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-06",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-06.blend",
+      "published_sha256": "f7a17e65ddac2d319bcb53a65567536ea186776322aaf4c7febc4a0dd7781490",
+      "source_sha256": "ee3f3a3d160d171f5d586b04203a11d5a4db4a08237a7e5ba68402041373fbe2",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-07",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-07.blend",
+      "published_sha256": "112ea593b17a81141dc3736c504dc2f63de72438f18ca79d78568aa4f2d1dcfc",
+      "source_sha256": "c87ccacaf2a736cd62b303fdc2721f471a2a4e114e166e52ecb545fbb1978560",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-08",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-08.blend",
+      "published_sha256": "ca13482637fec02510303da958891c8613693ee47a7593bd57ba9055fc47da91",
+      "source_sha256": "e35415de364f5cf4d924ddab6d8e051ebab52e9ee1489b97525230463f097707",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-09",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-09.blend",
+      "published_sha256": "aa99b0045ca01f29f9ef02935addf79414a097c8fa645f0f7745412a9b1b2393",
+      "source_sha256": "ebbbf7b90536fc49c0c37a8ddcb6d0e6c79a23d6a17ced174798a53820291deb",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        },
+        {
+          "name": "p278_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+          "size": [
+            944,
+            755
+          ],
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-11",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-11.blend",
+      "published_sha256": "433e8bee2eed36c142b33544ea9dc940474f9da3878bea2a3cc52251285ce5b8",
+      "source_sha256": "944d25c9690464b4491e598090b994f55440f2938aa63f0998cc535a3d59f92e",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p260_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i2.jpeg",
+          "size": [
+            772,
+            440
+          ],
+          "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        },
+        {
+          "name": "p278_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+          "size": [
+            944,
+            755
+          ],
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-12",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-12.blend",
+      "published_sha256": "ae767d040d072b1005634f96e25fea6eab9668ced4b9912616f129a72abc27e0",
+      "source_sha256": "4abbf22bec1fadbf660aedcc755f3736a6a77a89385570755655592b051f5fea",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p260_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i2.jpeg",
+          "size": [
+            772,
+            440
+          ],
+          "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p274_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p274_i2.jpeg",
+          "size": [
+            975,
+            612
+          ],
+          "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        },
+        {
+          "name": "p278_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+          "size": [
+            944,
+            755
+          ],
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-16",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-16.blend",
+      "published_sha256": "f1bb94057cd0c808cfae280b19e81ee6fa9364db0a8c14ee65d11aa01e1fa6a5",
+      "source_sha256": "39f92a0c8cab4e1bc732ce956cab9063e136dbb5fa49af1e9b28ca8b21c56a14",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p253_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p253_i2.jpeg",
+          "size": [
+            762,
+            212
+          ],
+          "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "packed": false
+        },
+        {
+          "name": "p260_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i2.jpeg",
+          "size": [
+            772,
+            440
+          ],
+          "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p274_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p274_i2.jpeg",
+          "size": [
+            975,
+            612
+          ],
+          "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        },
+        {
+          "name": "p278_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+          "size": [
+            944,
+            755
+          ],
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-17",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-17.blend",
+      "published_sha256": "53e725ebefb757f4159ebe01d45775d6e108938e37d1c981b012448f1efceb67",
+      "source_sha256": "cc1cc66023be92b0e5f1795ba8851b4a4a82dc8bd1f18fee6fed019e8e888f53",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p253_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p253_i2.jpeg",
+          "size": [
+            762,
+            212
+          ],
+          "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "packed": false
+        },
+        {
+          "name": "p260_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i2.jpeg",
+          "size": [
+            772,
+            440
+          ],
+          "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p274_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p274_i2.jpeg",
+          "size": [
+            975,
+            612
+          ],
+          "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        },
+        {
+          "name": "p278_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+          "size": [
+            944,
+            755
+          ],
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-20",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-20.blend",
+      "published_sha256": "77a2f2b9250134528beb25832737eefe96f29b565f172d37848a378f34373064",
+      "source_sha256": "5b5a98582f5649cfc192b3f323dcabf0ad148da5e3344cde5893b3ef2a4764e4",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p253_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p253_i2.jpeg",
+          "size": [
+            762,
+            212
+          ],
+          "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "packed": false
+        },
+        {
+          "name": "p260_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i2.jpeg",
+          "size": [
+            772,
+            440
+          ],
+          "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p274_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p274_i2.jpeg",
+          "size": [
+            975,
+            612
+          ],
+          "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        },
+        {
+          "name": "p278_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+          "size": [
+            944,
+            755
+          ],
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-27",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-27.blend",
+      "published_sha256": "28ee0bdd4480592834904b6b8754022918d0530c6804fc7c2b0ba3baa2b91285",
+      "source_sha256": "130e11eaf4070c9a7e188cee2e227a99179ae46e6302eb6a92274e691eb84c75",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p253_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p253_i2.jpeg",
+          "size": [
+            762,
+            212
+          ],
+          "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "packed": false
+        },
+        {
+          "name": "p256_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p256_i2.jpeg",
+          "size": [
+            850,
+            326
+          ],
+          "sha256": "7fc0479ec5379f4f97d8a49b5d948af841e316f75359343f7ed851113237539c",
+          "packed": false
+        },
+        {
+          "name": "p260_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i2.jpeg",
+          "size": [
+            772,
+            440
+          ],
+          "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p274_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p274_i2.jpeg",
+          "size": [
+            975,
+            612
+          ],
+          "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        },
+        {
+          "name": "p278_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+          "size": [
+            944,
+            755
+          ],
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-28",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-28.blend",
+      "published_sha256": "228ebfcd48f412f491fbb619ac090b389b717fb1b9a980b228256dc2a48f7c12",
+      "source_sha256": "ba36379a66f125d85fb4b4cda2569adb2afb994765c36ec239b8d3c7e5620ab8",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 11,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p150_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+          "size": [
+            731,
+            532
+          ],
+          "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+          "packed": false
+        },
+        {
+          "name": "p222_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+          "size": [
+            1300,
+            687
+          ],
+          "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+          "packed": false
+        },
+        {
+          "name": "p253_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p253_i2.jpeg",
+          "size": [
+            762,
+            212
+          ],
+          "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+          "packed": false
+        },
+        {
+          "name": "p255_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p255_i2.jpeg",
+          "size": [
+            640,
+            804
+          ],
+          "sha256": "26f944c937cfff877cae5d9afe06c261111d9bf82f70857952761c6f9642f280",
+          "packed": false
+        },
+        {
+          "name": "p256_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p256_i2.jpeg",
+          "size": [
+            850,
+            326
+          ],
+          "sha256": "7fc0479ec5379f4f97d8a49b5d948af841e316f75359343f7ed851113237539c",
+          "packed": false
+        },
+        {
+          "name": "p260_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i2.jpeg",
+          "size": [
+            772,
+            440
+          ],
+          "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+          "packed": false
+        },
+        {
+          "name": "p260_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+          "size": [
+            807,
+            493
+          ],
+          "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+          "packed": false
+        },
+        {
+          "name": "p272_i2.png",
+          "relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+          "size": [
+            934,
+            538
+          ],
+          "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+          "packed": false
+        },
+        {
+          "name": "p274_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p274_i2.jpeg",
+          "size": [
+            975,
+            612
+          ],
+          "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+          "packed": false
+        },
+        {
+          "name": "p275_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+          "size": [
+            468,
+            741
+          ],
+          "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+          "packed": false
+        },
+        {
+          "name": "p276_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+          "size": [
+            525,
+            700
+          ],
+          "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+          "packed": false
+        },
+        {
+          "name": "p278_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+          "size": [
+            944,
+            755
+          ],
+          "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p297_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+          "size": [
+            1431,
+            690
+          ],
+          "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+          "packed": false
+        },
+        {
+          "name": "p298_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+          "size": [
+            1428,
+            661
+          ],
+          "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-33",
+      "family": "manual",
+      "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-33.blend",
+      "published_sha256": "bdaf7c955e4c3f5d22cf5389b35f9cee3c84a7a6c9fc4d17f1735fcce7c0c69b",
+      "source_sha256": "59ef67313a9ec7c2a2c5215be4d1d1a7ba2c167fa04011bd7fa43db22d14a6c1",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 10,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "p273_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p273_i2.jpeg",
+          "size": [
+            975,
+            615
+          ],
+          "sha256": "cdaa972941549f7c6cc34916d37383317254a885da9cedae4dc7fb20924b363b",
+          "packed": false
+        },
+        {
+          "name": "p286_i2.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+          "size": [
+            661,
+            421
+          ],
+          "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+          "packed": false
+        },
+        {
+          "name": "p303_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+          "size": [
+            891,
+            1431
+          ],
+          "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+          "packed": false
+        },
+        {
+          "name": "p304_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p304_i3.jpeg",
+          "size": [
+            741,
+            1431
+          ],
+          "sha256": "57ff83ab95ad53b72ca09e47021d95651d5a44e6d465a23970755bd19a21afd9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A3-10",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/A3-10.blend",
+      "published_sha256": "165f17bc110bdd017ad4193c94f8f61e6be036b09354f18ea9b989fac48decc8",
+      "source_sha256": "a2ed85565c0d0f7c919cfc866afad804b5767dddd5346e2ed0837a046688027d",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Washer section left",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Washer section right",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A3-11",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/A3-11.blend",
+      "published_sha256": "a58305150edfdb6d3cc1b0f5b555e689c6b49e1f5fd9ecb40d5f4fb38e535f00",
+      "source_sha256": "5190c5b2049793821bcccbd8bf0e48782dcdc271c61aeeb455982eea0a0f0cc3",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Controller block",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Servo output symbol",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A3-12",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/A3-12.blend",
+      "published_sha256": "1e27343b80db57b34cf0f652467a5dffde9ae89739ca86c4e3f155f0f1e4ea35",
+      "source_sha256": "73304605654b7ff402397bb758c4149e3d09efd5e685b68b43c545fae65a38c8",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "One compatible interface",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A6-19",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/A6-19.blend",
+      "published_sha256": "2178f15a781df78bda62101544058a96cdf93a65ad7136db47ec50413cfda581",
+      "source_sha256": "009c2942537027391bb4921ff33dc26ffecef9f56a79ced2f53522722d7586dc",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-04",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/A7-04.blend",
+      "published_sha256": "c660c2d68af09db4f7b305c6005dc8bbaa999e7f59d472f430c8ba34af63e75b",
+      "source_sha256": "421bca56a2184a4d5b8f2124bab75563e7763d99c9fef5564619ad47d973bc0a",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-14",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/A7-14.blend",
+      "published_sha256": "3a1d871ef7cb12be169797866f9687d1c86453147292f170b00982b63f3f53c2",
+      "source_sha256": "4802df08034d6912ab10e63323fcf8313a8c9b887a545b210d7197d31a7175a7",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Electronics board",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Tube segment A",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Tube segment B",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "B1-01",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/B1-01.blend",
+      "published_sha256": "5bc327b5e00b9d9f1e3b31aa2445a018ead750e1e6f7c8778d2abea50918aad2",
+      "source_sha256": "9bdf3e15012d71d20a059475e7becce1795c13808322fabd8576786b13cc3225",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Molecular concept sphere",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Molecular concept sphere.001",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Molecular concept sphere.002",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Reaction role boundary",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "B1-02",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/B1-02.blend",
+      "published_sha256": "dfbbf69d8ea7ec351f610ce2cba0ec80815231852ff22557be5f2119f687c64d",
+      "source_sha256": "13e4c9ff4773d6e052adc637373d8381bee1785b25ffd1a651034cd64e011262",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Mixed material symbol",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Mixed material symbol.001",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Mixed material symbol.002",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Reaction role boundary",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "B1-05",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/B1-05.blend",
+      "published_sha256": "a08fe5a7c7451130e6035e8e3383639a9d2be90be583ed980496e790366fd7a0",
+      "source_sha256": "6e0d0ad8ca6be5b000324fef945fc472878be74cca75d55018647c530eddc231",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "B1-06",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/B1-06.blend",
+      "published_sha256": "fa713e74dedc6e3710ac73eff94482d77248b274898488d3afc43257df4bc0b4",
+      "source_sha256": "2f186749b1830cc9426e44003b27e167b4740655669145ee534f81ed2ba0871c",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "B1-07",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/B1-07.blend",
+      "published_sha256": "11033b406235c1bab3ee77be5bd1ff42ac6e8912a5b87edd5dd1181fc1174807",
+      "source_sha256": "49678b6c09b323addc9216bc9b08ae21300582c92ff7e07deb6c355f4ff098ca",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-04",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/C1-04.blend",
+      "published_sha256": "a32238b78b3ab88b7f9a982c73d0869036432551a67d4a65c9807085b8ed7572",
+      "source_sha256": "d121f6c99bd779c7148a1ade7bea5a393e7da11b0fdda753e85603f661fc8ff1",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Magnified insulation cross section",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Power source",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-10",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/C1-10.blend",
+      "published_sha256": "099249f9c70818605c0ca9d0fe621cdcc5b057f09cdd25e7f55f899d650ee1df",
+      "source_sha256": "5031c798e94c456ceca059cadaca4d85a43cb37770b7e13bfd1661042e7a0531",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Ground end connector",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Ground inline connector",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-15",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/C1-15.blend",
+      "published_sha256": "404aa4dba9ddacca592b796218aea3d0a81de5361993b6db3d4051fa1533c2e9",
+      "source_sha256": "6ff39dfecca8f029c789f891aa34c99dff3a4bed02fa3f58bdf5ae2aa0f06372",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [
+        {
+          "object": "Stored material conceptual mark",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Stored material conceptual mark.001",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Stored material conceptual mark.002",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Stored material conceptual mark.003",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        },
+        {
+          "object": "Stored material conceptual mark.004",
+          "component": "uv:UVMap",
+          "scope": "Ephemeral modifier UV; source baseUV/positions/topology/matrices exact. Per-value tolerance measured during conversion."
+        }
+      ],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-18",
+      "family": "function",
+      "release_path": "outputs/启明火箭/source/component-illustrations/function/C1-18.blend",
+      "published_sha256": "0e03c60a8b2c3cc7a077a02ffe0955d1b30eac54e409d26f519b8fe6d7d3485a",
+      "source_sha256": "4fce492ae68943c8ab244aa1eda7a57c49ebcbe80090c71ef6cd0bb9e04905c4",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 7,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-01",
+      "family": "source",
+      "release_path": "outputs/启明火箭/source/component-illustrations/source/A7-01.blend",
+      "published_sha256": "d81d8ea3502098c8c71e6240c127f2af4e04bafdf5a8ea7c80b4e5c44d48b569",
+      "source_sha256": "8ebf6f84cf7f4c6e9ee5e9d5d3f20ef66ed6fa545d6d234baa3d657cd035c123",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "P087-oblique.png",
+          "relative_path": "//../../../library/part-previews/P087-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "A7-16",
+      "family": "source",
+      "release_path": "outputs/启明火箭/source/component-illustrations/source/A7-16.blend",
+      "published_sha256": "5bd093ed0d74fbb88fb9c5b5d08e7da346a00a6548d435c67297141f4f4edb6e",
+      "source_sha256": "de3c82070b7c5b5f3522054442a1456e570ccdab0f8c4d1e61dcf1ef87b99904",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "P072-oblique.png",
+          "relative_path": "//../../../library/part-previews/P072-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "dc93d203038dda84055dbd83172087944dd6f8cde7df0771f9188e70b3d1c65c",
+          "packed": false
+        },
+        {
+          "name": "P087-oblique.png",
+          "relative_path": "//../../../library/part-previews/P087-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-19",
+      "family": "source",
+      "release_path": "outputs/启明火箭/source/component-illustrations/source/C1-19.blend",
+      "published_sha256": "bd0dd0e636bb15dde0e380f97efdc8422e3a143e20145480b6ca4fdf1d6fbd97",
+      "source_sha256": "35d489a948c4fdba80d15579dfc7ae49bdcc93b70a8394c2441d45b9c9e57268",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "P072-oblique.png",
+          "relative_path": "//../../../library/part-previews/P072-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "dc93d203038dda84055dbd83172087944dd6f8cde7df0771f9188e70b3d1c65c",
+          "packed": false
+        },
+        {
+          "name": "P087-oblique.png",
+          "relative_path": "//../../../library/part-previews/P087-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "packed": false
+        },
+        {
+          "name": "p254_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p254_i3.jpeg",
+          "size": [
+            835,
+            497
+          ],
+          "sha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-21",
+      "family": "source",
+      "release_path": "outputs/启明火箭/source/component-illustrations/source/C1-21.blend",
+      "published_sha256": "dc663719e24d88dea5015df0d657d1812f549125d580eea5e019f22de77f8b4f",
+      "source_sha256": "b7287e0f0849dedbf8144af6e8bf4910094882ddd1bfb58e93702f9b0aab7aaf",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "P072-oblique.png",
+          "relative_path": "//../../../library/part-previews/P072-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "dc93d203038dda84055dbd83172087944dd6f8cde7df0771f9188e70b3d1c65c",
+          "packed": false
+        },
+        {
+          "name": "P087-oblique.png",
+          "relative_path": "//../../../library/part-previews/P087-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "packed": false
+        },
+        {
+          "name": "p254_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p254_i3.jpeg",
+          "size": [
+            835,
+            497
+          ],
+          "sha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-22",
+      "family": "source",
+      "release_path": "outputs/启明火箭/source/component-illustrations/source/C1-22.blend",
+      "published_sha256": "66345fc36f07fdf5629e5902983cc3d0a6078c08a8eeb024070672f5944136b9",
+      "source_sha256": "cce4770fad2e77d86586e74f65437d5d05e362a3031507cb045d350fb6303d84",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "P072-oblique.png",
+          "relative_path": "//../../../library/part-previews/P072-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "dc93d203038dda84055dbd83172087944dd6f8cde7df0771f9188e70b3d1c65c",
+          "packed": false
+        },
+        {
+          "name": "P087-oblique.png",
+          "relative_path": "//../../../library/part-previews/P087-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "packed": false
+        },
+        {
+          "name": "p254_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p254_i3.jpeg",
+          "size": [
+            835,
+            497
+          ],
+          "sha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-23",
+      "family": "source",
+      "release_path": "outputs/启明火箭/source/component-illustrations/source/C1-23.blend",
+      "published_sha256": "b69bb054df7a8451ccf5bccd2d4a3b24684effaa8f3fe90981d92c2e017188e8",
+      "source_sha256": "ecb2bb51ce451096290bcbb2e0d09b8475a053812c8269a91d0172fd3d461acb",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "P072-oblique.png",
+          "relative_path": "//../../../library/part-previews/P072-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "dc93d203038dda84055dbd83172087944dd6f8cde7df0771f9188e70b3d1c65c",
+          "packed": false
+        },
+        {
+          "name": "P087-oblique.png",
+          "relative_path": "//../../../library/part-previews/P087-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "packed": false
+        },
+        {
+          "name": "p254_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p254_i3.jpeg",
+          "size": [
+            835,
+            497
+          ],
+          "sha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-24",
+      "family": "source",
+      "release_path": "outputs/启明火箭/source/component-illustrations/source/C1-24.blend",
+      "published_sha256": "2ecb4e9df591d6a6b30a9412dc8c27bf197695c265e7e70ff68e7b9f2175682d",
+      "source_sha256": "27cf42a6312f92821d8dc14ffa09f1bced7e0ac4b14b13d6eab538636f5daed9",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "P072-oblique.png",
+          "relative_path": "//../../../library/part-previews/P072-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "dc93d203038dda84055dbd83172087944dd6f8cde7df0771f9188e70b3d1c65c",
+          "packed": false
+        },
+        {
+          "name": "P087-oblique.png",
+          "relative_path": "//../../../library/part-previews/P087-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "packed": false
+        },
+        {
+          "name": "p254_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p254_i3.jpeg",
+          "size": [
+            835,
+            497
+          ],
+          "sha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    },
+    {
+      "id": "C1-25",
+      "family": "source",
+      "release_path": "outputs/启明火箭/source/component-illustrations/source/C1-25.blend",
+      "published_sha256": "62ac47bccbed7eeaf96bbc6b094f389c16fceab7b00cd90d80abd5e4f6605636",
+      "source_sha256": "521ae25caab140058230f00bda1b531207cc9d1f5e48a2a4857dca8b6e4e27ba",
+      "nonfont_base_geometry_and_matrices_exact": true,
+      "nonfont_evaluated_positions_topology_materials_exact": true,
+      "evaluated_uv_hash_variants": [],
+      "text_meshes_exact": 13,
+      "font_object_count": 0,
+      "restricted_packed_vfont_count": 0,
+      "external_blend_library_count": 0,
+      "images": [
+        {
+          "name": "P072-oblique.png",
+          "relative_path": "//../../../library/part-previews/P072-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "dc93d203038dda84055dbd83172087944dd6f8cde7df0771f9188e70b3d1c65c",
+          "packed": false
+        },
+        {
+          "name": "P087-oblique.png",
+          "relative_path": "//../../../library/part-previews/P087-oblique.png",
+          "size": [
+            768,
+            768
+          ],
+          "sha256": "3de7c847d82456804e11e5f5329fcde9fe4c0fff68e64d6a42b414c510b6c9e6",
+          "packed": false
+        },
+        {
+          "name": "p254_i3.jpeg",
+          "relative_path": "//../../original-project/中文文档/images/p254_i3.jpeg",
+          "size": [
+            835,
+            497
+          ],
+          "sha256": "8c043c4975f986df11a7abf78bc2a2d007dea66167cf91e856404ee3b12cabf9",
+          "packed": false
+        }
+      ],
+      "saved_file_sha_unchanged_by_audit": true
+    }
+  ]
+}

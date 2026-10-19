@@ -1,0 +1,1268 @@
+{
+  "id": "C1-27",
+  "family": "manual",
+  "release_path": "outputs/启明火箭/source/component-illustrations/manual/C1-27.blend",
+  "source_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket/manual-detail-sources/C1-27.blend",
+  "source_sha256": "130e11eaf4070c9a7e188cee2e227a99179ae46e6302eb6a92274e691eb84c75",
+  "published_sha256": "28ee0bdd4480592834904b6b8754022918d0530c6804fc7c2b0ba3baa2b91285",
+  "camera_reference": {
+    "name": "ManualDetails_Ortho",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        800.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        500.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2000.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "lens": 50.0,
+    "ortho_scale": 1600.0
+  },
+  "text_outlines": [
+    {
+      "object_name": "badge_text",
+      "text": "原图定位",
+      "parameters": {
+        "body": "原图定位",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 27.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "757115c7633918be2fee2cbe32f8cc67b6e9adbd866d3143afbcfd100b95b530",
+        "vertices": 3135,
+        "polygons": 3111,
+        "component_sha256": {
+          "co": "46979bfdd18aa9f078362549ee98ded1bfbbbc9164f32954aa06e771d3551b82",
+          "vertex_index": "158498311c24b8d0af178bd071c02030960ba3b3d06cffe58114d8573907cae1",
+          "loop_total": "e3d24da73476b2f5821df38449aa42dc8bc3c23e0f73c63b8c7c3400cedf5a85",
+          "material_index": "d7b0915753dedfa1fe2d8f6837c508d22dd15b0f89aec0cdf4637fcfa3b3e63d",
+          "uv:UVMap": "021ecb2e1764ddec2b84ac3bc0d424b5f17b4e45185a8d65ac044efdc6d5656b"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1362.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          878.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "757115c7633918be2fee2cbe32f8cc67b6e9adbd866d3143afbcfd100b95b530",
+        "vertices": 3135,
+        "polygons": 3111,
+        "component_sha256": {
+          "co": "46979bfdd18aa9f078362549ee98ded1bfbbbc9164f32954aa06e771d3551b82",
+          "vertex_index": "158498311c24b8d0af178bd071c02030960ba3b3d06cffe58114d8573907cae1",
+          "loop_total": "e3d24da73476b2f5821df38449aa42dc8bc3c23e0f73c63b8c7c3400cedf5a85",
+          "material_index": "d7b0915753dedfa1fe2d8f6837c508d22dd15b0f89aec0cdf4637fcfa3b3e63d",
+          "uv:UVMap": "021ecb2e1764ddec2b84ac3bc0d424b5f17b4e45185a8d65ac044efdc6d5656b"
+        }
+      }
+    },
+    {
+      "object_name": "C1-27_label",
+      "text": "看中间金色穿壁体",
+      "parameters": {
+        "body": "看中间金色穿壁体",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 32.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "5133cdb91747717d44f622be32d85d9ac4ac4a7d7f9375cad7a3fb267ddecde1",
+        "vertices": 6616,
+        "polygons": 6604,
+        "component_sha256": {
+          "co": "3bb1c262b775fdd54293c696af7a7b4f729113a0106eecef4e17e0667ba51d02",
+          "vertex_index": "40dc8d0009a870c205a625f8d9f1bb933f2efa0e325de915fb3cdbfa5e021947",
+          "loop_total": "b642fc4fd61ed67a15a0da3d30375590e0288137dda150fa184250f261bd2a62",
+          "material_index": "4749471de3085f99b4810b030a33c9c9f58fcbaed830763757a90ce682abe040",
+          "uv:UVMap": "a2447463bfa07b38e396adda925e4c42427298960709dc5b98d457f0dc379271"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          912.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          739.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "5133cdb91747717d44f622be32d85d9ac4ac4a7d7f9375cad7a3fb267ddecde1",
+        "vertices": 6616,
+        "polygons": 6604,
+        "component_sha256": {
+          "co": "3bb1c262b775fdd54293c696af7a7b4f729113a0106eecef4e17e0667ba51d02",
+          "vertex_index": "40dc8d0009a870c205a625f8d9f1bb933f2efa0e325de915fb3cdbfa5e021947",
+          "loop_total": "b642fc4fd61ed67a15a0da3d30375590e0288137dda150fa184250f261bd2a62",
+          "material_index": "4749471de3085f99b4810b030a33c9c9f58fcbaed830763757a90ce682abe040",
+          "uv:UVMap": "a2447463bfa07b38e396adda925e4c42427298960709dc5b98d457f0dc379271"
+        }
+      }
+    },
+    {
+      "object_name": "C1-27_note",
+      "text": "两端银色接头不是本物项。\n原图是相邻部件的组合上下文。",
+      "parameters": {
+        "body": "两端银色接头不是本物项。\n原图是相邻部件的组合上下文。",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 25.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "ca704d428806c9b1f7bbee00317eef04046c229d78594c9925fae70a3a41f812",
+        "vertices": 20312,
+        "polygons": 20230,
+        "component_sha256": {
+          "co": "403efeb0b2e785f24b1ac69465287a5f4499626095280731f91fdce72a825b0c",
+          "vertex_index": "415cd7aef3176bc1be1623e58a585279446c5b7e6bbbab3045eb5078291606cb",
+          "loop_total": "065f2cda81f69c743d13140e271b9c78f94f9a7daab1fb4b922c83674891b61f",
+          "material_index": "3ce8da68a662ba390bbc46c6e564061244fa5efbba457426f3c2f41d2bba25ad",
+          "uv:UVMap": "6d1951dc412824eed8851189635da5dc3836719793e5e4fd71f12ddf4d217e71"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          912.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          319.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "ca704d428806c9b1f7bbee00317eef04046c229d78594c9925fae70a3a41f812",
+        "vertices": 20312,
+        "polygons": 20230,
+        "component_sha256": {
+          "co": "403efeb0b2e785f24b1ac69465287a5f4499626095280731f91fdce72a825b0c",
+          "vertex_index": "415cd7aef3176bc1be1623e58a585279446c5b7e6bbbab3045eb5078291606cb",
+          "loop_total": "065f2cda81f69c743d13140e271b9c78f94f9a7daab1fb4b922c83674891b61f",
+          "material_index": "3ce8da68a662ba390bbc46c6e564061244fa5efbba457426f3c2f41d2bba25ad",
+          "uv:UVMap": "6d1951dc412824eed8851189635da5dc3836719793e5e4fd71f12ddf4d217e71"
+        }
+      }
+    },
+    {
+      "object_name": "C1-27_note_heading",
+      "text": "看图时分清",
+      "parameters": {
+        "body": "看图时分清",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 27.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "c26eed92cb9a694678b1ed1490513d777fb5369c41f6a23eda901c90f3b478c4",
+        "vertices": 4098,
+        "polygons": 4084,
+        "component_sha256": {
+          "co": "75435b2f80876056509a5f20dcbcb21f60d74730ab020bd897f2c5a6b3ef291f",
+          "vertex_index": "e54dee614a3f58e6e61f941a81c27995a3cb3b1ee22e7868bfde1f23614f30b0",
+          "loop_total": "59fc2944aec6a2a5d71bf43589f37cb19e2d9602eecfb405c31058d985e96824",
+          "material_index": "89d3dcd01553cb1d6c2f57b20d00a79d04f153c356a7eb60acc29551ba666cbc",
+          "uv:UVMap": "5c7e881eed9b73dcfb4ed4209e7e6a376e34fef8cbcd29d49119f4cb4629e6b1"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          912.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          365.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "c26eed92cb9a694678b1ed1490513d777fb5369c41f6a23eda901c90f3b478c4",
+        "vertices": 4098,
+        "polygons": 4084,
+        "component_sha256": {
+          "co": "75435b2f80876056509a5f20dcbcb21f60d74730ab020bd897f2c5a6b3ef291f",
+          "vertex_index": "e54dee614a3f58e6e61f941a81c27995a3cb3b1ee22e7868bfde1f23614f30b0",
+          "loop_total": "59fc2944aec6a2a5d71bf43589f37cb19e2d9602eecfb405c31058d985e96824",
+          "material_index": "89d3dcd01553cb1d6c2f57b20d00a79d04f153c356a7eb60acc29551ba666cbc",
+          "uv:UVMap": "5c7e881eed9b73dcfb4ed4209e7e6a376e34fef8cbcd29d49119f4cb4629e6b1"
+        }
+      }
+    },
+    {
+      "object_name": "C1-27_role",
+      "text": "让细管路穿过箱壁，\n并在壁面处保持位置。",
+      "parameters": {
+        "body": "让细管路穿过箱壁，\n并在壁面处保持位置。",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 30.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "ae15568056f0f35778344da2575f6923d4bc717b1f313e92ce712de3fbfcbbf3",
+        "vertices": 15761,
+        "polygons": 15715,
+        "component_sha256": {
+          "co": "6ff6f8d8c276c18d7659e4aee355fc4b1b8b90ca6a8d6c57c2c7c137672cbbf5",
+          "vertex_index": "675e5e18a65547e732d2020e09ce6dde0499e6df2f9f2cc54a081711d4a453ba",
+          "loop_total": "3a419b4c78f2701c8ce36ce18bca52e2dfe60fa3ba23035df20c788117971960",
+          "material_index": "7b9a553fb7cd06d4c0aa20ada384f199e355ad1a1c7ce610373469e63942da72",
+          "uv:UVMap": "8a82eb62bf7a4c07da0970d93f73eb647a0ce8ba7d455d4408804195c89c4eb0"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          912.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          522.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "ae15568056f0f35778344da2575f6923d4bc717b1f313e92ce712de3fbfcbbf3",
+        "vertices": 15761,
+        "polygons": 15715,
+        "component_sha256": {
+          "co": "6ff6f8d8c276c18d7659e4aee355fc4b1b8b90ca6a8d6c57c2c7c137672cbbf5",
+          "vertex_index": "675e5e18a65547e732d2020e09ce6dde0499e6df2f9f2cc54a081711d4a453ba",
+          "loop_total": "3a419b4c78f2701c8ce36ce18bca52e2dfe60fa3ba23035df20c788117971960",
+          "material_index": "7b9a553fb7cd06d4c0aa20ada384f199e355ad1a1c7ce610373469e63942da72",
+          "uv:UVMap": "8a82eb62bf7a4c07da0970d93f73eb647a0ce8ba7d455d4408804195c89c4eb0"
+        }
+      }
+    },
+    {
+      "object_name": "C1-27_role_heading",
+      "text": "它做什么",
+      "parameters": {
+        "body": "它做什么",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 27.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "1641026a032021cfc62fb0edd3ef683f9c5bf397c8a9c679e8adbf2e1e0521fb",
+        "vertices": 3073,
+        "polygons": 3055,
+        "component_sha256": {
+          "co": "c2bfd9a432dfb8783d28cf37f2b8c4d2c2bb072dff9d4414af7f9ed59a47aa4e",
+          "vertex_index": "8379a2fd9cbc0dff040831d6208e4e7f70df3d0d6c2e03610c0dee66e051f674",
+          "loop_total": "c92379f1561ed927a99f8456e7a411d02247145d95e4e88b632785d6501c5fe6",
+          "material_index": "ce854d4a14fa59894f93da87292cd0c86fd9663292fb3fdab7a01779e1d1d2e5",
+          "uv:UVMap": "2e492ea6174e2ad26b4ddb90bee931b1239d910e579420e49188c6fc7e728392"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          912.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          573.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "1641026a032021cfc62fb0edd3ef683f9c5bf397c8a9c679e8adbf2e1e0521fb",
+        "vertices": 3073,
+        "polygons": 3055,
+        "component_sha256": {
+          "co": "c2bfd9a432dfb8783d28cf37f2b8c4d2c2bb072dff9d4414af7f9ed59a47aa4e",
+          "vertex_index": "8379a2fd9cbc0dff040831d6208e4e7f70df3d0d6c2e03610c0dee66e051f674",
+          "loop_total": "c92379f1561ed927a99f8456e7a411d02247145d95e4e88b632785d6501c5fe6",
+          "material_index": "ce854d4a14fa59894f93da87292cd0c86fd9663292fb3fdab7a01779e1d1d2e5",
+          "uv:UVMap": "2e492ea6174e2ad26b4ddb90bee931b1239d910e579420e49188c6fc7e728392"
+        }
+      }
+    },
+    {
+      "object_name": "footer_scope",
+      "text": "原手册装配局部 · 非独立单件CAD或商品认证",
+      "parameters": {
+        "body": "原手册装配局部 · 非独立单件CAD或商品认证",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 25.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "489cc3891b6aaef72e36f11134e7579a2fa57c71f2fbed4c5d3ab428637dcf35",
+        "vertices": 14906,
+        "polygons": 14852,
+        "component_sha256": {
+          "co": "c00ee99476a51dcd22d1c64a74b58f4ce36b06bf9f88ca299da388c71deb86d9",
+          "vertex_index": "4ae2d6dc0a777a822a1f06bc75833435e05ada4232a4efdefc7448f7f4524c03",
+          "loop_total": "eb3bc91fb330c212643bfd75cd1560f75953ce910195bc967f28123412cc440d",
+          "material_index": "c66ffa120fc30ee800c870877cd8a82aee30481a4a05ec68982359343d5b0405",
+          "uv:UVMap": "3604f0d4f19aadab37af263182bdc9f0b0200e9af9a4a0f02f6c2f890bc7f518"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          55.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          84.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "489cc3891b6aaef72e36f11134e7579a2fa57c71f2fbed4c5d3ab428637dcf35",
+        "vertices": 14906,
+        "polygons": 14852,
+        "component_sha256": {
+          "co": "c00ee99476a51dcd22d1c64a74b58f4ce36b06bf9f88ca299da388c71deb86d9",
+          "vertex_index": "4ae2d6dc0a777a822a1f06bc75833435e05ada4232a4efdefc7448f7f4524c03",
+          "loop_total": "eb3bc91fb330c212643bfd75cd1560f75953ce910195bc967f28123412cc440d",
+          "material_index": "c66ffa120fc30ee800c870877cd8a82aee30481a4a05ec68982359343d5b0405",
+          "uv:UVMap": "3604f0d4f19aadab37af263182bdc9f0b0200e9af9a4a0f02f6c2f890bc7f518"
+        }
+      }
+    },
+    {
+      "object_name": "footer_source",
+      "text": "来源：物理页 256 / 印刷页 247 · p256_i2.jpeg · 两端银色接头不是中间金色穿壁体",
+      "parameters": {
+        "body": "来源：物理页 256 / 印刷页 247 · p256_i2.jpeg · 两端银色接头不是中间金色穿壁体",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 21.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "71e71bd5c8642497eeb13033e98cd2da9fd9cddf583dd5b1a477e13cd519ee14",
+        "vertices": 23492,
+        "polygons": 23370,
+        "component_sha256": {
+          "co": "37842167e5ce870d8298ce21d2b7a83a64931a81aa9f7476dc7135dfc2d4094f",
+          "vertex_index": "ccf0ddf83058c8c79d5943b8883db39063062e8cf2443d4fe4019e0ac7895c35",
+          "loop_total": "75f90b8923d34a2ea8c9f985f403f4bcbf618826d2c1bed9ef4927ebf880a824",
+          "material_index": "e820b84e0f89d62d1ea1b9f73c282cc427c9bb645b8e939b5730fcd7e837b5f9",
+          "uv:UVMap": "959fde9e2dd95cef7191ae184ccb2d873302a0940ad43335036c30f915eddf73"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          55.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          40.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "71e71bd5c8642497eeb13033e98cd2da9fd9cddf583dd5b1a477e13cd519ee14",
+        "vertices": 23492,
+        "polygons": 23370,
+        "component_sha256": {
+          "co": "37842167e5ce870d8298ce21d2b7a83a64931a81aa9f7476dc7135dfc2d4094f",
+          "vertex_index": "ccf0ddf83058c8c79d5943b8883db39063062e8cf2443d4fe4019e0ac7895c35",
+          "loop_total": "75f90b8923d34a2ea8c9f985f403f4bcbf618826d2c1bed9ef4927ebf880a824",
+          "material_index": "e820b84e0f89d62d1ea1b9f73c282cc427c9bb645b8e939b5730fcd7e837b5f9",
+          "uv:UVMap": "959fde9e2dd95cef7191ae184ccb2d873302a0940ad43335036c30f915eddf73"
+        }
+      }
+    },
+    {
+      "object_name": "id",
+      "text": "C1-27",
+      "parameters": {
+        "body": "C1-27",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 26.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "5a0489a7d95696466c49b61a74a98753036a52aa06696d7517d145054fa539bd",
+        "vertices": 336,
+        "polygons": 326,
+        "component_sha256": {
+          "co": "bddd2eddf17903eaf78ef5fd128bbcf4947ba497298d88fef06fab3290145cc5",
+          "vertex_index": "968bb7ffc2d826c5af4ef2342d7c9299a01d91366499bcb71feb996d7477b01d",
+          "loop_total": "9f6f1bde3fc3b42a77b5d2a2901a28a23b4bf82d48cf57249fe06d14bcba5010",
+          "material_index": "5cad8b3db8fbb29e0cabbd785e1e3449ebcd5b04544cde14c93812a93860cc47",
+          "uv:UVMap": "3b28ddd41ed99208b2f63077092ac0e4bd82f94b7eff4c1b5bf2f1a56e198942"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1405.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          952.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "5a0489a7d95696466c49b61a74a98753036a52aa06696d7517d145054fa539bd",
+        "vertices": 336,
+        "polygons": 326,
+        "component_sha256": {
+          "co": "bddd2eddf17903eaf78ef5fd128bbcf4947ba497298d88fef06fab3290145cc5",
+          "vertex_index": "968bb7ffc2d826c5af4ef2342d7c9299a01d91366499bcb71feb996d7477b01d",
+          "loop_total": "9f6f1bde3fc3b42a77b5d2a2901a28a23b4bf82d48cf57249fe06d14bcba5010",
+          "material_index": "5cad8b3db8fbb29e0cabbd785e1e3449ebcd5b04544cde14c93812a93860cc47",
+          "uv:UVMap": "3b28ddd41ed99208b2f63077092ac0e4bd82f94b7eff4c1b5bf2f1a56e198942"
+        }
+      }
+    },
+    {
+      "object_name": "lock_label",
+      "text": "锁紧区",
+      "parameters": {
+        "body": "锁紧区",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 25.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "32afe2856c2cb6b6aedc235ac07d928e6d9316497ed3868d8fafa0db22ee227d",
+        "vertices": 3662,
+        "polygons": 3634,
+        "component_sha256": {
+          "co": "ecd964110780d121505be1f1e9782bf0de81aec1ea1e3823fb93517a2b2a58a0",
+          "vertex_index": "173b6c01f9d0e19abd978197a150f1b989414e79a7f0853366589f8784644727",
+          "loop_total": "93c160666ff41163b10106b2629714cbf41fb20ea6ca353623e61410683ec2c3",
+          "material_index": "fa5696e8ad4a591cd4c317158a1462ba2f413de86d51c133f87981601089a003",
+          "uv:UVMap": "f842fd8268d5ed80df4a15ae600fe9d9e1c0081e585c7019b020b7435ca6b5f6"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          106.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          216.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "32afe2856c2cb6b6aedc235ac07d928e6d9316497ed3868d8fafa0db22ee227d",
+        "vertices": 3662,
+        "polygons": 3634,
+        "component_sha256": {
+          "co": "ecd964110780d121505be1f1e9782bf0de81aec1ea1e3823fb93517a2b2a58a0",
+          "vertex_index": "173b6c01f9d0e19abd978197a150f1b989414e79a7f0853366589f8784644727",
+          "loop_total": "93c160666ff41163b10106b2629714cbf41fb20ea6ca353623e61410683ec2c3",
+          "material_index": "fa5696e8ad4a591cd4c317158a1462ba2f413de86d51c133f87981601089a003",
+          "uv:UVMap": "f842fd8268d5ed80df4a15ae600fe9d9e1c0081e585c7019b020b7435ca6b5f6"
+        }
+      }
+    },
+    {
+      "object_name": "neighbor_label",
+      "text": "外接件另列",
+      "parameters": {
+        "body": "外接件另列",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 25.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "3551c5e6a2cbf32dbadfe912053ee20987c24f394af8b80f723673d1698c633b",
+        "vertices": 4741,
+        "polygons": 4717,
+        "component_sha256": {
+          "co": "3026ff4c9bcbec8c3dbdd4950d16007374d75542f76d4612920d5a7530a97611",
+          "vertex_index": "eeb0385fdb34d0a113d2aa4207950ce491184e48ea2d1a4cbe969c7bd1875ffb",
+          "loop_total": "7a2840b95da53b8050bfbe2f3b39248eb9d6a87ecbe63f9bf5134f7e22c6f703",
+          "material_index": "da080c2b7463aedb8882d8d8808b218fdd91a61de183e26d94293f04a0ad439c",
+          "uv:UVMap": "0453fdc8a5ef5fd2676d8ea942a2b01af0e3f9d1f2ec13f33ab90f74f170aa4b"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          614.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          216.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "3551c5e6a2cbf32dbadfe912053ee20987c24f394af8b80f723673d1698c633b",
+        "vertices": 4741,
+        "polygons": 4717,
+        "component_sha256": {
+          "co": "3026ff4c9bcbec8c3dbdd4950d16007374d75542f76d4612920d5a7530a97611",
+          "vertex_index": "eeb0385fdb34d0a113d2aa4207950ce491184e48ea2d1a4cbe969c7bd1875ffb",
+          "loop_total": "7a2840b95da53b8050bfbe2f3b39248eb9d6a87ecbe63f9bf5134f7e22c6f703",
+          "material_index": "da080c2b7463aedb8882d8d8808b218fdd91a61de183e26d94293f04a0ad439c",
+          "uv:UVMap": "0453fdc8a5ef5fd2676d8ea942a2b01af0e3f9d1f2ec13f33ab90f74f170aa4b"
+        }
+      }
+    },
+    {
+      "object_name": "series",
+      "text": "启明火箭  /  看清每一件",
+      "parameters": {
+        "body": "启明火箭  /  看清每一件",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 24.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "2dd722a869a6443aa501345dd43a311e78ca70b2dfdc839a236bb9a5d5fa9579",
+        "vertices": 6669,
+        "polygons": 6645,
+        "component_sha256": {
+          "co": "82e25f630779879cc856fdc10c32cf13eefb6785d7df7f62cda4e8c4b2df9428",
+          "vertex_index": "9bcfae34595e9dbb1848df073c1c4a64f09da197dc6aed37bb7c0f1ed3e0d45e",
+          "loop_total": "cdf2d9a3e1ac6f19a0b28cee48fdc35bb898d9f0b80ff880309f169561c3416e",
+          "material_index": "05cf73afd2a4442e146e428a3375bcc39522f0a43136e58965b4635b389a5d43",
+          "uv:UVMap": "7c9c89915a2282b226dbbcf5b0225eed9da94797698a9c880d3efb3434ddd38b"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          55.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          952.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "2dd722a869a6443aa501345dd43a311e78ca70b2dfdc839a236bb9a5d5fa9579",
+        "vertices": 6669,
+        "polygons": 6645,
+        "component_sha256": {
+          "co": "82e25f630779879cc856fdc10c32cf13eefb6785d7df7f62cda4e8c4b2df9428",
+          "vertex_index": "9bcfae34595e9dbb1848df073c1c4a64f09da197dc6aed37bb7c0f1ed3e0d45e",
+          "loop_total": "cdf2d9a3e1ac6f19a0b28cee48fdc35bb898d9f0b80ff880309f169561c3416e",
+          "material_index": "05cf73afd2a4442e146e428a3375bcc39522f0a43136e58965b4635b389a5d43",
+          "uv:UVMap": "7c9c89915a2282b226dbbcf5b0225eed9da94797698a9c880d3efb3434ddd38b"
+        }
+      }
+    },
+    {
+      "object_name": "title",
+      "text": "管路穿壁连接件",
+      "parameters": {
+        "body": "管路穿壁连接件",
+        "align_x": "LEFT",
+        "align_y": "TOP_BASELINE",
+        "size": 52.0,
+        "space_character": 1.0199999809265137,
+        "space_word": 1.0,
+        "space_line": 1.1799999475479126,
+        "shear": 0.0,
+        "extrude": 0.0,
+        "bevel_depth": 0.0,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "fill_mode": "BOTH",
+        "offset": 0.0,
+        "overflow": "NONE"
+      },
+      "original_font_resources": {
+        "font": "Heiti TC Medium",
+        "font_bold": "Bfont Regular",
+        "font_italic": "Bfont Regular",
+        "font_bold_italic": "Bfont Regular"
+      },
+      "evaluated_mesh_before": {
+        "sha256": "3fc16bdb7c5d58c3118683f1dcdfb599ccc6f7dc2ed58ae2cf30c421e4bc56c0",
+        "vertices": 7936,
+        "polygons": 7904,
+        "component_sha256": {
+          "co": "ea527e809ab41f05ed1ef86eb0160d21db7f8c86a3d9ee6ed4ea9c6bb09425f0",
+          "vertex_index": "6a9577769363cb43a8915fd4b9d4104dd880b97ce2129cc108e80ef9d95a2a4e",
+          "loop_total": "0ada029281a17b545dbab8288e0a987cf81696e349d4f72208084edae8a1afa3",
+          "material_index": "5cdf13660016f019956bc120bcb341741d265bfba1324d36043e7a6ada2820ec",
+          "uv:UVMap": "906ed699232fda701ae99f815df363fade162f1fb5852352efd53172960037dd"
+        }
+      },
+      "source_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          55.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          872.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "publication_world_matrix_max_abs_error": 0.0,
+      "publication_mesh_hash": {
+        "sha256": "3fc16bdb7c5d58c3118683f1dcdfb599ccc6f7dc2ed58ae2cf30c421e4bc56c0",
+        "vertices": 7936,
+        "polygons": 7904,
+        "component_sha256": {
+          "co": "ea527e809ab41f05ed1ef86eb0160d21db7f8c86a3d9ee6ed4ea9c6bb09425f0",
+          "vertex_index": "6a9577769363cb43a8915fd4b9d4104dd880b97ce2129cc108e80ef9d95a2a4e",
+          "loop_total": "0ada029281a17b545dbab8288e0a987cf81696e349d4f72208084edae8a1afa3",
+          "material_index": "5cdf13660016f019956bc120bcb341741d265bfba1324d36043e7a6ada2820ec",
+          "uv:UVMap": "906ed699232fda701ae99f815df363fade162f1fb5852352efd53172960037dd"
+        }
+      }
+    }
+  ],
+  "image_inputs": [
+    {
+      "image": "p150_i2.png",
+      "original_path": "//../../../../../../../Desktop/火箭设计 中文版/中文文档/images/p150_i2.png",
+      "publication_relative_path": "//../../original-project/中文文档/images/p150_i2.png",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p150_i2.png",
+      "sha256": "5a342cd4ea1c4848243e9f735247b9698472f6c74a8286e7d7b5878071cfaae4",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        731,
+        532
+      ],
+      "decoded_pixel_values": 1555568
+    },
+    {
+      "image": "p222_i3.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p222_i3.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p222_i3.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p222_i3.jpeg",
+      "sha256": "e36edbd7f041090ec04258e1d79299246ee6bb003fcdbc0fa9a9108a3fbfb421",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        1300,
+        687
+      ],
+      "decoded_pixel_values": 3572400
+    },
+    {
+      "image": "p253_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p253_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p253_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p253_i2.jpeg",
+      "sha256": "0ee724b884fdefe2a47a0b4da289c0a8267d3dfde892a0fdf9811310de7c3f49",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        762,
+        212
+      ],
+      "decoded_pixel_values": 646176
+    },
+    {
+      "image": "p256_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p256_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p256_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p256_i2.jpeg",
+      "sha256": "7fc0479ec5379f4f97d8a49b5d948af841e316f75359343f7ed851113237539c",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        850,
+        326
+      ],
+      "decoded_pixel_values": 1108400
+    },
+    {
+      "image": "p260_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p260_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p260_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p260_i2.jpeg",
+      "sha256": "bf6583738bbb9eae84e795676f25aa0048a8779e7d937064b96395f1a08386a6",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        772,
+        440
+      ],
+      "decoded_pixel_values": 1358720
+    },
+    {
+      "image": "p260_i3.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p260_i3.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p260_i3.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p260_i3.jpeg",
+      "sha256": "ffe79213101f3f5a186b8dbb88f59c024447d3caaae19a616012ea7bfa67e453",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        807,
+        493
+      ],
+      "decoded_pixel_values": 1591404
+    },
+    {
+      "image": "p272_i2.png",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p272_i2.png",
+      "publication_relative_path": "//../../original-project/中文文档/images/p272_i2.png",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p272_i2.png",
+      "sha256": "da60c25582218c95312471831f46b50c2f5cc22a3c6fe4341e89988db7cef0a6",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        934,
+        538
+      ],
+      "decoded_pixel_values": 2009968
+    },
+    {
+      "image": "p274_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p274_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p274_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p274_i2.jpeg",
+      "sha256": "7856a49e716e06b740f7ed58e725172494545cec5ba6322ec5a306ab2fe284fb",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        975,
+        612
+      ],
+      "decoded_pixel_values": 2386800
+    },
+    {
+      "image": "p275_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p275_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p275_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p275_i2.jpeg",
+      "sha256": "2878f07e3e621f32f6d9113e8c3a78ca6bb0438cbcda97df8202b791da3e436f",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        468,
+        741
+      ],
+      "decoded_pixel_values": 1387152
+    },
+    {
+      "image": "p276_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p276_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p276_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p276_i2.jpeg",
+      "sha256": "8a9d15fc3082c7be0bfb1fb3503ff7493397d26b3255cd72ea14f8428efdf5fd",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        525,
+        700
+      ],
+      "decoded_pixel_values": 1470000
+    },
+    {
+      "image": "p278_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p278_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p278_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p278_i2.jpeg",
+      "sha256": "417d94b4143326490f43e7f88afecaf8905d08d6794adb36ba1a4b979debf08c",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        944,
+        755
+      ],
+      "decoded_pixel_values": 2850880
+    },
+    {
+      "image": "p286_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p286_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p286_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p286_i2.jpeg",
+      "sha256": "18921f266d0c47d538bb8bd5ac577be3cb1b676d082ff0db8fd7534f2b09954a",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        661,
+        421
+      ],
+      "decoded_pixel_values": 1113124
+    },
+    {
+      "image": "p297_i3.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p297_i3.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p297_i3.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p297_i3.jpeg",
+      "sha256": "77cb2a917927caa228c13080c9056b7c59a0dc9bb7194c7f4755f8198fac2282",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        1431,
+        690
+      ],
+      "decoded_pixel_values": 3949560
+    },
+    {
+      "image": "p298_i2.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p298_i2.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p298_i2.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p298_i2.jpeg",
+      "sha256": "a60e9b8f1d40f582ebf7883bec6bef38be3e33cc32d98ac9348b40210064ec5f",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        1428,
+        661
+      ],
+      "decoded_pixel_values": 3775632
+    },
+    {
+      "image": "p303_i3.jpeg",
+      "original_path": "/Users/qianqiming/Desktop/火箭设计 中文版/中文文档/images/p303_i3.jpeg",
+      "publication_relative_path": "//../../original-project/中文文档/images/p303_i3.jpeg",
+      "release_target": "outputs/启明火箭/source/original-project/中文文档/images/p303_i3.jpeg",
+      "sha256": "d3fbd3c03338afdfd9c7a8bb0040e9dcb2bde8dcf164d924498352ae407b9b77",
+      "already_in_original392": true,
+      "packed_after": false,
+      "decoded_image_size": [
+        891,
+        1431
+      ],
+      "decoded_pixel_values": 5100084
+    }
+  ]
+}

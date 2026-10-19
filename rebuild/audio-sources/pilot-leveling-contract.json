@@ -1,0 +1,36 @@
+{
+  "source_file": "/Users/qianqiming/Documents/Codex/2026-10-19/ni/outputs/rocket-v2/audio-breeze-pilot/启明火箭_原理01_音量平稳核查.json",
+  "source_sha256": "cc9135a40c57c3fd6fc2f96d8b6145b063445cf476af70ee2d5020e6065cbc65",
+  "processing": {
+    "filter": "acompressor=mode=downward:threshold=0.0794328:ratio=2.0:attack=10:release=160:makeup=1:knee=4:detection=rms",
+    "thresholdDbfs": -22,
+    "ratio": 2,
+    "attackMilliseconds": 10,
+    "releaseMilliseconds": 160,
+    "softKnee": 4,
+    "automaticMakeup": false,
+    "makeupGain": 1,
+    "pitchShift": false,
+    "timeStretch": false,
+    "resampling": false,
+    "generatedAgain": false,
+    "limiterOrClippingUsed": false,
+    "fixedMakeupGainLinear": 1.4720047185848204,
+    "fixedMakeupGainDb": 3.3581840431283148,
+    "fixedMakeupFilter": "volume=volume=1.4720047185848204:precision=double:eval=once",
+    "fixedMakeupPurpose": "Match original full-track RMS for same-player-volume comparison",
+    "noDynamicUpwardGain": true,
+    "asrNotRerunAfterFixedGain": true
+  },
+  "pilot_after": {
+    "peakDbfs": -6.671555518987687,
+    "fullTrackRmsDbfs": -23.280437444872234,
+    "voicedWindowRmsP10Dbfs": -27.140138610720108,
+    "voicedWindowRmsMedianDbfs": -22.49562110475177,
+    "voicedWindowRmsP95Dbfs": -19.1928524641007,
+    "voicedWindowP95MinusP10Db": 7.947286146619408,
+    "voicedWindows": 123,
+    "fullScaleSamples": 0
+  },
+  "policy": "Reuse exact2:1 soft compressor; independently measure each chapter gain. The pilot fixed gain3.358dB is NOT reused as a universal gain. No time/pitch/resampling or second finalizer loudnorm."
+}

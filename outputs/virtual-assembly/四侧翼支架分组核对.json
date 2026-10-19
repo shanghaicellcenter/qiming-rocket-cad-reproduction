@@ -1,0 +1,42 @@
+{
+  "source": "assembly-stages.json and alignment-qc.json",
+  "stages": [
+    {
+      "stage_id": "06",
+      "side_instance_index": 1,
+      "source_subtree": "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxFinBracketAssembly1_cW0DHPbF",
+      "mesh_occurrences": 35,
+      "source_objects_compared": 110,
+      "scope_zh": "本段归位第1侧完整翼支架总成，不是只移动标题中强调的单件。",
+      "focus_zh": "翼面"
+    },
+    {
+      "stage_id": "07",
+      "side_instance_index": 2,
+      "source_subtree": "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxFinBracketAssembly2_cW0DHPbF",
+      "mesh_occurrences": 35,
+      "source_objects_compared": 110,
+      "scope_zh": "本段归位第2侧完整翼支架总成，不是只移动标题中强调的单件。",
+      "focus_zh": "直角支架"
+    },
+    {
+      "stage_id": "08",
+      "side_instance_index": 3,
+      "source_subtree": "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxFinBracketAssembly3_cW0DHPbF",
+      "mesh_occurrences": 35,
+      "source_objects_compared": 110,
+      "scope_zh": "本段归位第3侧完整翼支架总成，不是只移动标题中强调的单件。",
+      "focus_zh": "隔套"
+    },
+    {
+      "stage_id": "09",
+      "side_instance_index": 4,
+      "source_subtree": "/tn__vehiclebrowse_mJ/tn__vehiclebrowse_mJ/Default/tn__MojaveSphinxPropulsionAssembly1_cW0DOsE/tn__MojaveSphinxFinBracketAssembly4_cW0DHPbF",
+      "mesh_occurrences": 35,
+      "source_objects_compared": 110,
+      "scope_zh": "本段归位第4侧完整翼支架总成，不是只移动标题中强调的单件。",
+      "focus_zh": "四侧共同分布"
+    }
+  ],
+  "all_four_subtrees_disjoint": true
+}

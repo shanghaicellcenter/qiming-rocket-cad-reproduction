@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-19T19:37:56.784694+00:00",
+  "passed": true,
+  "reviewer": "root actual view_image inspection",
+  "screenshots": [
+    {
+      "path": "frontend/rebuilt-main.png",
+      "sha256": "cdfa0fea40f8611a401dce81169cfd11bedb30c159860c7106fda14254804165"
+    },
+    {
+      "path": "frontend/film-browser/complete-stage10.png",
+      "sha256": "49fe2ce68f8b5f8512099d9c2cf5fa0a80901d641c41fcc8d24dae3a0b53b7b7"
+    },
+    {
+      "path": "frontend/film-browser/silent-stage10.png",
+      "sha256": "12966fc3343dda41ff88db934704765004bd467d9dc9846dbb128abd0c9eafff"
+    },
+    {
+      "path": "browser/downloaded-atlas-zoom.png",
+      "sha256": "9cbeec3a77c27228a5176fe0271a39160692805110c201ece2ed7bd5b3068c30"
+    },
+    {
+      "path": "browser/downloaded-original-gallery.png",
+      "sha256": "752aba6011644e5ecc5b49b9d70117e2a78972901521b506fb490b2ebd558f7c"
+    },
+    {
+      "path": "media/movie/actual-movie-stage08.png",
+      "sha256": "057a62a3b2ba2577f144a846b81d59a2c3b3affb52b2b2c52875f5a0a3f8d4b3"
+    },
+    {
+      "path": "media/movie/actual-movie-stage15.png",
+      "sha256": "4e75e73c71fd00f050f6a52a6080e7235b6d3dd4d84020516b87ad30d9474974"
+    },
+    {
+      "path": "blender/newly-built-source-groups-15.png",
+      "sha256": "ea24a70a6fe692945c3f673235a3fae7269e21bb185c8bfcbc67a37cd11c05e3"
+    },
+    {
+      "path": "blender/newly-reopened-motion-7.png",
+      "sha256": "a61b6e230de9eafe15e144c1e5171d5309f38d565652d212d546692de778ac80"
+    }
+  ],
+  "findings": "Real source geometry, atlas, decoded movie stages and rebuilt HTML visible with readable text. Diagnostic Blender motion frames may place dispersed other objects beyond their focus camera; no claim of universal all-object framing."
+}

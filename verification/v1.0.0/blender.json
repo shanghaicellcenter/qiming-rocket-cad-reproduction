@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "startedAtUTC": "2026-10-19T19:31:55.679909+00:00",
+  "actualDownloadReceipt": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/actual-download-receipt.json",
+  "actualDownloadReceiptSha256": "c814e83648e8c7fba93db060aa9e0f4267ccd5f4de4b8e6eec5cd0748eacd0ce",
+  "repoCommit": "82c2a2a255b66556cead58ec3444f81f1757ae68",
+  "original_input_denial_used": true,
+  "sandboxProfile": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/deny-original-inputs.sb",
+  "sandboxProfileSha256": "6c393783260d4e61dd10a4c0a250de688261e47f7e00224fc51ef4650ecbde61",
+  "QAHelperNotProductionInput": true,
+  "productionScriptsFromActualGitHubProject": true,
+  "productionOriginalSourceInputsPreserved": true,
+  "phases": [
+    {
+      "phase": "00-denial-probe",
+      "seconds": 0.028057999967131764,
+      "log": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/00-denial-probe.log"
+    },
+    {
+      "phase": "01-input-sha-before",
+      "seconds": 0.18807787500554696,
+      "log": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/01-input-sha-before.log"
+    },
+    {
+      "phase": "02-prepare",
+      "seconds": 0.5511304159881547,
+      "log": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/02-prepare.log"
+    },
+    {
+      "phase": "03-plan",
+      "seconds": 0.08154937502695248,
+      "log": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/03-plan.log"
+    },
+    {
+      "phase": "04-build",
+      "seconds": 7.632393791980576,
+      "log": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/04-build.log"
+    },
+    {
+      "phase": "05-saved-file-verify",
+      "seconds": 4.890656250005122,
+      "log": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/05-saved-file-verify.log"
+    },
+    {
+      "phase": "06-independent-source-compare",
+      "seconds": 10.342150958022103,
+      "log": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/06-independent-source-compare.log"
+    },
+    {
+      "phase": "07-input-sha-after",
+      "seconds": 0.17627308296505362,
+      "log": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/07-input-sha-after.log"
+    }
+  ],
+  "denialProbe": [
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/new-chat",
+      "denied": true,
+      "error": "[Errno 1] Operation not permitted: '/Users/qianqiming/Documents/Codex/2026-10-19/new-chat'"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/ni",
+      "denied": true,
+      "error": "[Errno 1] Operation not permitted: '/Users/qianqiming/Documents/Codex/2026-10-19/ni'"
+    },
+    {
+      "path": "/Users/qianqiming/Desktop/火箭设计 中文版",
+      "denied": true,
+      "error": "[Errno 1] Operation not permitted: '/Users/qianqiming/Desktop/火箭设计 中文版'"
+    },
+    {
+      "path": "/Users/qianqiming/Desktop/skill-repos/scenario-labs--blender-expert-skills",
+      "denied": true,
+      "error": "[Errno 1] Operation not permitted: '/Users/qianqiming/Desktop/skill-repos/scenario-labs--blender-expert-skills'"
+    }
+  ],
+  "completedAtUTC": "2026-10-19T19:32:19.749139+00:00",
+  "originalInputFilesRehashed": 199,
+  "sourceobjects": 1980,
+  "mesh": 688,
+  "tri": 2864600,
+  "groups": 15,
+  "final_local_world_error": 0,
+  "all15_group_terminal_errors_zero": true,
+  "savedBlend": {
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuilt/virtual-assembly/virtual-assembly.blend",
+    "bytes": 97264269,
+    "sha256": "b1483e6c3dd62bfdaa3888c8b30fdee77f5e6b20b9f5dd68d41a725da96e8ca5"
+  },
+  "independentQA": {
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/independent-source-compare.json",
+    "sha256": "7d58492d1b641fb9c30e67e9951f97cfc4e0fa1de212315d4d1f56c793494694"
+  },
+  "motionQA": {
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/saved-file-motion-qc.json",
+    "sha256": "7d7836c685036938475df81bdded79c702429d893616787ac6668e94022b8b73"
+  },
+  "actualNewRenders": [
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/reopened-animation-review/01_start_separated.png",
+      "bytes": 1230966,
+      "sha256": "e8f8003d89ff79adba803e51d93465786889a4c7899115f7ab17d0e5d261ef01"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/reopened-animation-review/02_stage_01_moving.png",
+      "bytes": 1276674,
+      "sha256": "b8bdc5053499a979c232c0159957d60e038f53f503d0f6506f97e62e22aa2bc1"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/reopened-animation-review/03_stage_02_moving.png",
+      "bytes": 1304333,
+      "sha256": "bfa9c3c21949db97a9bdf3c62ef175b93d70445320ca401b900d90f4c5d4ed62"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/reopened-animation-review/04_stage_06_moving.png",
+      "bytes": 1323247,
+      "sha256": "6c118e86a5448859d6a83820b098f8ece3e34083b6a57a7fb35529813df6473d"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/reopened-animation-review/05_stage_10_moving.png",
+      "bytes": 1264442,
+      "sha256": "9220a102236b2c1f7d4530b252d9fc19083d4a61c0394b811954d36da5bf3dd7"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/reopened-animation-review/06_stage_14_moving.png",
+      "bytes": 1216611,
+      "sha256": "dc037484b6dd1d419c174dec39861a11283717a47778f81d31490e6992eff879"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/reopened-animation-review/07_final_original_positions.png",
+      "bytes": 1263145,
+      "sha256": "5d8e8eec95f6d620057eb14c001aebe2edb1b035d20c77d433cb7bc853a37ee1"
+    }
+  ],
+  "actualVisualReviewCompleted": true,
+  "passed": true,
+  "full_model_rebuild_executed": true,
+  "visualReview": {
+    "reviewedAtUTC": "2026-10-19T19:35:33.014546+00:00",
+    "reviewer": "atlas_integration independent agent; root also reviewed both new contact sheets",
+    "sevenSavedFileRendersOpenedIndividuallyAtOriginal1440x900": true,
+    "all15ReturnedGroupsOpenedInOriginalResolutionContact": true,
+    "blankOrMissingTextureFramesObserved": false,
+    "finalAssembledVehicleVisibleAsACompleteSilhouette": true,
+    "sourceGroupFormObservations": [
+      "Tank and chamber group surfaces/fastener geometry remain readable.",
+      "Distinct valve instances, four fin/bracket groups, electronics-bay shell, airframe openings and nose sections are present.",
+      "Recovery MassVolume retains original simplified overlapping source placeholders, with no new parachute geometry.",
+      "Remainder stage15 is a widely dispersed diagnostic collection of existing source nodes."
+    ],
+    "framingLimits": [
+      "Moving diagnostic frames use the current stage camera; other dispersed objects may cross frame edges.",
+      "These are diagnostic Workbench stills; no claim that every object is inside every frame, and no replacement or rerender of the final narrated movie."
+    ],
+    "reviewedSheets": [
+      {
+        "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/newly-reopened-motion-7.png",
+        "sha256": "a61b6e230de9eafe15e144c1e5171d5309f38d565652d212d546692de778ac80"
+      },
+      {
+        "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/newly-built-source-groups-15.png",
+        "sha256": "ea24a70a6fe692945c3f673235a3fae7269e21bb185c8bfcbc67a37cd11c05e3"
+      }
+    ]
+  },
+  "blenderVersion": "5.2.2 LTS",
+  "source_objects": 1980,
+  "mesh_occurrences": 688,
+  "triangles": 2864600,
+  "stage_count": 15,
+  "final_matrix_max_abs_errors": {
+    "matrix_local": 0.0,
+    "matrix_world": 0.0,
+    "matrix_basis": 0.0,
+    "matrix_parent_inverse": 0.0
+  },
+  "source_external_resources": {
+    "libraries": [],
+    "unpacked_images": [],
+    "unpacked_external_fonts": []
+  },
+  "rebuilt_external_resources": {
+    "libraries": [],
+    "unpacked_images": [],
+    "unpacked_external_fonts": []
+  },
+  "source_input_geometry_arrays_exact": true,
+  "source_input_parent_paths_and_matrices_exact": true,
+  "QAHelperOrigin": "Local independent acceptance harness copied to reports/blender before gated execution; production prepare/build/plan/verify, vendor helper and all CAD inputs were obtained from actual GitHub clone+Release recovery.",
+  "production_movie_or_TTS_regenerated": false
+}

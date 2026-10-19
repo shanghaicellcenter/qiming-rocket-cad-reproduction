@@ -1,0 +1,35 @@
+{
+  "scope": "Local research/noncommercial reconstruction; public GPL visual permissions remain unchanged",
+  "complete_html_original_bytes_recovered": true,
+  "video_and_audio_packet_sha256_match_prepublication_master": true,
+  "movie_container_byte_identity_claimed": false,
+  "video_reencoded": false,
+  "audio_reencoded": false,
+  "actual_frames": 6051,
+  "strict_full_decode_passed": true,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "duration": "201.700000",
+        "nb_read_frames": "6051"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "24000",
+        "channels": 1,
+        "duration": "201.700000",
+        "nb_read_frames": "4728"
+      }
+    ]
+  },
+  "html_sha256": "42df32ff769517f160a4d1fa9333bf20d6195c2873a6cf7117985fe9a4dc1ff3",
+  "movie_sha256": "9cb62758fb7b2b6600a0576347eadaf8bd1c48a17e4a6b35e42381d961d03cab",
+  "video_packet_sha256": "c4b59aacaafb4a0de47ecc2306e9ffd836c5075f3f770e25fb1dcafd41f99700",
+  "audio_packet_sha256": "3c9cbd04d5e49536defdf72afa638994459ad006c4bb4367ec04788e23043580",
+  "next_required_acceptance": "Actually open the downloaded-restored HTML, test playback/seek/chapter/geometry/audio, play the MP4 and review screenshots before any cleanup. This script does not claim browser/playback acceptance."
+}

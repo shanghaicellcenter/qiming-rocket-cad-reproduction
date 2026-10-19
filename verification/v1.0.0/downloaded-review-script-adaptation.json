@@ -1,0 +1,9 @@
+{
+  "original_script": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/review_downloaded.mjs",
+  "original_sha256": "a15d9e51239a72466de21fe45c7b89b1e08249dfddeb9806c7bb562b1c4e3a1c",
+  "adapted_script": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/review_downloaded_qa_adapted.mjs",
+  "adapted_sha256": "e93440f9e9f6b0fe345c06de170b336974618a77aa6a601b9fd2c5b987ab3906",
+  "only_change": "On source-drawings page enumerate img[src], excluding unopened empty lightbox placeholder. Keep 13 real source pages required.",
+  "original_script_actually_failed": true,
+  "payload_edited": false
+}

@@ -58,3 +58,7 @@ python3 prepare_blender_rebuild.py --root ./recovered
 完整分层见 [LICENSES.md](LICENSES.md)。原工程及派生CAD/视觉保留Half Cat Rocketry署名与GPL3条款；Machine/Three与Scenario helper保留各自MIT许可。Breeze源码Apache2.0与模型/自托管输出的研究非商业条款分开记录。独立聚合包没有统一的“全部MIT”或“全部非商业”许可。
 
 本次转换将源曲面三角化，保留源层级、实例、变换和隐藏件；不称数学无损。原MassVolume保留其简化形体，未凭空构造伞布或内部细节。源中没有的信息不补造为制造、检验或飞行证据。
+
+## 发布后实际验收
+
+已从公开Release重新下载、校验、恢复声音、实际浏览播放并重建Blender和前端，见[真实下载与重建验收](docs/下载重建验收-v1.0.0.md)。原标签检查脚本的图纸空灯箱选择器已在主分支修正；报告保留原失败与精确差异。

@@ -1,0 +1,133 @@
+{
+  "created_utc": "2026-10-19T19:37:56.792999+00:00",
+  "cleanup_eligible": true,
+  "actual_download_performed": true,
+  "repo": "https://github.com/shanghaicellcenter/qiming-rocket-cad-reproduction",
+  "commit": "82c2a2a255b66556cead58ec3444f81f1757ae68",
+  "tag": "v1.0.0",
+  "manifest_sha256": "b5122c9f67b948f15e3f476e1bcd01f447593c46a6dff80292bd61994f314877",
+  "verification_root": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019",
+  "original_input_denial_used": true,
+  "checks": {
+    "public_release": {
+      "passed": true,
+      "evidence_file": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/actual-download-receipt.json",
+      "evidence_sha256": "c814e83648e8c7fba93db060aa9e0f4267ccd5f4de4b8e6eec5cd0748eacd0ce",
+      "assertions": {
+        "/public_published_release": true,
+        "/actual_network_release_download": true,
+        "/all10_github_api_size_digest_passed": true,
+        "/download_passed": true,
+        "/tag": "v1.0.0"
+      }
+    },
+    "download_integrity": {
+      "passed": true,
+      "evidence_file": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/download-integrity-check.json",
+      "evidence_sha256": "50daa648e632f89fde1bf041b2a8006a82ab495b49db6ab23012eaae5d640ff0",
+      "assertions": {
+        "/passed": true,
+        "/file_count": 3829,
+        "/all_files_sha256_passed": true,
+        "/original_snapshot_count": 392,
+        "/original_392_sha256_passed": true
+      }
+    },
+    "restore": {
+      "passed": true,
+      "evidence_file": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/restoration-check.json",
+      "evidence_sha256": "bfff021c2abe03243b5d89fc96dda11c93dd171fa103b977195d9163e5487cfc",
+      "assertions": {
+        "/strict_full_decode_passed": true,
+        "/actual_frames": 6051,
+        "/complete_html_original_bytes_recovered": true,
+        "/video_and_audio_packet_sha256_match_prepublication_master": true,
+        "/video_reencoded": false,
+        "/audio_reencoded": false
+      }
+    },
+    "browser": {
+      "passed": true,
+      "evidence_file": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/runtime-review.json",
+      "evidence_sha256": "cfbe9f2774ff5aa7273a15ace2868ce8841bf6f9562ab12ba0d15cb1b0474369",
+      "assertions": {
+        "/passed": true,
+        "/programmatic_passed": true,
+        "/visual_review_pending": false,
+        "/pages_passed": 6,
+        "/source3D_views_decoded": 615,
+        "/atlas_images_decoded": 208,
+        "/source_mesh_identities": 688,
+        "/source_hidden_meshes": 3,
+        "/actual_os_original_input_deny_profile_used": true,
+        "/payload_scripts_and_media_bytes_unchanged": true,
+        "/actual_restored_mp4_play_clock_unmuted_audio_video_decode_seek_passed": true
+      }
+    },
+    "frontend": {
+      "passed": true,
+      "evidence_file": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/frontend/frontend-rebuild-review.json",
+      "evidence_sha256": "39b15860a0d4b4f7f8f0f116d362ee231377b3af858ef1e93a0324b21765e0b0",
+      "assertions": {
+        "/passed": true,
+        "/actual_downloaded_sources_and_geometry_used": true,
+        "/original_input_denial_used": true,
+        "/main_byte_exact_to_downloaded": true,
+        "/silent_byte_exact_to_downloaded": true,
+        "/fullvoice_byte_exact_to_master": true,
+        "/downloaded_original_git_sources_unchanged": true
+      }
+    },
+    "blender": {
+      "passed": true,
+      "evidence_file": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/blender-acceptance.json",
+      "evidence_sha256": "63486d63b5e16e47dde7f906e3d8669e68ebe905a9017f0d023b8f4ec4168b27",
+      "assertions": {
+        "/passed": true,
+        "/status": "passed",
+        "/original_input_denial_used": true,
+        "/productionOriginalSourceInputsPreserved": true,
+        "/actualVisualReviewCompleted": true,
+        "/sourceobjects": 1980,
+        "/mesh": 688,
+        "/tri": 2864600,
+        "/groups": 15,
+        "/final_local_world_error": 0,
+        "/all15_group_terminal_errors_zero": true
+      }
+    },
+    "independent": {
+      "passed": true,
+      "evidence_file": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/independent/actual-download-independent-review.json",
+      "evidence_sha256": "c7ea7531ac83b8c80da14abae155ec09cef9119bf9bedcae3bd973858bf99a12",
+      "assertions": {
+        "/all_passed": true,
+        "/file_count": 3829,
+        "/file_sha_errors": 0,
+        "/original_392_all_passed": true,
+        "/original_input_denial_used": true,
+        "/public_tag_commit_passed": true
+      }
+    },
+    "root_visual": {
+      "passed": true,
+      "evidence_file": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/root-visual-review.json",
+      "evidence_sha256": "7534a889250f816a3178d8229cfa7420ce5147b2b80f89a0fd3dea2f92a1f564",
+      "assertions": {
+        "/passed": true
+      }
+    }
+  },
+  "validation_helper_patch": {
+    "original_v1_tag_script_actually_failed": true,
+    "only_change": "PDF gallery img -> img[src], exclude unused empty lightbox; still require13 real pages",
+    "tested_fixed_sha256": "e93440f9e9f6b0fe345c06de170b336974618a77aa6a601b9fd2c5b987ab3906",
+    "included_in_this_Git_main_verification_update": true
+  },
+  "limitations": [
+    "13 native SLDDRW reader failures retained;13 PDF pages provided without claiming native equivalence.",
+    "Digital alignment and original OpenRocket simulation do not certify new physical hardware.",
+    "Chrome audio decoding/playback measured; no claim of all17 paragraphs human acceptance.",
+    "Existing declared runtimes reused; not a clean-machine install or native CAD reconversion test."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-19T19:31:36.881984+00:00",
+  "actual_downloaded_sources_and_geometry_used": true,
+  "original_input_denial_used": true,
+  "installed_dependencies_reused_no_clean_install_claimed": true,
+  "passed": true,
+  "main_build_seconds": 0.5701695830211975,
+  "main_rebuilt_sha256": "3a25ecf6a53b9cee7e51a37eb751aa9d06856fd2444cd5c5abaf4e4f7c508c00",
+  "main_byte_exact_to_downloaded": true,
+  "silent_build_seconds": 0.1853280839859508,
+  "silent_rebuilt_sha256": "9de40e0ba2567af49cdb443a782a6ff1434c1f619276fe25609b34100c836af9",
+  "silent_byte_exact_to_downloaded": true,
+  "voice_build_seconds": 0.26701841701287776,
+  "fullvoice_rebuilt_sha256": "42df32ff769517f160a4d1fa9333bf20d6195c2873a6cf7117985fe9a4dc1ff3",
+  "fullvoice_byte_exact_to_master": true,
+  "main_browser_passed": true,
+  "film_browser_passed": true,
+  "downloaded_original_git_sources_unchanged": true
+}

@@ -1,0 +1,101 @@
+{
+  "started_utc": "2026-10-19T19:06:28.319770+00:00",
+  "repo": "https://github.com/shanghaicellcenter/qiming-rocket-cad-reproduction",
+  "release_url": "https://github.com/shanghaicellcenter/qiming-rocket-cad-reproduction/releases/tag/v1.0.0",
+  "release_id": 417612933,
+  "tag": "v1.0.0",
+  "public_published_release": true,
+  "original_input_reads_os_denied_during_validation": true,
+  "download_passed": true,
+  "verify_passed": true,
+  "restore_passed": true,
+  "download_method": "Anonymous published browser_download_url with installed aria2 parallel byte ranges; GitHub API SHA256 for every asset. No upload staging copy.",
+  "download_seconds": 1472.270058458962,
+  "actual_network_release_download": true,
+  "assets": [
+    {
+      "name": "assets.json",
+      "bytes": 1692,
+      "sha256": "959d422639f552cd24357c1dd87a7a6028fbb899704821d7db539598eab81ee5",
+      "github_asset_id": 657086523,
+      "passed": true
+    },
+    {
+      "name": "qiming-audio-noncommercial-001-of-001.tar.gz",
+      "bytes": 24844941,
+      "sha256": "c58790a5044a2fcf1a7d52b444d6781cc3e6896c4c74c1f0b6b9d60e7a789db4",
+      "github_asset_id": 657086502,
+      "passed": true
+    },
+    {
+      "name": "qiming-visual-001-of-006.tar.gz",
+      "bytes": 403919638,
+      "sha256": "cf17ad7c13e587d81c4e49fe3cc86c0dba5e68e2527d64d9aa957f0dec46e4bc",
+      "github_asset_id": 657101994,
+      "passed": true
+    },
+    {
+      "name": "qiming-visual-002-of-006.tar.gz",
+      "bytes": 469497126,
+      "sha256": "a8c2d2f5459a8e1dd7d72e71be9d35634209067c0026618afdf1765dcce9fadc",
+      "github_asset_id": 657101996,
+      "passed": true
+    },
+    {
+      "name": "qiming-visual-003-of-006.tar.gz",
+      "bytes": 392051912,
+      "sha256": "04cfa4d53d1427273662775ef143f96a3402fe9314b8d5270abba9b08438a22f",
+      "github_asset_id": 657102026,
+      "passed": true
+    },
+    {
+      "name": "qiming-visual-004-of-006.tar.gz",
+      "bytes": 276888122,
+      "sha256": "1544b31ca1ad33fcd3d5aab9826959ec3916c1569cd9e22493507bc8af1432e3",
+      "github_asset_id": 657101999,
+      "passed": true
+    },
+    {
+      "name": "qiming-visual-005-of-006.tar.gz",
+      "bytes": 364148220,
+      "sha256": "e606f7fabb08eec8afd5f056c27cede0097561a3f473a0bc7421df3165835690",
+      "github_asset_id": 657102007,
+      "passed": true
+    },
+    {
+      "name": "qiming-visual-006-of-006.tar.gz",
+      "bytes": 154607461,
+      "sha256": "96a4be57fead184734940c3c00727c66a7f5f141e78a57d764ea2e8ed30f5652",
+      "github_asset_id": 657140471,
+      "passed": true
+    },
+    {
+      "name": "release-manifest.json",
+      "bytes": 1195075,
+      "sha256": "b5122c9f67b948f15e3f476e1bcd01f447593c46a6dff80292bd61994f314877",
+      "github_asset_id": 657151789,
+      "passed": true
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 865,
+      "sha256": "3e6e9d561f03de078ee1269c9e6b09cfda45c36225b270bc1877b8a94c2a6b24",
+      "github_asset_id": 657086505,
+      "passed": true
+    }
+  ],
+  "all10_github_api_size_digest_passed": true,
+  "verify_seconds": 7.421392375021242,
+  "payload_verification": {
+    "selected_layer": "all",
+    "file_count": 3829,
+    "all_files_sha256_passed": true,
+    "file_errors": [],
+    "original_snapshot_count": 392,
+    "original_392_sha256_passed": true,
+    "original_errors": [],
+    "passed": true
+  },
+  "restore_seconds": 4.123347790970001,
+  "finished_utc": "2026-10-19T19:31:13.092562+00:00"
+}

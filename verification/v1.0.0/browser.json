@@ -1,0 +1,215 @@
+{
+  "created_utc": "2026-10-19T19:35:09.288842+00:00",
+  "programmatic_passed": true,
+  "visual_review_pending": false,
+  "passed": true,
+  "scope": "Actual public downloaded/restored payload browser/media acceptance, including actual screenshot visual inspection",
+  "repo": "https://github.com/shanghaicellcenter/qiming-rocket-cad-reproduction",
+  "commit": "82c2a2a255b66556cead58ec3444f81f1757ae68",
+  "manifest_sha256": "b5122c9f67b948f15e3f476e1bcd01f447593c46a6dff80292bd61994f314877",
+  "actual_download_marker": {
+    "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/actual-download-receipt.json",
+    "sha256": "c814e83648e8c7fba93db060aa9e0f4267ccd5f4de4b8e6eec5cd0748eacd0ce",
+    "receipt": {
+      "started_utc": "2026-10-19T19:06:28.319770+00:00",
+      "repo": "https://github.com/shanghaicellcenter/qiming-rocket-cad-reproduction",
+      "release_url": "https://github.com/shanghaicellcenter/qiming-rocket-cad-reproduction/releases/tag/v1.0.0",
+      "release_id": 417612933,
+      "tag": "v1.0.0",
+      "public_published_release": true,
+      "original_input_reads_os_denied_during_validation": true,
+      "download_passed": true,
+      "verify_passed": true,
+      "restore_passed": true,
+      "download_method": "Anonymous published browser_download_url with installed aria2 parallel byte ranges; GitHub API SHA256 for every asset. No upload staging copy.",
+      "download_seconds": 1472.270058458962,
+      "actual_network_release_download": true,
+      "assets": [
+        {
+          "name": "assets.json",
+          "bytes": 1692,
+          "sha256": "959d422639f552cd24357c1dd87a7a6028fbb899704821d7db539598eab81ee5",
+          "github_asset_id": 657086523,
+          "passed": true
+        },
+        {
+          "name": "qiming-audio-noncommercial-001-of-001.tar.gz",
+          "bytes": 24844941,
+          "sha256": "c58790a5044a2fcf1a7d52b444d6781cc3e6896c4c74c1f0b6b9d60e7a789db4",
+          "github_asset_id": 657086502,
+          "passed": true
+        },
+        {
+          "name": "qiming-visual-001-of-006.tar.gz",
+          "bytes": 403919638,
+          "sha256": "cf17ad7c13e587d81c4e49fe3cc86c0dba5e68e2527d64d9aa957f0dec46e4bc",
+          "github_asset_id": 657101994,
+          "passed": true
+        },
+        {
+          "name": "qiming-visual-002-of-006.tar.gz",
+          "bytes": 469497126,
+          "sha256": "a8c2d2f5459a8e1dd7d72e71be9d35634209067c0026618afdf1765dcce9fadc",
+          "github_asset_id": 657101996,
+          "passed": true
+        },
+        {
+          "name": "qiming-visual-003-of-006.tar.gz",
+          "bytes": 392051912,
+          "sha256": "04cfa4d53d1427273662775ef143f96a3402fe9314b8d5270abba9b08438a22f",
+          "github_asset_id": 657102026,
+          "passed": true
+        },
+        {
+          "name": "qiming-visual-004-of-006.tar.gz",
+          "bytes": 276888122,
+          "sha256": "1544b31ca1ad33fcd3d5aab9826959ec3916c1569cd9e22493507bc8af1432e3",
+          "github_asset_id": 657101999,
+          "passed": true
+        },
+        {
+          "name": "qiming-visual-005-of-006.tar.gz",
+          "bytes": 364148220,
+          "sha256": "e606f7fabb08eec8afd5f056c27cede0097561a3f473a0bc7421df3165835690",
+          "github_asset_id": 657102007,
+          "passed": true
+        },
+        {
+          "name": "qiming-visual-006-of-006.tar.gz",
+          "bytes": 154607461,
+          "sha256": "96a4be57fead184734940c3c00727c66a7f5f141e78a57d764ea2e8ed30f5652",
+          "github_asset_id": 657140471,
+          "passed": true
+        },
+        {
+          "name": "release-manifest.json",
+          "bytes": 1195075,
+          "sha256": "b5122c9f67b948f15e3f476e1bcd01f447593c46a6dff80292bd61994f314877",
+          "github_asset_id": 657151789,
+          "passed": true
+        },
+        {
+          "name": "SHA256SUMS",
+          "bytes": 865,
+          "sha256": "3e6e9d561f03de078ee1269c9e6b09cfda45c36225b270bc1877b8a94c2a6b24",
+          "github_asset_id": 657086505,
+          "passed": true
+        }
+      ],
+      "all10_github_api_size_digest_passed": true,
+      "verify_seconds": 7.421392375021242,
+      "payload_verification": {
+        "selected_layer": "all",
+        "file_count": 3829,
+        "all_files_sha256_passed": true,
+        "file_errors": [],
+        "original_snapshot_count": 392,
+        "original_392_sha256_passed": true,
+        "original_errors": [],
+        "passed": true
+      },
+      "restore_seconds": 4.123347790970001,
+      "finished_utc": "2026-10-19T19:31:13.092562+00:00"
+    }
+  },
+  "actual_os_original_input_deny_profile_used": true,
+  "original_workspace_inputs_used": false,
+  "runtime": {
+    "node": "/Users/qianqiming/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "node_version": "v24.19.0",
+    "playwright_module": "file:///Users/qianqiming/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs",
+    "playwright_version": "1.62.1",
+    "chromium_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "chrome_version": "155.0.8059.80",
+    "actual_os_deny_profile": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/deny-original-inputs.sb",
+    "os_deny_profile_sha256": "6c393783260d4e61dd10a4c0a250de688261e47f7e00224fc51ef4650ecbde61",
+    "original_payload_read_before_marker": false
+  },
+  "pages_passed": 6,
+  "source3D_views_decoded": 615,
+  "atlas_records": 206,
+  "atlas_images_decoded": 208,
+  "source_mesh_identities": 688,
+  "source_hidden_meshes": 3,
+  "silent_and_complete_play_seek_chapter_passed": true,
+  "complete_audio_clock_advanced_unmuted": true,
+  "actual_restored_mp4_play_clock_unmuted_audio_video_decode_seek_passed": true,
+  "actual_restored_mp4_frames": 6051,
+  "payload_scripts_and_media_bytes_unchanged": true,
+  "payload_hashes": {
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/outputs/启明火箭/逐步虚拟归位.html": "9de40e0ba2567af49cdb443a782a6ff1434c1f619276fe25609b34100c836af9",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/restored-lecture/逐步虚拟归位.html": "42df32ff769517f160a4d1fa9333bf20d6195c2873a6cf7117985fe9a4dc1ff3",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/restored-lecture/media/逐步虚拟归位讲解.mp4": "9cb62758fb7b2b6600a0576347eadaf8bd1c48a17e4a6b35e42381d961d03cab",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/review_downloaded.mjs": "a15d9e51239a72466de21fe45c7b89b1e08249dfddeb9806c7bb562b1c4e3a1c",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/browser_smoke.mjs": "aca5f2b9c0dc0ccb562d92ca3a99af00d1051d0898898ea197a5b895994b0e5d"
+  },
+  "downloaded_qa_script_adaptation": {
+    "original_script": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/review_downloaded.mjs",
+    "original_sha256": "a15d9e51239a72466de21fe45c7b89b1e08249dfddeb9806c7bb562b1c4e3a1c",
+    "adapted_script": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/review_downloaded_qa_adapted.mjs",
+    "adapted_sha256": "e93440f9e9f6b0fe345c06de170b336974618a77aa6a601b9fd2c5b987ab3906",
+    "only_change": "On source-drawings page enumerate img[src], excluding unopened empty lightbox placeholder. Keep 13 real source pages required.",
+    "original_script_actually_failed": true,
+    "payload_edited": false
+  },
+  "source_reports": {
+    "browser": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-browser-review.json",
+    "html_playback": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/html/browser-smoke.json",
+    "movie": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-browser-review.json",
+    "ffprobe": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/actual-restored-ffprobe.json",
+    "restoration": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/restored-lecture/local-restoration-check.json"
+  },
+  "screenshots": [
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-atlas-mobile.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-atlas-zoom.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-exchange-gallery.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-home.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-main-viewer.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-original-gallery.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-piston-source.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/html/complete-stage10.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/html/silent-stage10.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-playing.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage08.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage09.png",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage15.png"
+  ],
+  "limitations": [
+    "Chrome unmuted decoder/playback state is measured, not a claim of full human listening. Original browser_smoke downloaded_assets_test_claimed remains false; the actual network download receipt here supplies provenance.",
+    "Initial headless playback reported 4 dropped frames among 83 decoded frames; separate full-stream strict decode verified all 6051 source frames. No claim that every browser display frame was presented without a scheduling drop.",
+    "Faint original context may cross the edge during intentional close-ups; the current source subjects in reviewed keyframes fit."
+  ],
+  "visual_review_passed": true,
+  "visual_review_report": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser-media-visual-review.json",
+  "visual_review_report_sha256": "0352108865b12459e976f6885cc24f607ab7e2d9493a4ce2259765713ad5078f",
+  "actual_restored_mp4_audio_rms_nonzero": true,
+  "actual_restored_mp4_audio_rms_peak": 0.1403151153761659,
+  "actual_restored_mp4_audio_decoded_bytes": 34243,
+  "actual_restored_mp4_decoded_frames_at_playback_sample": 83,
+  "evidence_files_sha256": {
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-browser-review.json": "6aa0d472a1fea950888d324f97d7ff507005af5ebdb603ef5a3bd5b5ac86ad5b",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/html/browser-smoke.json": "1a419e6f26f83c69d01d988e234be69b8561275af5f5f61ef9762a5cce269660",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-browser-review.json": "d5e9804c86cb7e5cede901ac6a1c37d005fd0c7572938d254f9c7a99589fc588",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/actual-restored-ffprobe.json": "e297178f59f89a70e461dc9918bcf7e60553887a6331a708e10c10ad9f329f2c",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/restored-lecture/local-restoration-check.json": "bfff021c2abe03243b5d89fc96dda11c93dd171fa103b977195d9163e5487cfc",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/downloaded-review-script-adaptation.json": "57b7ce7d72074957ecd51b8700319ba81429fd6b4dba603fec181c18ed2f5b32",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/downloaded-review-script-adaptation.diff": "e79f2c3ef1bc9e820efe01f3a9d49a79f8e17ff2e8f950447444ca5961551e8c",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser-media-visual-review.json": "0352108865b12459e976f6885cc24f607ab7e2d9493a4ce2259765713ad5078f"
+  },
+  "screenshots_sha256": {
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-atlas-mobile.png": "cfa3e48868d15d6fc93bd96896b089e4ef950b78cf7c9d9d766e4fae296ccb91",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-atlas-zoom.png": "9cbeec3a77c27228a5176fe0271a39160692805110c201ece2ed7bd5b3068c30",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-exchange-gallery.png": "7768c360a5692be87f67ebf1df580e1f2f87909fee63215ca3d743dd27937e27",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-home.png": "6d558a8c401e2e86999d1ab09804713d2f29eed8b7a18a02b68ad2f38b64ac42",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-main-viewer.png": "b048a322659aebbb3b0c21ab57403bbb3175de5a18aa1ceebba09cf6ae6e98b7",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-original-gallery.png": "752aba6011644e5ecc5b49b9d70117e2a78972901521b506fb490b2ebd558f7c",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-piston-source.png": "8222a573efb141dae049cecddf6b1cf9037ea35ecd5ff3dfaa90adf9dfbe1fb7",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/html/complete-stage10.png": "0619da622bd74687c7c4350b877d136b90830cd1fb0a0de6d58f3ea34ff4403c",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/html/silent-stage10.png": "2f5b54f51bafbdd3fe95f0811a30cf56e95ddbe2f77c5de4e461c3c8329937f0",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-playing.png": "c5919f14482486285687b1eba3290d108494827d6848ee0d2ecd828f992ba1e4",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage08.png": "057a62a3b2ba2577f144a846b81d59a2c3b3affb52b2b2c52875f5a0a3f8d4b3",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage09.png": "73ad1ad8f1ba9626617c2d521155ec1b800817e39d7d3d36a7667fb188feba33",
+    "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage15.png": "4e75e73c71fd00f050f6a52a6080e7235b6d3dd4d84020516b87ad30d9474974"
+  },
+  "completed_utc": "2026-10-19T19:36:44.652834+00:00"
+}

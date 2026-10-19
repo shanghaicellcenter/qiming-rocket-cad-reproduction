@@ -1,0 +1,121 @@
+{
+  "created_utc": "2026-10-19T19:36:44.652000+00:00",
+  "scope": "Actual fresh GitHub downloaded/restored payload under OS original-input denial",
+  "screenshots_actually_viewed": 13,
+  "full_resolution_media_screenshots_actually_viewed": 6,
+  "all_screenshots_actually_viewed": true,
+  "blocking_issues": [],
+  "passed": true,
+  "rows": [
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-atlas-mobile.png",
+      "sha256": "cfa3e48868d15d6fc93bd96896b089e4ef950b78cf7c9d9d766e4fae296ccb91",
+      "actually_viewed": true,
+      "review_mode": "full contact-sheet overview",
+      "finding": "390px mobile layout fits the viewport; title, explanation, filters and first card are visible; normal vertical continuation.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-atlas-zoom.png",
+      "sha256": "9cbeec3a77c27228a5176fe0271a39160692805110c201ece2ed7bd5b3068c30",
+      "actually_viewed": true,
+      "review_mode": "full contact-sheet overview",
+      "finding": "Actual A1-01 source explanation image is visible in open lightbox, with caption and close control inside viewport.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-exchange-gallery.png",
+      "sha256": "7768c360a5692be87f67ebf1df580e1f2f87909fee63215ca3d743dd27937e27",
+      "actually_viewed": true,
+      "review_mode": "full contact-sheet overview",
+      "finding": "STEP source three-view cards and links are present, images visible; no empty source cards in shown viewport.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-home.png",
+      "sha256": "6d558a8c401e2e86999d1ab09804713d2f29eed8b7a18a02b68ad2f38b64ac42",
+      "actually_viewed": true,
+      "review_mode": "full contact-sheet overview",
+      "finding": "Project title, whole-source preview, entry controls and counts visible; source rocket fits.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-main-viewer.png",
+      "sha256": "b048a322659aebbb3b0c21ab57403bbb3175de5a18aa1ceebba09cf6ae6e98b7",
+      "actually_viewed": true,
+      "review_mode": "full contact-sheet overview",
+      "finding": "Full assembly visible from nose to fins; source tree and information panel do not cover central object.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-original-gallery.png",
+      "sha256": "752aba6011644e5ecc5b49b9d70117e2a78972901521b506fb490b2ebd558f7c",
+      "actually_viewed": true,
+      "review_mode": "full contact-sheet overview",
+      "finding": "Actual 170-source gallery shows rendered source views with edges/holes/thread detail, view controls and names.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/browser/downloaded-piston-source.png",
+      "sha256": "8222a573efb141dae049cecddf6b1cf9037ea35ecd5ff3dfaa90adf9dfbe1fb7",
+      "actually_viewed": true,
+      "review_mode": "full contact-sheet overview",
+      "finding": "Selected original source is isolated, fully framed and nonempty; tree and info panel retained.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/html/complete-stage10.png",
+      "sha256": "0619da622bd74687c7c4350b877d136b90830cd1fb0a0de6d58f3ea34ff4403c",
+      "actually_viewed": true,
+      "review_mode": "full resolution",
+      "finding": "Restored voice page shows same source geometry and framing, with sound control and readable subtitle.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/html/silent-stage10.png",
+      "sha256": "2f5b54f51bafbdd3fe95f0811a30cf56e95ddbe2f77c5de4e461c3c8329937f0",
+      "actually_viewed": true,
+      "review_mode": "full resolution",
+      "finding": "Silent page shows complete electronics bay assembly and temporary transparent context; controls/subtitle fit.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-playing.png",
+      "sha256": "c5919f14482486285687b1eba3290d108494827d6848ee0d2ecd828f992ba1e4",
+      "actually_viewed": true,
+      "review_mode": "full resolution",
+      "finding": "Actual restored MP4 introductory whole-assembly frame is complete, caption readable, no black/pink frame.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage08.png",
+      "sha256": "057a62a3b2ba2577f144a846b81d59a2c3b3affb52b2b2c52875f5a0a3f8d4b3",
+      "actually_viewed": true,
+      "review_mode": "full resolution",
+      "finding": "Current spacer close-up is fully framed with two visible holes; faint contextual geometry extends above crop but is not current subject.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage09.png",
+      "sha256": "73ad1ad8f1ba9626617c2d521155ec1b800817e39d7d3d36a7667fb188feba33",
+      "actually_viewed": true,
+      "review_mode": "full resolution",
+      "finding": "Fin group and original returned context are visible; all current fin extents remain inside picture and do not touch captions.",
+      "blocking_issue": false
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/media/movie/actual-movie-stage15.png",
+      "sha256": "4e75e73c71fd00f050f6a52a6080e7235b6d3dd4d84020516b87ad30d9474974",
+      "actually_viewed": true,
+      "review_mode": "full resolution",
+      "finding": "Current backing-plug source close-up is complete with rim and side details; pale gray presentation is retained, no new geometry inferred.",
+      "blocking_issue": false
+    }
+  ],
+  "limits": [
+    "This is screenshot inspection and measured decode/playback evidence, not full human listening.",
+    "Initial headless playback reported 4 dropped frames among 83 decoded frames; separate full-stream strict decode verified all 6051 source frames. No claim that every browser display frame was presented without a scheduling drop.",
+    "Faint original context may cross the edge during intentional close-ups; the current source subjects in reviewed keyframes fit.",
+    "Raw source records, rendered source views and actual physical parts are different count categories."
+  ]
+}

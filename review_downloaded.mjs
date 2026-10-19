@@ -52,7 +52,7 @@ try{
   await page.locator('#search').fill('STEP-001');check(await page.locator('#stepgrid .card:not([hidden])').count()===1,'STEP search');await page.locator('#search').fill('');await finish(page,row,'downloaded-exchange-gallery.png');
  }
  {
-  const {page,row}=await open('library/source-drawings/原图纸浏览.html');const jobs=await page.locator('img').evaluateAll(a=>a.map(x=>({url:x.getAttribute('src')})));row.images=await decode(page,jobs);check(row.images.length===13&&row.images.every(x=>x.passed),'13 PDF pages decode');await finish(page,row);
+  const {page,row}=await open('library/source-drawings/原图纸浏览.html');const jobs=await page.locator('img[src]').evaluateAll(a=>a.map(x=>({url:x.getAttribute('src')})));row.images=await decode(page,jobs);check(row.images.length===13&&row.images.every(x=>x.passed),'13 PDF pages decode');await finish(page,row);
  }
  {
   const {page,row}=await open('library/部件说明图册/部件说明图册.html');

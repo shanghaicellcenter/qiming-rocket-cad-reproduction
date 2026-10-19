@@ -1,0 +1,110 @@
+{
+  "createdAtUTC": "2026-10-19T19:35:33.015429+00:00",
+  "status": "passed",
+  "original_input_denial_used": true,
+  "repoCommit": "82c2a2a255b66556cead58ec3444f81f1757ae68",
+  "sourceobjects": 1980,
+  "mesh": 688,
+  "tri": 2864600,
+  "groups": 15,
+  "final_local_world_error": 0,
+  "all15groupzero": true,
+  "newlyDecodedRenderFrames": 22,
+  "artifacts": [
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/blender-acceptance.json",
+      "bytes": 9213,
+      "sha256": "63486d63b5e16e47dde7f906e3d8669e68ebe905a9017f0d023b8f4ec4168b27"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/actual-visual-review.json",
+      "bytes": 1640,
+      "sha256": "a894046f639ea727b232c4f29ea72824a263e8f62abf5380d179a28c1ca838f0"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/independent-source-compare.json",
+      "bytes": 5128,
+      "sha256": "7d58492d1b641fb9c30e67e9951f97cfc4e0fa1de212315d4d1f56c793494694"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/input-sha-before.json",
+      "bytes": 42666,
+      "sha256": "3f9a7278af96cf6c8386d6c913909ed097cd11237de056ccaa5cc16309b9bc90"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/input-sha-after.json",
+      "bytes": 42666,
+      "sha256": "3f9a7278af96cf6c8386d6c913909ed097cd11237de056ccaa5cc16309b9bc90"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/new-render-decode-sheets.json",
+      "bytes": 7602,
+      "sha256": "93ad71d318f9a43d28de19c3a4410709da6d2cca13e8746625a3bdba9fd7c9ba"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/independent_source_compare.py",
+      "bytes": 9409,
+      "sha256": "cf297405f81581582763f6ee6212e8f4e960f20a9bac56996acf668ebd55ed54"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/run_acceptance.py",
+      "bytes": 8278,
+      "sha256": "03fad65221d81e108a92a3eaa8b77359d0006a7372bcfc5cbf04658e64cf34fc"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/wait_and_run.py",
+      "bytes": 798,
+      "sha256": "c0446457262b7aadbe5a5fbc610d7de0120bc4f30321328c4840f4dd63d0ace8"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/make_review_sheets.py",
+      "bytes": 2162,
+      "sha256": "d3a6c07797553b5d58f306a4d4976082027aeb18dbcbbeeeddff2c4d321f45cc"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/deny-original-inputs.sb",
+      "bytes": 374,
+      "sha256": "6c393783260d4e61dd10a4c0a250de688261e47f7e00224fc51ef4650ecbde61"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/actual-download-receipt.json",
+      "bytes": 3422,
+      "sha256": "c814e83648e8c7fba93db060aa9e0f4267ccd5f4de4b8e6eec5cd0748eacd0ce"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/PORTABILITY-CHANGES.json",
+      "bytes": 1755,
+      "sha256": "ea0cd0cda7566fc7d6b959e1cf32cbcba1ad1b852b190ad5789cc8baa0cd0c49"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/assembly-stages.json",
+      "bytes": 1015476,
+      "sha256": "10f6ed750a546a93fb1c892381b34144113e008a42f4944b9205d5c8c954b27f"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/alignment-qc.json",
+      "bytes": 14239690,
+      "sha256": "269e0c0e5ac88828c4069688850913eccf89ac25dae00369497555ebb68b649c"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuild/virtual-assembly/saved-file-motion-qc.json",
+      "bytes": 1199690,
+      "sha256": "7d7836c685036938475df81bdded79c702429d893616787ac6668e94022b8b73"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/project/rebuilt/virtual-assembly/virtual-assembly.blend",
+      "bytes": 97264269,
+      "sha256": "b1483e6c3dd62bfdaa3888c8b30fdee77f5e6b20b9f5dd68d41a725da96e8ca5"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/newly-reopened-motion-7.png",
+      "bytes": 249951,
+      "sha256": "a61b6e230de9eafe15e144c1e5171d5309f38d565652d212d546692de778ac80"
+    },
+    {
+      "path": "/Users/qianqiming/Documents/Codex/2026-10-19/qiming-github-verify-20261019/reports/blender/newly-built-source-groups-15.png",
+      "bytes": 525965,
+      "sha256": "ea24a70a6fe692945c3f673235a3fae7269e21bb185c8bfcbc67a37cd11c05e3"
+    }
+  ]
+}

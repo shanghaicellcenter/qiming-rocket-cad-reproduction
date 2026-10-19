@@ -1,0 +1,49 @@
+{
+  "status": "completed_after_actual_published_download_and_runtime_acceptance",
+  "finished_utc": "2026-10-19T19:49:42.493591+00:00",
+  "repo": "https://github.com/shanghaicellcenter/qiming-rocket-cad-reproduction",
+  "release_url": "https://github.com/shanghaicellcenter/qiming-rocket-cad-reproduction/releases/tag/v1.0.0",
+  "frozen_release_commit": "82c2a2a255b66556cead58ec3444f81f1757ae68",
+  "release_manifest_sha256": "b5122c9f67b948f15e3f476e1bcd01f447593c46a6dff80292bd61994f314877",
+  "actual_download_receipt_sha256": "c814e83648e8c7fba93db060aa9e0f4267ccd5f4de4b8e6eec5cd0748eacd0ce",
+  "final_runtime_acceptance_receipt_sha256": "d2f0dde09a4b8976268e00c1a1b887de10925a30c9669bc72200e86ff1d44061",
+  "private_full_cleanup_receipt_sha256": "7e59dff6512ec7b696c87cbd5e9d8f02037f32116d7ef7eb24bba7ab57e1c4f4",
+  "public_release_all10_asset_api_rechecked_before_removal": true,
+  "task_owned_original_generated_roots_removed": 35,
+  "task_owned_actual_download_and_rebuild_copies_removed": true,
+  "removed_scope": [
+    {
+      "set": "original_generated_outputs",
+      "reviewed_roots_or_paths": 35,
+      "entries_including_mirror_directories": 8902,
+      "logical_file_bytes_removed": 7800007806,
+      "symlink_targets_followed": false,
+      "independent_review_sha256": "2773c74638e52b95aaca82e49562db75c7aab05cc113285cb9e5d2eecdc6540f"
+    },
+    {
+      "set": "actual_download_and_rebuild_duplicates",
+      "reviewed_roots_or_paths": 3683,
+      "entries_including_mirror_directories": 8070,
+      "logical_file_bytes_removed": 7821650239,
+      "symlink_targets_followed": false,
+      "independent_review_sha256": "13dd2a5d82612d4fa6f39b73da1851b6acac734835275b8186dc7e0df40cb8c3"
+    }
+  ],
+  "protected_original_source_content_files": 392,
+  "protected_other_project_independent_copies": 103,
+  "protected_sources_sha256_rechecked_after_removal": true,
+  "primary_git194_frozen_sources_exact_before_later_main_update": true,
+  "retained_after_cleanup": "Small Git source checkout, release URLs and manifests, local acceptance reports/screenshots, 22 actual new Blender QA images, and small audit records. Original Desktop project, other project, shared tools and services preserved.",
+  "both_unique_quarantine_children_absent": true,
+  "unknown_or_unscoped_files_removed": false,
+  "processes_killed_during_final_deletion": 0,
+  "space": {
+    "before_available_bytes": 9079820288,
+    "after_available_bytes": 21501513728,
+    "observed_available_delta_bytes": 12421693440,
+    "logical_file_bytes_removed": 15621658045,
+    "df_k_after": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   482797652 433303396  20997572    96% 3834697 209975720    2%   /System/Volumes/Data\n",
+    "measurement_note": "Logical removed bytes include duplicate APFS/COW copies; observed free-space delta can include concurrent activity and is not an exact isolated physical-reclaim measure."
+  },
+  "release_payload_and_frozen_tag_modified_by_cleanup": false
+}

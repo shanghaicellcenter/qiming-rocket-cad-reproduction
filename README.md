@@ -64,3 +64,5 @@ python3 prepare_blender_rebuild.py --root ./recovered
 已从公开Release重新下载、校验、恢复声音、实际浏览播放并重建Blender和前端，见[真实下载与重建验收](docs/下载重建验收-v1.0.0.md)。原标签检查脚本的图纸空灯箱选择器已在主分支修正；报告保留原失败与精确差异。
 
 已完成发布后的实际下载、离线播放与重建验收，并按授权清理本任务大型本地副本；原始项目和跨项目输入保留。见[本地清理记录](docs/本地生成副本清理-v1.0.0.md)。
+
+剩余轻量工作源码与历史审计文本另有[补充归档](audit-archive/remaining-local-20261019/README.md)；剩余本地副本的最终状态见[收尾记录](verification/remaining-local-cleanup/receipt.json)。早期清理记录中的逐帧诊断图保留状态，以此最新收尾记录为准。

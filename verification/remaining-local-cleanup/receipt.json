@@ -1,0 +1,10 @@
+{
+  "status": "backup_prepared_before_remaining_cleanup",
+  "frozen_release_unchanged": true,
+  "frozen_release_commit": "82c2a2a255b66556cead58ec3444f81f1757ae68",
+  "source_archive": "audit-archive/remaining-local-20261019/unique-sources-and-evidence.tar.gz",
+  "source_archive_sha256": "dd6a04f23b96694b907f7e6695305c615935a48a72873691a638e76da9f088f6",
+  "source_index": "audit-archive/remaining-local-20261019/source-and-evidence-index.json",
+  "actual_deletion_of_remaining_source_copies_completed": false,
+  "scope": "This record will be updated only after fresh public archive recovery verification, precise staging, independent post-stage review and actual deletion. Original Desktop392, ni103 and shared installations excluded."
+}
